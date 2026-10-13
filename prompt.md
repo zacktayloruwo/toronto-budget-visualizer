@@ -74,7 +74,8 @@ published for a few years. Use approved budgets only.
       and dollar units.
    -  **2 Zoom in:** service area, program and category.
    -  **3 Split the chart:** "colour by" (category / service area / program / total
-      only) and chart style (stacked bars / lines; over-time view only).
+      only) and chart style. Over time: stacked bars / lines. Single year: bars /
+      treemap.
 
    Short option lists are pill buttons that show every choice and highlight the
    selected one. Long lists are full-width dropdowns. The program dropdown is
@@ -104,6 +105,11 @@ published for a few years. Use approved budgets only.
    charts but stay separate in tables and filters.
 -  In single-year view by program, show the top 20 programs plus an "All other
    programs" row, with bars coloured by service area.
+-  Single-year treemap (spending or funding; not net cost, which can be negative):
+   a two-level treemap built with d3. Programs are the rectangles, sized by value.
+   They are grouped and coloured by category when "colour by" is the category, and
+   by service area otherwise. Group headers show name, value and share. Leaves are
+   labelled when large enough, with a hover tooltip and a legend.
 -  Every chart has hover tooltips. Every chart with 2 or more series has a legend.
 -  Longitudinal charts label every year on the x axis. On narrow charts (under
    760px) the labels rotate vertically.
@@ -227,7 +233,7 @@ Interpolate linearly between these years to create annual values for 2011–2026
 -  Framework: Observable Framework 1.13.x (static site, Observable Plot for charts,
    custom pill and dropdown controls that work with `Generators.input`).
 -  Light/dark mode toggle:
-   -  A button in the page header switches between the "air" (light) and
+   -  A button at the bottom of the left sidebar switches between the "air" (light) and
       "near-midnight" (dark) themes.
    -  The choice is saved in localStorage. The first visit follows the system
       setting.
@@ -235,7 +241,7 @@ Interpolate linearly between these years to create annual values for 2011–2026
       first paint. Charts re-render in the matching palette through Framework's
       reactive `dark` value.
 -  Navigation: no separate "Contents" panel. Each page's section headings are listed
-   under that page's link in the left sidebar, which highlights the current section
+   under that page's link in the left sidebar (the page entry, not the site-title link), which highlights the current section
    while scrolling. Overview is listed as a page in the sidebar.
 -  Data: store cleaned data as parquet files and query them in the browser with
    DuckDB-wasm, using Framework's built-in `DuckDBClient`.

@@ -1,7 +1,7 @@
 // See https://observablehq.com/framework/config for documentation.
 
 // Runs in <head> before the page paints: applies the saved (or system) theme,
-// wires the light/dark toggle, and nests each page's section headings under
+// adds the light/dark toggle to the bottom of the sidebar, and nests each page's section headings under
 // its link in the left sidebar.
 const headScript = `<script>
 (function () {
@@ -28,8 +28,17 @@ const headScript = `<script>
   });
 
   document.addEventListener("DOMContentLoaded", function () {
+    var sidebar = document.getElementById("observablehq-sidebar");
+    if (sidebar) {
+      var foot = document.createElement("div");
+      foot.className = "tb-sidebar-footer";
+      foot.innerHTML = '<button id="tb-theme-toggle" type="button">Theme</button>';
+      sidebar.appendChild(foot);
+    }
     label();
-    var active = document.querySelector("#observablehq-sidebar li.observablehq-link-active");
+    // The site title also links to the home page; use the page entry (the last match).
+    var actives = document.querySelectorAll("#observablehq-sidebar li.observablehq-link-active");
+    var active = actives[actives.length - 1];
     if (!active) return;
     var heads = Array.prototype.filter.call(
       document.querySelectorAll("#observablehq-main h2[id]"),
@@ -69,7 +78,6 @@ export default {
   head:
     '<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏙️</text></svg>">' +
     headScript,
-  header: '<div class="tb-header"><button id="tb-theme-toggle" type="button">Theme</button></div>',
   root: "src",
   style: "style.css",
   footer:

@@ -92,6 +92,10 @@ const breakdownInput = pills(breakdownOptions, {
 const breakdownObj = Generators.input(breakdownInput);
 const styleInput = pills(["Stacked bars", "Lines"], {label: "Chart style", value: measure === "net" ? "Lines" : "Stacked bars"});
 const chartStyle = Generators.input(styleInput);
+const yearStyleOptions = measure === "net" ? ["Bars"] : ["Bars", "Treemap"];
+const yearStyleInput = pills(yearStyleOptions, {label: "Chart style", value: "Bars",
+  help: measure === "net" ? "Treemap is not available for net cost, which can be negative." : "A treemap shows each part as a rectangle sized by its share of the total."});
+const yearStyle = Generators.input(yearStyleInput);
 ```
 
 <div class="controls">
@@ -111,7 +115,7 @@ const chartStyle = Generators.input(styleInput);
   <fieldset class="tb-step" style="--accent: var(--tb-aqua)">
     <legend><span class="tb-step-num">3</span> Split the chart</legend>
     ${breakdownInput}
-    ${view_ === "Over time" ? styleInput : ""}
+    ${view_ === "Over time" ? styleInput : yearStyleInput}
   </fieldset>
 </div>
 
@@ -250,13 +254,91 @@ function yearChart(width) {
 }
 ```
 
+```js
+// Treemap data: the selected year at program x category detail.
+const treeRows = view_ === "Single year" && yearStyle === "Treemap"
+  ? (await db.query(`
+      SELECT b.service_area, b.program, b.category, SUM(${valueExpr}) AS value
+      FROM budget b JOIN years y USING (year)
+      ${where ? where + " AND" : "WHERE"} b.year = ${year}
+      GROUP BY 1, 2, 3 HAVING SUM(${valueExpr}) > 0`)).toArray().map((d) => ({...d}))
+  : [];
+```
+
+```js
+function treemapChart(width) {
+  const byCategory = breakdown === "category";
+  const catMap = colorMap(CATEGORY_ORDER[measure] ?? [], dark);
+  const otherColor = dark ? OTHER_COLOR.dark : OTHER_COLOR.light;
+  const colorOf = (top) => byCategory ? (catMap.get(top) ?? otherColor) : (areaMap.get(top) ?? otherColor);
+  // Two levels: category > program, or service area > program.
+  const nested = d3.rollup(treeRows, (v) => d3.sum(v, (d) => d.value),
+    (d) => byCategory ? d.category : d.service_area, (d) => d.program);
+  const root = d3.hierarchy([null, nested], ([, v]) => (v instanceof Map ? v : null))
+    .sum(([, v]) => (typeof v === "number" ? v : 0))
+    .sort((a, b) => b.value - a.value);
+  const height = Math.max(380, Math.min(640, width * 0.65));
+  d3.treemap().size([width, height]).paddingOuter(3).paddingTop(20).paddingInner(2).round(true)(root);
+  const total = root.value;
+  const nameOf = (n) => (Array.isArray(n.data) ? n.data[0] : "");
+  const svg = d3.create("svg").attr("width", width).attr("height", height).attr("viewBox", [0, 0, width, height])
+    .style("font", "12px var(--sans-serif)").style("max-width", "100%");
+  const tip = d3.create("div").attr("class", "tb-tip").style("display", "none");
+  const show = (event, text) => {
+    const [x, y] = d3.pointer(event, svg.node());
+    tip.style("display", null).text(text)
+      .style("left", `${Math.min(x + 12, width - 220)}px`).style("top", `${y + 12}px`);
+  };
+  const groups = root.children ?? [];
+  const g = svg.selectAll("g.group").data(groups).join("g");
+  g.append("rect").attr("x", (d) => d.x0).attr("y", (d) => d.y0)
+    .attr("width", (d) => d.x1 - d.x0).attr("height", (d) => d.y1 - d.y0)
+    .attr("rx", 6).attr("fill", (d) => colorOf(nameOf(d))).attr("fill-opacity", 0.22);
+  g.append("text").attr("x", (d) => d.x0 + 6).attr("y", (d) => d.y0 + 14)
+    .attr("font-weight", 700).attr("fill", "currentColor")
+    .text((d) => {
+      const label = `${nameOf(d)} · ${fmtMoney(d.value, perDw)} (${fmtPct(d.value / total)})`;
+      const room = (d.x1 - d.x0 - 10) / 6.6;
+      return room < 4 ? "" : label.length > room ? label.slice(0, Math.max(0, Math.floor(room) - 1)) + "…" : label;
+    });
+  const leaves = svg.selectAll("g.leaf").data(root.leaves()).join("g");
+  leaves.append("rect").attr("x", (d) => d.x0).attr("y", (d) => d.y0)
+    .attr("width", (d) => Math.max(0, d.x1 - d.x0)).attr("height", (d) => Math.max(0, d.y1 - d.y0))
+    .attr("rx", 3).attr("fill", (d) => colorOf(nameOf(d.parent)))
+    .attr("stroke", "var(--theme-background)").attr("stroke-width", 1)
+    .on("pointermove", function (event, d) {
+      d3.select(this).attr("stroke", "currentColor").attr("stroke-width", 2);
+      show(event, `${nameOf(d)}\n${nameOf(d.parent)}\n${fmtMoney(d.value, perDw)} · ${fmtPct(d.value / total, 1)} of total`);
+    })
+    .on("pointerleave", function () {
+      d3.select(this).attr("stroke", "var(--theme-background)").attr("stroke-width", 1);
+      tip.style("display", "none");
+    });
+  leaves.append("text").attr("pointer-events", "none").attr("fill", "white")
+    .attr("x", (d) => d.x0 + 4).attr("y", (d) => d.y0 + 14)
+    .text((d) => {
+      const w = d.x1 - d.x0, h = d.y1 - d.y0;
+      if (w < 46 || h < 18) return "";
+      const room = (w - 8) / 6.6, label = nameOf(d);
+      return label.length > room ? label.slice(0, Math.floor(room) - 1) + "…" : label;
+    })
+    .append("tspan").attr("x", (d) => d.x0 + 4).attr("dy", 14).attr("fill-opacity", 0.85)
+    .text((d) => (d.x1 - d.x0 >= 46 && d.y1 - d.y0 >= 34 ? fmtMoney(d.value, perDw) : ""));
+  const legendKeys = groups.map(nameOf);
+  return html`<div style="position:relative">
+    <div class="tb-legend">${legendKeys.map((k) => html`<span><i style="background:${colorOf(k)}"></i>${k}</span>`)}</div>
+    ${svg.node()}${tip.node()}
+  </div>`;
+}
+```
+
 ## The chart
 
 <div class="card">
   <h2>${subjectLabel} · ${measureWord}${view_ === "Single year" ? `, ${year}` : `, ${firstYear}–${lastYear}`}</h2>
   <h3>${unit.label}${measure === "net" ? " · net cost = spending minus the program's own revenue" : ""}</h3>
-  ${view_ === "Over time" ? describeTrend() : html`<p class="explainer">Total: <b>${fmtMoney(yearTotal, perDw)}</b>${showProgramBars ? html`. Bars are coloured by service area.` : ""}</p>`}
-  ${rows.length ? resize((width) => view_ === "Over time" ? timeChart(width) : yearChart(width)) : html`<p>No data for this selection.</p>`}
+  ${view_ === "Over time" ? describeTrend() : html`<p class="explainer">Total: <b>${fmtMoney(yearTotal, perDw)}</b>${yearStyle === "Treemap" ? html`. Each rectangle is a program, sized by its share; boxes group programs by ${breakdown === "category" ? (measure === "revenue" ? "source of funding" : "type of expense") : "service area"}.` : showProgramBars ? html`. Bars are coloured by service area.` : ""}</p>`}
+  ${rows.length ? resize((width) => view_ === "Over time" ? timeChart(width) : yearStyle === "Treemap" ? treemapChart(width) : yearChart(width)) : html`<p>No data for this selection.</p>`}
 </div>
 
 ```js

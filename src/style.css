@@ -296,11 +296,51 @@ body {
 
 /* Inputs used elsewhere (tables) keep defaults. */
 
-/* ---- Header: theme toggle --------------------------------------------------- */
+/* ---- Treemap -------------------------------------------------------------- */
 
-.tb-header {
+.tb-tip {
+  position: absolute;
+  z-index: 3;
+  max-width: 220px;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--theme-foreground-faintest);
+  border-radius: 6px;
+  background: var(--theme-background);
+  color: var(--theme-foreground);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  font: 12px/1.35 var(--sans-serif);
+  white-space: pre-line;
+  pointer-events: none;
+}
+
+.tb-legend {
   display: flex;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.9rem;
+  margin: 0 0 0.5rem;
+  font: 12px var(--sans-serif);
+}
+
+.tb-legend i {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  margin-right: 0.35rem;
+  border-radius: 3px;
+  vertical-align: -1px;
+}
+
+/* ---- Sidebar: theme toggle at the bottom ------------------------------------ */
+
+#observablehq-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.tb-sidebar-footer {
+  margin-top: auto;
+  padding: 1rem 0.5rem 0.25rem;
+  border-top: 1px solid var(--theme-foreground-faintest);
 }
 
 #tb-theme-toggle {
