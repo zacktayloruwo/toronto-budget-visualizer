@@ -16,7 +16,7 @@ const repo = "https://github.com/zacktayloruwo/toronto-budget-visualizer";
 
 <div class="explainer">
 
-This site shows the City of Toronto's **approved operating budgets** for 2011 to 2026. The figures are the amounts City Council approved at the start of each year. They are not what was actually spent. The site is an independent project and not an official City of Toronto product.
+This site shows the City of Toronto's **approved operating budgets** for 2011 to 2026. The figures are the amounts City Council approved at the start of each year. They are not what was actually spent. This app was created by Prof. Zack Taylor, University of Western Ontario, as a demonstration for Civic Tech Toronto, October 13, 2026. The site is an independent project and not an official City of Toronto product.
 
 </div>
 

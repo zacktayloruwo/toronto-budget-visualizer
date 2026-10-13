@@ -88,7 +88,7 @@ published for a few years. Use approved budgets only.
    size), and a one-program vs. City comparison. The heatmap uses a reversed viridis
    scale (0–100%), so darker (purple) means more labour-intensive and yellow means
    less.
-4. **About the data:** glossary, category and service-area definitions, sources,
+4. **About the data:** an opening credit line ("This app was created by Prof. Zack Taylor, University of Western Ontario, as a demonstration for Civic Tech Toronto, October 13, 2026.") placed before the not-an-official-product statement, then a glossary, category and service-area definitions, sources,
    CPI and dwelling factors table, cleaning method with links to the crosswalk files,
    all known breaks and caveats, and a raw-vs-cleaned totals validation table.
 
