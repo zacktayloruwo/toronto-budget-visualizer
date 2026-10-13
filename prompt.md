@@ -7,8 +7,8 @@ You are a software developer.
 ## TASK
 
 Build a web application to visualize City of Toronto approved operating budgets
-(expenses and revenues) by program and expenditure category. The purpose of the app
-is to help users identify large-scale trends over time.
+(expenses and revenues) by program and expenditure category, 2011–2026. The purpose
+of the app is to help users identify large-scale trends over time.
 
 The app will be friendly, colourful, and attractive.
 
@@ -16,6 +16,7 @@ The app should contain descriptive text to help users without sophisticated
 financial knowledge to understand what they are seeing (e.g., what a "program" and
 an "expenditure category" are, what inflation adjustment means, what inter-divisional
 charges/recoveries are, and why some revenue values are negative in the source).
+Provide a plain-language description of every category and service area.
 
 Users should be able to look at data for individual years or longitudinally.
 
@@ -35,7 +36,11 @@ derived view.
 Allow the user to view the data at varying degrees of aggregation using the two
 dimensions available in every year:
 
--  Program (City total → individual program/division)
+-  Program: City total → service area → individual program. Service areas are a
+   grouping created for this app (7 groups, assigned in the program crosswalk):
+   Community & Social Services; Transit; Infrastructure & Development; Emergency &
+   Protective Services; Corporate Accounts; Corporate & Governance; Agencies, Boards
+   & Corporations. Say in the app that these groupings were made for this site.
 
 -  Expenditure category (all categories → individual category)
 
@@ -50,10 +55,47 @@ categories. Explain that the operating budget must balance, so citywide net is a
 zero and net is meaningful only at the program level.
 
 Do NOT use the deeper levels (Service, Activity, Sub-Category, Commitment item)
-that exist only from 2015 onward.
+as display dimensions. They may be used only to assign lines to harmonized
+categories.
 
 Recommended vs. approved comparison is out of scope: recommended budgets are only
 published for a few years. Use approved budgets only.
+
+### Pages
+
+1. **Overview:** hero introduction, headline stat cards (latest-year spending,
+   spending per dwelling, real growth per dwelling since 2011, property tax share of
+   funding), spending trend in nominal vs. 2025 dollars, latest-year spending by type
+   and funding by source, and an explanation of operating vs. capital budgets.
+2. **Explore the budget:** controls for view (over time / single year), measure
+   (spending / funding / net cost), dollar units, service area, program, category,
+   "colour by" (category / service area / program / total only), chart style
+   (stacked bars / lines) and year. Show a plain-language trend sentence, the chart,
+   context-sensitive data notes, category or service-area definitions, a data table,
+   and download links for the parquet files. Program dropdown entries show their year
+   range when a program does not span all years.
+3. **Labour costs:** citywide and service-area labour share over time, a
+   program × year heatmap (filter by service area and minimum size, sort by share or
+   size), and a one-program vs. City comparison.
+4. **About the data:** glossary, category and service-area definitions, sources,
+   CPI and dwelling factors table, cleaning method with links to the crosswalk files,
+   all known breaks and caveats, and a raw-vs-cleaned totals validation table.
+
+### Charts
+
+-  Use a fixed, colour-blind-validated 8-slot categorical palette, with separate
+   light and dark steps. Colour follows the entity and never its rank, so filtering
+   does not repaint series.
+-  Show at most 7 named series plus a grey "All other". Expense categories (7) and
+   service areas (7) all get their own colour. For revenue, the 7 named series are
+   Property tax, Provincial funding, User fees & licences, Water & wastewater rates,
+   Federal funding, Other taxes and Draws from reserves. Other revenue,
+   inter-divisional recoveries and transfers from capital fold into "All other" in
+   charts but stay separate in tables and filters.
+-  In single-year view by program, show the top 20 programs plus an "All other
+   programs" row, with bars coloured by service area.
+-  Every chart has hover tooltips. Every chart with 2 or more series has a legend.
+-  Year ticks thin out on narrow screens.
 
 ## DATA
 
@@ -63,70 +105,126 @@ Source: City of Toronto open data,
 https://open.toronto.ca/dataset/budget-operating-budget-program-summary-by-expenditure-category/
 (CKAN package id `budget-operating-budget-program-summary-by-expenditure-category`).
 
--  Use the `approved-operating-budget-summary-YYYY` files for 2011–2026. Ignore the
-   `recommended-*` and `preliminary-*` files.
--  The formats vary: 2011–2012 are ZIPs, and the files are XLS/XLSX with different
-   sheet names and columns. 2011–2014 are Program × Category only. 2015+ files are
-   at commitment-item level and must be aggregated up to Program × Category.
--  Use the `Expense/Revenue` column to split expenses from revenues. Revenues are
-   stored as negative values, so present them as positive amounts in the app.
--  Category names differ across years (for example, "Salaries And Benefits" in 2014
-   vs. separate "Salaries & Wages" / "Benefits" in later years). Build a documented
-   crosswalk (a CSV in the repo) that maps every year's category names to one
-   consistent set, so the time series stays comparable. Keep program names as
-   published, except for pure renames, which are mapped in the same crosswalk.
--  "Other Revenue" (2015+) hides the City's largest revenue sources. In 2025 it is
-   $9.9B, of which Taxation sub-category is $8.9B: property tax levy $6.2B, sale of
-   water $1.5B, municipal land transfer tax $1.0B, hotel tax $0.1B. The rest is fines,
-   investment income, payments in lieu of taxes and miscellaneous items. Before 2015,
-   property tax is its own category ("Property Tax", $3.8B in 2014, under a program
-   also named "Property Tax"), and Toronto Water's revenue sits in "Sundry and Other
-   Revenues". Do not show "Other Revenue" as a single opaque block. Use the crosswalk
-   to map revenue in every year to these consistent categories:
+-  Use the `approved-operating-budget-summary-YYYY` files for 2011–2026, except
+   2013, which has no approved file. For 2013, use the "2013" column of
+   `recommended-operating-budget-summary-2013-2014`. That column is the 2013 approved
+   base; the workbook's 2014 column matches the approved 2014 file exactly. Ignore
+   all other `recommended-*` and `preliminary-*` files.
+-  The formats vary:
+   -  **2011–2012:** ZIPs with one workbook per program. Values are in $000s and
+      revenues are positive. Find the sheet titled "... Summary By
+      Expenditure/Expense Category", read the approved-budget column for the year,
+      and stop at "TOTAL REVENUE". The TTC workbooks each contain both the
+      Conventional and Wheel-Trans sheets, so deduplicate them.
+   -  **2013:** program × category. Revenues are positive.
+   -  **2014:** program × category.
+   -  **2015–2018:** add service and activity.
+   -  **2019+:** commitment-item level, aggregated up to program × category.
+   -  Sheet names differ by year; keep a per-year sheet map.
+-  Use the `Expense/Revenue` column to split expenses from revenues. Store revenues
+   negative internally, as in the 2013+ source, and present them as positive amounts
+   in the app.
+-  Program names: keep them as published, except for pure renames and spelling
+   variants, which go in `crosswalk/programs.csv` (source name → program, service
+   area, note). Programs that were split or merged keep their published names. In
+   2011–2013, Capital & Corporate Financing and Non-Program are reported together as
+   one combined program.
+-  Categories: map every source line to one consistent set using ordered,
+   first-match-wins regex rules in `crosswalk/category_rules.csv`. Rules can match on
+   type, year range, program, service, category, sub-category and item. The build
+   writes `crosswalk/category_assignments.csv`, listing every distinct source line
+   and its harmonized category.
 
-   | Harmonized category | 2015+ source | 2011–2014 source |
-   |---|---|---|
-   | Property tax | Taxation: tax levy, supplementary taxes; payments in lieu of tax | "Property Tax" category |
-   | Water & wastewater rates | Taxation: sale of water | Toronto Water's "Sundry and Other Revenues" |
-   | Other taxes (municipal land transfer, hotel & lodging, third-party sign) | Taxation: those line items | Not separable; left in Other revenue |
-   | Other revenue | Remaining "Other Revenue" (fines, interest & investment income, miscellaneous, other subsidies) | Remaining "Sundry and Other Revenues" |
+   **Expense categories (7):**
+   -  Salaries & benefits
+   -  Other expenditures
+   -  Services & rents
+   -  Contributions to capital & reserves: capital and reserve contributions merged,
+      because Toronto Water's transfer is labelled capital in 2011–12 and reserves
+      from 2013. Includes the Scarborough subway levy reserve contribution.
+   -  Materials & supplies
+   -  Inter-divisional charges: in 2021 these sit under the Other Expenditures
+      sub-category.
+   -  Equipment
 
-   Map the remaining revenue categories (provincial subsidies, federal subsidies,
-   user fees & donations, contributions from reserves, transfers from capital,
-   inter-divisional recoveries, licences & permits, other subsidies, special levies)
-   to consistent names across years. Assign each line item explicitly in the crosswalk.
-   In the app, show a visible note on Other taxes (and Other revenue) explaining that
-   before 2015 these taxes cannot be separated from Other revenue. The apparent jump
-   in Other taxes in 2015 is an accounting artifact, not a real change.
--  Validate each year's expense, revenue and net totals against the raw files.
+   **Revenue categories (10):**
+
+   | Harmonized category | Source |
+   |---|---|
+   | Property tax | 2011–12: derived (see below). 2013: Non-Program sundry, which also contains other corporate revenue (about $0.8B). 2014–15: "Property Tax" category. 2016–17: Non-Program Revenues services Property Tax / Scarborough Subway levy / City Building Fund levy. 2018: Non-Program Taxation Tax Levy program. 2019+: Taxation items Tax Levy and supplementary taxes, plus payments in lieu of tax. The Scarborough subway levy counts as property tax in all years. |
+   | Water & wastewater rates | Toronto Water's sale of water / sundry / other revenue. In 2011 this is reported as user fees. |
+   | Other taxes (municipal land transfer, hotel & lodging, third-party sign) | Remaining Taxation items. Separable only from 2019; before 2019 they are in Other revenue. |
+   | Provincial funding | Provincial Subsidies |
+   | Federal funding | Federal Subsidies |
+   | User fees & licences | User fees, donations, and licences & permits. Licences & permits are a separate category only in 2013–2020, so merge them every year. |
+   | Draws from reserves | Contributions from reserves / reserve funds |
+   | Transfers from capital | Includes "xTransfers From Capital" (2025) |
+   | Inter-divisional recoveries | In 2021 these sit under an Other Revenue sub-category. |
+   | Other revenue | Remaining sundry/other revenue: fines, investment income, other subsidies, miscellaneous. Before 2019 this also includes other taxes and payments in lieu. |
+
+-  **2011–2012 property tax:** the files omit the levy. Add it as a derived
+   "Property Tax (derived)" line: total expenses minus all other revenue. Flag it as
+   derived.
+-  **Known source gap:** from 2022 the published files omit roughly $1B a year of
+   Toronto Water's contribution to capital reserves ($957M in 2021, $12M in 2022).
+   Expenses therefore fall about $1B short of revenues in 2022–2026. Keep the data as
+   published and flag the gap in the app.
+-  Show a visible, context-sensitive note in the app for each of the following:
+   -  the derived 2011–12 property tax
+   -  the combined 2013 property tax
+   -  the 2019 break in Other taxes, Other revenue and payments in lieu
+   -  the 2022+ Toronto Water gap
+   -  the 2021 salaries/benefits split
+   -  the CPI and dwelling methods
+-  Validate each year's expense and revenue totals against the raw files. The build
+   must stop on any mismatch, unmapped program or unmatched line. Write
+   `reports/validation.csv` and `src/data/validation.csv`.
 
 ### Inflation adjustment
 
 StatCan Table 18-10-0004-01 (CPI, monthly), https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000401
+(full-table CSV: `https://www150.statcan.gc.ca/n1/tbl/csv/18100004-eng.zip`).
 
--  Series: Toronto, All-items.
+-  Series: Toronto, Ontario, All-items.
 -  Annual value = mean of the 12 monthly values. For 2026, use the year-to-date
-   average and say so in the app.
--  Rebase so that 2025 = 1.0 and express values in 2025 dollars.
+   average (January–August at build time) and say so in the app.
+-  Deflator = CPI(2025) / CPI(year); multiply nominal values by it to get 2025
+   dollars.
 
 ### Dwellings
 
-5-year census dwelling counts:
-https://www.toronto.ca/city-government/data-research-maps/toronto-economy-labour-force-demographics/
+Total private dwellings, City of Toronto (`inputs/dwellings.csv`):
 
--  Measure: total private dwellings (census 2011, 2016, 2021).
--  2026: use the estimate of 1.3 million.
--  Interpolate linearly between census years to create annual values for 2011–2026.
+| Year | Dwellings | Source |
+|---|---|---|
+| 2011 | 1,107,851 | 2011 Census |
+| 2016 | 1,179,057 | City 2021 Census Backgrounder (1,112,929 occupied + 66,128 not occupied by usual residents) |
+| 2021 | 1,253,238 | City 2021 Census Backgrounder (1,160,892 + 92,346) |
+| 2026 | 1,300,000 | Estimate (2026 Census counts not yet released) |
+
+Interpolate linearly between these years to create annual values for 2011–2026.
+
+### Outputs
+
+-  `src/data/budget.parquet`: year, service_area, program, type
+   (expense/revenue), category, derived, amount (nominal dollars, positive).
+-  `src/data/years.parquet`: year, cpi, cpi_months, deflator, dwellings,
+   dwellings_is_census.
 
 ## TECHNOLOGIES
 
--  Framework: Observable Framework (static site, Observable Plot for charts).
+-  Framework: Observable Framework 1.13.x (static site, Observable Plot for charts,
+   Inputs for controls). Light/dark themes ("air" / "near-midnight").
 -  Data: store cleaned data as parquet files and query them in the browser with
-   DuckDB-wasm (using Framework's built-in DuckDB support).
--  Pipeline: all local data prep code is written in R. An R script (e.g., `scripts/build_data.R`) downloads the sources,
-   cleans and harmonizes them, and writes parquet to the repo. The parquet output is
-   committed, and the script is re-run manually when new data is released. Cache raw
-   downloads outside the committed data. Document how to run the script in the README.
--  Repo: create a public GitHub repo `toronto-budget-visualizer` with `gh`. Deploy to
-   GitHub Pages with a GitHub Actions workflow that builds the Framework site.
+   DuckDB-wasm, using Framework's built-in `DuckDBClient`.
+-  Pipeline: all local data prep code is written in R:
+   -  `scripts/download.R` caches the raw files in git-ignored `data-raw/`.
+   -  `scripts/read_budget.R` holds the per-format readers.
+   -  `scripts/build_data.R` harmonizes, validates and writes the parquet output.
+
+   The parquet output is committed. The scripts are re-run manually when new data is
+   released. Document how to run them, and how to add a new year, in the README.
+-  Repo: public GitHub repo `toronto-budget-visualizer` (created with `gh`). Deploy
+   to GitHub Pages with a GitHub Actions workflow that builds the Framework site on
+   every push to `main`.
 -  The app must work at phone widths as well as on desktop.
