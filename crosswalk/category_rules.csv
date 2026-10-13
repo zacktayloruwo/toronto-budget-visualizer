@@ -1,0 +1,33 @@
+rule,type,year_min,year_max,program,service,category,subcategory,item,harmonized,note
+E01,Expenses,2011,2026,,,^(Salaries|Benefits),,,Salaries & benefits,"Combined: one category to 2020, split into Salaries and Benefits from 2021"
+E02,Expenses,2011,2026,,,^Materials,,,Materials & supplies,
+E03,Expenses,2011,2026,,,^Equipment$,,,Equipment,
+E04,Expenses,2011,2026,,,^Services? (&|and) Rents?$,,,Services & rents,"Includes contracted services, rentals, insurance, consulting"
+E05,Expenses,2011,2026,,,^Contributions? to Capital$,,,Contributions to capital & reserves,Operating money sent to the capital budget (merged with reserves: Toronto Water switched between the two)
+E06,Expenses,2011,2026,,,^Contributions? to (Reserve|CCRF),,,Contributions to capital & reserves,Money set aside in reserves and reserve funds
+E07,Expenses,2011,2026,,,^Special Levy for Scarborough Subway,,,Contributions to capital & reserves,Scarborough subway levy proceeds placed in a reserve
+E08,Expenses,2011,2026,,,^Inter-?Divisional Charges$,,,Inter-divisional charges,
+E09,Expenses,2011,2026,,,^Other Expenditures$,^Inter-Divisional Charges$,,Inter-divisional charges,2021 file files these under Other Expenditures
+E10,Expenses,2011,2026,,,^(Other Expenditures|Cost of Goods Sold|Cost of Sales|Required Adjustments)$,,,Other expenditures,"Transfers and grants, debt charges, tax write-offs, miscellaneous"
+R01,Revenues,2011,2026,^Property Tax \(derived\)$,,,,,Property tax,2011-2012: derived as total expenses minus all other revenue
+R02,Revenues,2011,2026,,,^Property Tax$,,,Property tax,
+R03,Revenues,2011,2026,,,^Special Levy for Scarborough Subway,,,Property tax,Dedicated property tax levy
+R04,Revenues,2016,2017,^Non-Program Revenues$,^(Property Tax|Special Levy for Scarborough Subway|City Building Fund Levy)$,^Sundry,,,Property tax,2016-2017: identified by service
+R05,Revenues,2018,2018,^Non-Program Taxation Tax Levy$,,^Sundry,,,Property tax,2018: identified by program
+R06,Revenues,2019,2026,,,,^Taxation$,^(Tax Levy|Supp Taxes|Supplementary Taxes)$,Property tax,
+R07,Revenues,2019,2026,,,,^Pymt In Lieu Of Tax$,,Property tax,Payments in lieu of taxes (separable from 2019)
+R08,Revenues,2013,2013,^Non-Program$,,^Sundry,,,Property tax,"2013: the file does not separate property tax from other non-program revenue (about $0.8B of fees, investment income and other taxes are included)"
+R09,Revenues,2019,2026,^Toronto Water$,,,^Taxation$,^Sale Of Water$,Water & wastewater rates,
+R10,Revenues,2011,2011,^Toronto Water$,,^User Fees,,,Water & wastewater rates,2011: water sales reported as user fees
+R11,Revenues,2011,2026,^Toronto Water$,,^(Sale of Water|Sundry|Other Revenue),,,Water & wastewater rates,Toronto Water's sundry/other revenue is water and sewer billing
+R12,Revenues,2019,2026,,,,^Taxation$,,Other taxes,"Municipal land transfer, hotel & lodging, third-party sign taxes (separable from 2019)"
+R13,Revenues,2011,2026,,,^Provincial Subsidies$,,,Provincial funding,
+R14,Revenues,2011,2026,,,^Federal Subsidies$,,,Federal funding,
+R15,Revenues,2011,2026,,,^User Fees,^Licences & Permits Revenue$,,User fees & licences,"Licences & permits: a separate category 2013-2020, inside user fees otherwise"
+R16,Revenues,2011,2026,,,^Licen[cs]es (&|and) Permits,,,User fees & licences,
+R17,Revenues,2011,2026,,,^User Fees,,,User fees & licences,Includes donations
+R18,Revenues,2011,2026,,,^(Contributions? from (Reserve|CCRF)|Contrib\. from CCRF),,,Draws from reserves,
+R19,Revenues,2011,2026,,,^x?Transfers? from Capital,,,Transfers from capital,
+R20,Revenues,2011,2026,,,^Inter-?Divisional Recoveries,,,Inter-divisional recoveries,
+R21,Revenues,2011,2026,,,^Other Revenue$,^Inter-Divisional Recoveries$,,Inter-divisional recoveries,2021 file files these under Other Revenue
+R22,Revenues,2011,2026,,,^(Sundry|Other Revenues?$|Other Subsidies$|Grants from|Naming Rights|Legal Fee Rec|Contribution from Local Boards|External Funding|Required Adjustments),,,Other revenue,"Fines, investment income, other subsidies, miscellaneous; before 2019 also includes other taxes"

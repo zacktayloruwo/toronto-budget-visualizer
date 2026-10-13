@@ -1,0 +1,1491 @@
+type,category_src,subcategory_src,item_src,rule,category,first_year,last_year,programs,total_dollars
+Expenses,Contribution To Capital,Contribution To Capital,Cont To Capital,E05,Contributions to capital & reserves,2019,2026,6,1041313301
+Expenses,Contribution To Capital,Contribution To Capital,Contribution To Capital,E05,Contributions to capital & reserves,2022,2023,8,693246494
+Expenses,Contribution To Capital,,,E05,Contributions to capital & reserves,2014,2018,11,1363164479
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Con Veh Res - Flt Rt,E06,Contributions to capital & reserves,2019,2026,25,232485258
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Con Veh Res - Lum Sm,E06,Contributions to capital & reserves,2019,2026,20,137291711
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Cont To Res Fnds,E06,Contributions to capital & reserves,2019,2026,27,6531659362
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Cont To Reserves,E06,Contributions to capital & reserves,2019,2026,23,669508929
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Cont To Rfs-Int Loan,E06,Contributions to capital & reserves,2019,2026,5,940257
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Contr To Vehicle & Equip Res - Flat Rate,E06,Contributions to capital & reserves,2022,2023,13,68150222
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Contr To Vehicle & Equip Res - Lump Sum,E06,Contributions to capital & reserves,2022,2023,11,37763931
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Contr-Insce Rf,E06,Contributions to capital & reserves,2019,2026,56,406011604
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Contr-Sick Leave Rf,E06,Contributions to capital & reserves,2019,2026,16,109397328
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Contr-Veh Reserves,E06,Contributions to capital & reserves,2019,2026,8,112609285
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Contrib To Reserve Funds-Internal Loan,E06,Contributions to capital & reserves,2022,2023,2,313860
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Contrib.To Reserve Funds,E06,Contributions to capital & reserves,2022,2023,17,941712724
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Contribution To Reserves,E06,Contributions to capital & reserves,2022,2023,15,243569573
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Contributions To Insurance Reserve Fund,E06,Contributions to capital & reserves,2022,2023,16,133775832
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Contributions To Sick Leave Reserve Fund,E06,Contributions to capital & reserves,2022,2023,10,27656576
+Expenses,Contribution To Reserves/Reserve Funds,Contribution To Reserves/Reserve Funds,Contributions To Vehicle & Equip Reserve,E06,Contributions to capital & reserves,2022,2023,6,43850771
+Expenses,Contribution To Reserves/Reserve Funds,,,E06,Contributions to capital & reserves,2014,2018,54,5604105282
+Expenses,Contribution to Capital,,,E05,Contributions to capital & reserves,2013,2013,7,247044981
+Expenses,Contribution to Reserves/Reserve Funds,,,E06,Contributions to capital & reserves,2013,2013,43,1263568119
+Expenses,Contributions to CCRF Naming Rights,,,E06,Contributions to capital & reserves,2012,2012,1,1168000
+Expenses,Contributions to Capital,,,E05,Contributions to capital & reserves,2011,2012,17,1346940420
+Expenses,Contributions to Reserve Funds,,,E06,Contributions to capital & reserves,2012,2012,1,1256200
+Expenses,Contributions to Reserve/Res Funds,,,E06,Contributions to capital & reserves,2011,2012,66,478949544
+Expenses,Contributions to Reserves,,,E06,Contributions to capital & reserves,2012,2012,1,312500
+Expenses,Special Levy for Scarborough Subway,,,E07,Contributions to capital & reserves,2015,2015,1,24846399
+Expenses,Special Levy for Scarborough Subway (Reserve Contribution),,,E07,Contributions to capital & reserves,2014,2014,1,12207000
+Expenses,Equipment,Computes,Comp - Hardware,E03,Equipment,2019,2026,60,27359296
+Expenses,Equipment,Computes,Comp - Software,E03,Equipment,2019,2026,67,42025837
+Expenses,Equipment,Computes,Computers - Hardware,E03,Equipment,2022,2023,36,9665958
+Expenses,Equipment,Computes,Computers - Software,E03,Equipment,2022,2023,40,14461701
+Expenses,Equipment,Equipment,General Equipment,E03,Equipment,2019,2026,56,402848373
+Expenses,Equipment,Equipment,M & E - Agri & Bot,E03,Equipment,2019,2026,4,915036
+Expenses,Equipment,Equipment,M & E - Agricultural & Botanical,E03,Equipment,2022,2023,1,211359
+Expenses,Equipment,Equipment,M & E - Air Cond,E03,Equipment,2019,2026,3,62420
+Expenses,Equipment,Equipment,M & E - Air Conditioning,E03,Equipment,2022,2023,2,27586
+Expenses,Equipment,Equipment,M & E - Communications,E03,Equipment,2022,2023,14,1629356
+Expenses,Equipment,Equipment,M & E - Communictns,E03,Equipment,2019,2026,24,6943296
+Expenses,Equipment,Equipment,M & E - Dental,E03,Equipment,2019,2026,1,6281046
+Expenses,Equipment,Equipment,M & E - Electrical,E03,Equipment,2019,2026,6,8558969
+Expenses,Equipment,Equipment,M & E - Grounds,E03,Equipment,2019,2026,6,4114471
+Expenses,Equipment,Equipment,M & E - Hand Tools,E03,Equipment,2019,2026,22,7771873
+Expenses,Equipment,Equipment,M & E - Janitorial,E03,Equipment,2019,2026,12,1726195
+Expenses,Equipment,Equipment,M & E - Kitchen,E03,Equipment,2019,2026,22,2841475
+Expenses,Equipment,Equipment,M & E - Laboratory,E03,Equipment,2019,2026,3,143049
+Expenses,Equipment,Equipment,M & E - Medical,E03,Equipment,2019,2026,9,8109911
+Expenses,Equipment,Equipment,M & E - Office,E03,Equipment,2019,2026,34,1714463
+Expenses,Equipment,Equipment,M & E - Photographic,E03,Equipment,2019,2026,10,254904
+Expenses,Equipment,Equipment,M & E - Plant & Garage,E03,Equipment,2022,2023,5,1060149
+Expenses,Equipment,Equipment,M & E - Plt & Garage,E03,Equipment,2019,2026,7,2063992
+Expenses,Equipment,Equipment,M & E - Print & Bind,E03,Equipment,2019,2026,9,49889
+Expenses,Equipment,Equipment,M & E - Printing & Binding,E03,Equipment,2022,2023,3,8240
+Expenses,Equipment,Equipment,M & E - Protective,E03,Equipment,2019,2026,11,2075926
+Expenses,Equipment,Equipment,M & E - Rec & Edu,E03,Equipment,2019,2026,10,6253498
+Expenses,Equipment,Equipment,M & E - Recreational & Educational,E03,Equipment,2022,2023,5,2079532
+Expenses,Equipment,Equipment,M & E - Washing,E03,Equipment,2019,2026,7,464221
+Expenses,Equipment,Equipment,Managed Print Charge,E03,Equipment,2019,2024,1,4220
+Expenses,Equipment,Equipment,Managed Print Charges,E03,Equipment,2022,2023,1,2010
+Expenses,Equipment,Equipment,Oth Marine Equip,E03,Equipment,2025,2026,2,10125
+Expenses,Equipment,Equipment,Oth Office Equip,E03,Equipment,2019,2024,3,80000
+Expenses,Equipment,Equipment,Other Office Equipment,E03,Equipment,2022,2023,1,40000
+Expenses,Equipment,Equipment,Unlic Mobile Equip,E03,Equipment,2019,2026,6,510030
+Expenses,Equipment,Equipment,Unlicensed Mobile Equipment,E03,Equipment,2022,2023,3,285606
+Expenses,Equipment,Equipment,Water Hydrant Valves,E03,Equipment,2019,2026,2,966671
+Expenses,Equipment,Equipment,Water Meters,E03,Equipment,2019,2026,1,828241
+Expenses,Equipment,Furn & Fixtures,Artifacts & Art Objects,E03,Equipment,2022,2023,1,36000
+Expenses,Equipment,Furn & Fixtures,Artifacts & Art Objt,E03,Equipment,2019,2026,2,169220
+Expenses,Equipment,Furn & Fixtures,Fixtures,E03,Equipment,2019,2026,9,2093663
+Expenses,Equipment,Furn & Fixtures,Furnishings,E03,Equipment,2019,2026,46,13545824
+Expenses,Equipment,Vehicles,Cars,E03,Equipment,2019,2026,5,5753660
+Expenses,Equipment,,,E03,Equipment,2011,2018,90,486265683
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - 311 Customer Service,E08,Inter-divisional charges,2022,2023,4,13397931
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Administration Charges,E08,Inter-divisional charges,2022,2023,6,335644956
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Children's Services,E08,Inter-divisional charges,2022,2023,1,20400000
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Copying,E08,Inter-divisional charges,2022,2023,11,1458001
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Corp. Info. And Communication Serv,E08,Inter-divisional charges,2022,2023,2,2188606
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Emergency Medical Services,E08,Inter-divisional charges,2022,2023,9,1115044
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Facilities Maintenance Services,E08,Inter-divisional charges,2022,2023,10,21824578
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Fleet Flat Rate Maintenance Charge,E08,Inter-divisional charges,2022,2023,7,25497067
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Fleet Miscellaneous Charges,E08,Inter-divisional charges,2022,2023,6,11280888
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Fleet Short-Term Rentals,E08,Inter-divisional charges,2022,2023,5,3085059
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Information Management Services,E08,Inter-divisional charges,2022,2023,2,360400
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Internal Audit Services,E08,Inter-divisional charges,2022,2023,5,280283
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Legal Services,E08,Inter-divisional charges,2022,2023,8,4029606
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Long-Term Care Homes & Services,E08,Inter-divisional charges,2022,2023,2,302857
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Municipal Licensing And Standards,E08,Inter-divisional charges,2022,2023,2,2872000
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Other Services,E08,Inter-divisional charges,2022,2023,10,9396473
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Overhead Chgs To Non-Levy Op,E08,Inter-divisional charges,2022,2023,3,59307400
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - PPF&A,E08,Inter-divisional charges,2022,2023,2,18295656
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Parks Services,E08,Inter-divisional charges,2022,2023,2,8566947
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Police Dept,E08,Inter-divisional charges,2022,2023,4,13797693
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Postage & Courier,E08,Inter-divisional charges,2022,2023,11,2487500
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Printing,E08,Inter-divisional charges,2022,2023,12,2761499
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Public Health,E08,Inter-divisional charges,2022,2023,3,10580585
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Recreation And Culture,E08,Inter-divisional charges,2022,2023,3,393491
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Solid Waste,E08,Inter-divisional charges,2022,2023,6,14447808
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Telecom & Network Services,E08,Inter-divisional charges,2022,2023,11,8147847
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - Transportation Services,E08,Inter-divisional charges,2022,2023,2,5621360
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC - User Hardware & Operational System,E08,Inter-divisional charges,2022,2023,9,13078228
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC Fire Services,E08,Inter-divisional charges,2026,2026,1,3681920
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC Info Mgmt Serv,E08,Inter-divisional charges,2019,2025,3,1032489
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC SDFA,E08,Inter-divisional charges,2025,2026,1,320000
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC TEM,E08,Inter-divisional charges,2025,2026,1,4459158
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC- Fleet Fuel Costs,E08,Inter-divisional charges,2022,2023,7,16633020
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC- Rental-City Facilities,E08,Inter-divisional charges,2022,2023,5,4959616
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-311 Cust Ser,E08,Inter-divisional charges,2019,2026,7,35333015
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Admin Charges,E08,Inter-divisional charges,2019,2026,19,462927797
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Bldg,E08,Inter-divisional charges,2019,2019,1,1153740
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Children's Serv,E08,Inter-divisional charges,2019,2026,2,35700000
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Copying,E08,Inter-divisional charges,2019,2026,36,5242064
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Corp. Info,E08,Inter-divisional charges,2019,2026,4,6464815
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-EMS,E08,Inter-divisional charges,2019,2026,27,12798146
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Fac Maint Svcs,E08,Inter-divisional charges,2019,2026,26,99125599
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Fleet Fuel,E08,Inter-divisional charges,2019,2026,25,46144954
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Flt Flat Maint,E08,Inter-divisional charges,2019,2026,21,89461278
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Flt Misc Chgs,E08,Inter-divisional charges,2019,2026,20,34984270
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Flt Sht Tm Renta,E08,Inter-divisional charges,2019,2026,15,5675869
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Int Audit,E08,Inter-divisional charges,2019,2026,21,1734912
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Int. Financing C,E08,Inter-divisional charges,2019,2019,2,2915708
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Legal Services,E08,Inter-divisional charges,2019,2026,29,42466621
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Ltc Homes & Serv,E08,Inter-divisional charges,2019,2026,5,728077
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Map & Surv Ser,E08,Inter-divisional charges,2019,2025,3,861640
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Mun Licensing,E08,Inter-divisional charges,2019,2026,6,9268208
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-O/H To Non-Levy,E08,Inter-divisional charges,2019,2026,4,155456650
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Other Services,E08,Inter-divisional charges,2019,2026,29,46019027
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-PPF&A,E08,Inter-divisional charges,2019,2026,2,47995893
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Parks,E08,Inter-divisional charges,2019,2026,5,25629168
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Police Dept,E08,Inter-divisional charges,2019,2026,11,105240327
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Postage & Courie,E08,Inter-divisional charges,2019,2026,37,9203010
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Printing,E08,Inter-divisional charges,2019,2026,41,7213025
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Public Health,E08,Inter-divisional charges,2019,2026,4,15931979
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Rec & Culture,E08,Inter-divisional charges,2019,2026,4,2681231
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Rental-City Fac,E08,Inter-divisional charges,2019,2026,8,15520161
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Solid Waste,E08,Inter-divisional charges,2019,2026,12,34890120
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Telecom & Netwk,E08,Inter-divisional charges,2019,2026,21,25754748
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Training & Dev,E08,Inter-divisional charges,2019,2026,8,587650
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-Transp Serv,E08,Inter-divisional charges,2019,2026,4,18571851
+Expenses,Inter-Divisional Charges,Inter-Divisional Charges,IDC-User Hdwe & Op S,E08,Inter-divisional charges,2019,2026,36,42224159
+Expenses,Inter-Divisional Charges,,,E08,Inter-divisional charges,2013,2018,53,1822267912
+Expenses,Interdivisional Charges,,,E08,Inter-divisional charges,2011,2012,55,591744646
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC Info Mgmt Serv,E09,Inter-divisional charges,2021,2021,2,169467
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-311 Cust Ser,E09,Inter-divisional charges,2021,2021,4,6573965
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Admin Charges,E09,Inter-divisional charges,2021,2021,5,15162909
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Children's Serv,E09,Inter-divisional charges,2021,2021,1,10200000
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Copying,E09,Inter-divisional charges,2021,2021,11,760728
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Corp. Info,E09,Inter-divisional charges,2021,2021,2,1036813
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-EMS,E09,Inter-divisional charges,2021,2021,9,558946
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Fac Maint Svcs,E09,Inter-divisional charges,2021,2021,10,10036717
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Fleet Fuel,E09,Inter-divisional charges,2021,2021,7,6843061
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Flt Flat Maint,E09,Inter-divisional charges,2021,2021,6,11672043
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Flt Misc Chgs,E09,Inter-divisional charges,2021,2021,6,7073947
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Flt Sht Tm Renta,E09,Inter-divisional charges,2021,2021,4,1087020
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Int Audit,E09,Inter-divisional charges,2021,2021,5,140141
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Legal Services,E09,Inter-divisional charges,2021,2021,7,1932597
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Ltc Homes & Serv,E09,Inter-divisional charges,2021,2021,2,198816
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Map & Surv Ser,E09,Inter-divisional charges,2021,2021,1,646052
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Mun Licensing,E09,Inter-divisional charges,2021,2021,2,1361000
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-O/H To Non-Levy,E09,Inter-divisional charges,2021,2021,3,29485925
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Other Services,E09,Inter-divisional charges,2021,2021,10,3374491
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-PPF&A,E09,Inter-divisional charges,2021,2021,2,8556951
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Parks,E09,Inter-divisional charges,2021,2021,3,4005196
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Police Dept,E09,Inter-divisional charges,2021,2021,4,7108516
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Postage & Courie,E09,Inter-divisional charges,2021,2021,11,1524795
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Printing,E09,Inter-divisional charges,2021,2021,13,1218331
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Public Health,E09,Inter-divisional charges,2021,2021,3,4337125
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Rec & Culture,E09,Inter-divisional charges,2021,2021,3,147749
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Rental-City Fac,E09,Inter-divisional charges,2021,2021,5,2500549
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Solid Waste,E09,Inter-divisional charges,2021,2021,6,7200985
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Telecom & Netwk,E09,Inter-divisional charges,2021,2021,10,4174307
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-Transp Serv,E09,Inter-divisional charges,2021,2021,1,7022320
+Expenses,Other Expenditures,Inter-Divisional Charges,IDC-User Hdwe & Op S,E09,Inter-divisional charges,2021,2021,9,6290991
+Expenses,Materials & Supplies,Chemicals,Amonias,E02,Materials & supplies,2019,2026,1,3064735
+Expenses,Materials & Supplies,Chemicals,Cationic Polymer,E02,Materials & supplies,2019,2026,1,922065
+Expenses,Materials & Supplies,Chemicals,Chemicals,E02,Materials & supplies,2019,2019,1,3689
+Expenses,Materials & Supplies,Chemicals,Chemicals - Amonias,E02,Materials & supplies,2022,2023,1,1014652
+Expenses,Materials & Supplies,Chemicals,Chemicals - Coagulants,E02,Materials & supplies,2022,2023,1,14687721
+Expenses,Materials & Supplies,Chemicals,Chlorine,E02,Materials & supplies,2019,2026,6,20286526
+Expenses,Materials & Supplies,Chemicals,Coagulant - Cationic Polymer,E02,Materials & supplies,2022,2023,1,313106
+Expenses,Materials & Supplies,Chemicals,Coagulants,E02,Materials & supplies,2019,2026,1,44392232
+Expenses,Materials & Supplies,Chemicals,Fertilizers,E02,Materials & supplies,2019,2026,5,1487475
+Expenses,Materials & Supplies,Chemicals,Gas/Odour Control,E02,Materials & supplies,2019,2026,3,178933
+Expenses,Materials & Supplies,Chemicals,Hydro Fluosiliac,E02,Materials & supplies,2019,2026,1,6422546
+Expenses,Materials & Supplies,Chemicals,Hydro Fluosiliac Acid,E02,Materials & supplies,2022,2023,1,1730734
+Expenses,Materials & Supplies,Chemicals,Lubricants,E02,Materials & supplies,2019,2026,11,6337197
+Expenses,Materials & Supplies,Chemicals,Nutrient Rem. Chems.,E02,Materials & supplies,2019,2026,2,25665017
+Expenses,Materials & Supplies,Chemicals,Nutrient Removal Chemicals,E02,Materials & supplies,2022,2023,1,8993009
+Expenses,Materials & Supplies,Chemicals,Other Chemicals,E02,Materials & supplies,2019,2026,11,16338298
+Expenses,Materials & Supplies,Chemicals,Phosphoric Acid,E02,Materials & supplies,2019,2026,1,15253411
+Expenses,Materials & Supplies,Chemicals,Phosphoric Acid For Water Purification,E02,Materials & supplies,2022,2023,1,3936864
+Expenses,Materials & Supplies,Chemicals,Powdered Activated Carbon,E02,Materials & supplies,2022,2023,1,187167
+Expenses,Materials & Supplies,Chemicals,Powdered Carbon,E02,Materials & supplies,2019,2026,1,604655
+Expenses,Materials & Supplies,Chemicals,Sodium Bi Sulphite,E02,Materials & supplies,2019,2026,1,5492461
+Expenses,Materials & Supplies,Chemicals,Sodium Hypochlorite,E02,Materials & supplies,2019,2026,4,35466617
+Expenses,Materials & Supplies,Chemicals,Sulphur Dioxide,E02,Materials & supplies,2019,2026,1,434641
+Expenses,Materials & Supplies,Chemicals,Supplies - Gas/Odour Control,E02,Materials & supplies,2022,2023,2,67744
+Expenses,Materials & Supplies,Commodities,Bldg & Renovatn Sups,E02,Materials & supplies,2019,2026,21,27182957
+Expenses,Materials & Supplies,Commodities,Bldg Repairs & Renovation Supplies,E02,Materials & supplies,2022,2023,13,9855545
+Expenses,Materials & Supplies,Commodities,Ground Water Monitoring - Supplies,E02,Materials & supplies,2023,2023,1,500
+Expenses,Materials & Supplies,Commodities,Ground Water Sups,E02,Materials & supplies,2024,2024,1,500
+Expenses,Materials & Supplies,Commodities,Inv Diff Other,E02,Materials & supplies,2019,2026,3,1951
+Expenses,Materials & Supplies,Commodities,Lumber,E02,Materials & supplies,2019,2026,7,2759240
+Expenses,Materials & Supplies,Commodities,Other Inventory Differences,E02,Materials & supplies,2022,2023,3,8458
+Expenses,Materials & Supplies,Commodities,Steel,E02,Materials & supplies,2019,2026,7,1607672
+Expenses,Materials & Supplies,Commodities,Survey Supplies,E02,Materials & supplies,2019,2026,5,765081
+Expenses,Materials & Supplies,Construction Materials,Asphalt,E02,Materials & supplies,2019,2026,6,8814112
+Expenses,Materials & Supplies,Construction Materials,Concrete,E02,Materials & supplies,2019,2026,7,15552642
+Expenses,Materials & Supplies,Construction Materials,Gravel,E02,Materials & supplies,2019,2026,7,5321875
+Expenses,Materials & Supplies,Construction Materials,Sand,E02,Materials & supplies,2019,2026,5,2590055
+Expenses,Materials & Supplies,Energy,Deep Lake Cool Watr,E02,Materials & supplies,2019,2026,2,9717833
+Expenses,Materials & Supplies,Energy,Deep Lake Cooling Water,E02,Materials & supplies,2022,2023,1,3159038
+Expenses,Materials & Supplies,Energy,Diesel - Clear,E02,Materials & supplies,2019,2026,14,563068793
+Expenses,Materials & Supplies,Energy,Diesel - Clear (Licensed Equipment ),E02,Materials & supplies,2022,2023,9,205461820
+Expenses,Materials & Supplies,Energy,Diesel - Coloured,E02,Materials & supplies,2019,2026,8,8931880
+Expenses,Materials & Supplies,Energy,Diesel -Coloured (Unlicensed Equipment),E02,Materials & supplies,2022,2023,5,3916968
+Expenses,Materials & Supplies,Energy,Gasoline,E02,Materials & supplies,2019,2026,23,194670658
+Expenses,Materials & Supplies,Energy,Heating Oil,E02,Materials & supplies,2019,2026,8,1216188
+Expenses,Materials & Supplies,Energy,Hydro,E02,Materials & supplies,2019,2026,40,1950468449
+Expenses,Materials & Supplies,Energy,Nat Gas-Vehicles,E02,Materials & supplies,2019,2026,3,6648261
+Expenses,Materials & Supplies,Energy,Natural Gas,E02,Materials & supplies,2019,2026,38,241305567
+Expenses,Materials & Supplies,Energy,Natural Gas-Vehicles,E02,Materials & supplies,2022,2023,2,2099034
+Expenses,Materials & Supplies,Energy,Propane Gas,E02,Materials & supplies,2019,2026,16,540955
+Expenses,Materials & Supplies,Energy,Renewable Energy,E02,Materials & supplies,2019,2024,2,18000
+Expenses,Materials & Supplies,Energy,Steam Heating,E02,Materials & supplies,2019,2026,7,42204339
+Expenses,Materials & Supplies,Energy,Water,E02,Materials & supplies,2019,2026,36,122679039
+Expenses,Materials & Supplies,Food & Beverage,Alcoholic Beverages,E02,Materials & supplies,2019,2026,4,101567
+Expenses,Materials & Supplies,Food & Beverage,"Conc, Snackbar/Giftshop Food Items&Sup",E02,Materials & supplies,2022,2023,6,1989993
+Expenses,Materials & Supplies,Food & Beverage,Food & Beverages,E02,Materials & supplies,2019,2026,27,71446484
+Expenses,Materials & Supplies,Food & Beverage,Food & Non-Alcoholic Beverages,E02,Materials & supplies,2022,2023,13,29665833
+Expenses,Materials & Supplies,Food & Beverage,Food Cost-Adult D Cc,E02,Materials & supplies,2019,2024,2,181620
+Expenses,Materials & Supplies,Food & Beverage,Food Costs,E02,Materials & supplies,2019,2026,11,121527346
+Expenses,Materials & Supplies,Food & Beverage,Food Costs - Adult Day Care Centre,E02,Materials & supplies,2022,2023,1,92300
+Expenses,Materials & Supplies,Food & Beverage,Food Costs - Cafeter,E02,Materials & supplies,2019,2026,2,1059859
+Expenses,Materials & Supplies,Food & Beverage,Food Costs - Cafeteria,E02,Materials & supplies,2022,2023,1,368371
+Expenses,Materials & Supplies,Food & Beverage,Food Costs - M O W,E02,Materials & supplies,2019,2026,2,1036755
+Expenses,Materials & Supplies,Food & Beverage,Food Costs - Meals On Wheels,E02,Materials & supplies,2022,2023,1,353200
+Expenses,Materials & Supplies,Food & Beverage,Snckbar/Giftshop Sup,E02,Materials & supplies,2019,2026,10,7668135
+Expenses,Materials & Supplies,Materials,Agriculture & Botanical Supplies,E02,Materials & supplies,2022,2023,7,5449257
+Expenses,Materials & Supplies,Materials,Agriculture Supplies,E02,Materials & supplies,2019,2026,13,20835788
+Expenses,Materials & Supplies,Materials,Animal Care Supplies,E02,Materials & supplies,2022,2023,5,695774
+Expenses,Materials & Supplies,Materials,Animal Supplies,E02,Materials & supplies,2019,2026,10,2015363
+Expenses,Materials & Supplies,Materials,Bedding,E02,Materials & supplies,2019,2026,5,3110348
+Expenses,Materials & Supplies,Materials,Bridge Materials,E02,Materials & supplies,2019,2026,1,65504
+Expenses,Materials & Supplies,Materials,Comp & Printer Supp,E02,Materials & supplies,2019,2026,19,187881
+Expenses,Materials & Supplies,Materials,Computer And Printer Supplies,E02,Materials & supplies,2022,2023,6,54920
+Expenses,Materials & Supplies,Materials,"Dishes, Cutl &Utensi",E02,Materials & supplies,2019,2026,9,663314
+Expenses,Materials & Supplies,Materials,"Dishes, Cutlery And Utensils",E02,Materials & supplies,2022,2023,4,212408
+Expenses,Materials & Supplies,Materials,Drainage Material,E02,Materials & supplies,2019,2026,5,180499
+Expenses,Materials & Supplies,Materials,Dur Rec & Educ Supp,E02,Materials & supplies,2019,2026,4,2650006
+Expenses,Materials & Supplies,Materials,Durable Recreational & Educational Supp,E02,Materials & supplies,2022,2023,1,816369
+Expenses,Materials & Supplies,Materials,Electrical Supplies,E02,Materials & supplies,2019,2026,18,19998702
+Expenses,Materials & Supplies,Materials,Emerg Serv Supplies,E02,Materials & supplies,2019,2026,21,2887795
+Expenses,Materials & Supplies,Materials,Emergency Services Supplies,E02,Materials & supplies,2022,2023,11,1015206
+Expenses,Materials & Supplies,Materials,Footwear,E02,Materials & supplies,2019,2026,47,12267398
+Expenses,Materials & Supplies,Materials,General Hardware,E02,Materials & supplies,2019,2026,29,22255874
+Expenses,Materials & Supplies,Materials,Grounds Keeping Supplies,E02,Materials & supplies,2022,2023,1,66579
+Expenses,Materials & Supplies,Materials,Grounds Keeping Sups,E02,Materials & supplies,2019,2024,1,91098
+Expenses,Materials & Supplies,Materials,Heating & Air Conditioning Supplies,E02,Materials & supplies,2022,2023,7,594677
+Expenses,Materials & Supplies,Materials,Heating & Air Suppls,E02,Materials & supplies,2019,2026,13,2295546
+Expenses,Materials & Supplies,Materials,Janitorial Supplies,E02,Materials & supplies,2019,2026,33,29117201
+Expenses,Materials & Supplies,Materials,Kitchen Supplies,E02,Materials & supplies,2019,2026,25,6725566
+Expenses,Materials & Supplies,Materials,Laboratory Supplies,E02,Materials & supplies,2019,2026,7,3777276
+Expenses,Materials & Supplies,Materials,Laundry Bags,E02,Materials & supplies,2019,2026,4,584720
+Expenses,Materials & Supplies,Materials,Linens,E02,Materials & supplies,2019,2026,6,429986
+Expenses,Materials & Supplies,Materials,Locks,E02,Materials & supplies,2019,2026,16,958865
+Expenses,Materials & Supplies,Materials,Mattresses,E02,Materials & supplies,2019,2026,4,1819215
+Expenses,Materials & Supplies,Materials,Paint Supplies,E02,Materials & supplies,2019,2026,19,3390167
+Expenses,Materials & Supplies,Materials,Plastics & Rubber Su,E02,Materials & supplies,2019,2026,7,149754
+Expenses,Materials & Supplies,Materials,Plastics & Rubber Supplies,E02,Materials & supplies,2022,2023,3,47018
+Expenses,Materials & Supplies,Materials,Plumbing Supplies,E02,Materials & supplies,2019,2026,14,31772712
+Expenses,Materials & Supplies,Materials,Protective Clothing,E02,Materials & supplies,2019,2026,41,60187640
+Expenses,Materials & Supplies,Materials,Rec & Educt'n Suppls,E02,Materials & supplies,2019,2026,16,21120974
+Expenses,Materials & Supplies,Materials,Recreational & Educational Supplies,E02,Materials & supplies,2022,2023,10,6720131
+Expenses,Materials & Supplies,Materials,Road Materials,E02,Materials & supplies,2019,2026,6,10783238
+Expenses,Materials & Supplies,Materials,Sign Blanks,E02,Materials & supplies,2019,2026,2,4397653
+Expenses,Materials & Supplies,Materials,Uniforms,E02,Materials & supplies,2019,2026,41,38944689
+Expenses,Materials & Supplies,Materials,Vinyl,E02,Materials & supplies,2019,2026,2,1641998
+Expenses,Materials & Supplies,Materials,Wast Bskt-Indus &Rec,E02,Materials & supplies,2019,2026,5,10419543
+Expenses,Materials & Supplies,Materials,Waste Baskets - Industrial And Recycling,E02,Materials & supplies,2022,2023,3,3382626
+Expenses,Materials & Supplies,Medical Supplies,Assisted Devices & Other Aids,E02,Materials & supplies,2022,2023,1,78600
+Expenses,Materials & Supplies,Medical Supplies,Asstd Devices & Aids,E02,Materials & supplies,2019,2026,2,177406
+Expenses,Materials & Supplies,Medical Supplies,Dental Supplies,E02,Materials & supplies,2019,2026,1,13141504
+Expenses,Materials & Supplies,Medical Supplies,Dentures,E02,Materials & supplies,2019,2026,3,29430712
+Expenses,Materials & Supplies,Medical Supplies,Glasses,E02,Materials & supplies,2019,2026,11,19657374
+Expenses,Materials & Supplies,Medical Supplies,Incontinence Pads,E02,Materials & supplies,2019,2026,6,14394887
+Expenses,Materials & Supplies,Medical Supplies,Med & Den Supplies,E02,Materials & supplies,2019,2026,12,21549359
+Expenses,Materials & Supplies,Medical Supplies,Medical & Dental Supplies,E02,Materials & supplies,2022,2023,9,9161862
+Expenses,Materials & Supplies,Medical Supplies,Medical Supplies,E02,Materials & supplies,2019,2026,20,29041613
+Expenses,Materials & Supplies,Medical Supplies,Newborn Allowance,E02,Materials & supplies,2019,2026,5,9632598
+Expenses,Materials & Supplies,Medical Supplies,Ostomy Supplies,E02,Materials & supplies,2019,2026,2,751500
+Expenses,Materials & Supplies,Medical Supplies,Personal Care Prod,E02,Materials & supplies,2019,2026,4,1954385
+Expenses,Materials & Supplies,Medical Supplies,Personal Care Products,E02,Materials & supplies,2022,2023,2,593248
+Expenses,Materials & Supplies,Medical Supplies,Prescription Drugs,E02,Materials & supplies,2019,2026,5,4372573
+Expenses,Materials & Supplies,Medical Supplies,Resident Id,E02,Materials & supplies,2019,2026,6,853501
+Expenses,Materials & Supplies,Medical Supplies,Respiratory Supplies,E02,Materials & supplies,2019,2026,7,2874151
+Expenses,Materials & Supplies,Medical Supplies,Skin Care Products,E02,Materials & supplies,2019,2023,3,2320
+Expenses,Materials & Supplies,Medical Supplies,Surgical Supplies,E02,Materials & supplies,2019,2026,4,2874380
+Expenses,Materials & Supplies,Office Supplies,Book & Magazine Subscriptions,E02,Materials & supplies,2022,2023,34,1707904
+Expenses,Materials & Supplies,Office Supplies,Books & Magazines,E02,Materials & supplies,2019,2026,58,5455011
+Expenses,Materials & Supplies,Office Supplies,Drafting Materials,E02,Materials & supplies,2019,2024,2,13691
+Expenses,Materials & Supplies,Office Supplies,Graphic Design Supplies,E02,Materials & supplies,2022,2023,7,844168
+Expenses,Materials & Supplies,Office Supplies,Graphic Design Sups,E02,Materials & supplies,2019,2026,15,1709969
+Expenses,Materials & Supplies,Office Supplies,Health & Safety Supplies,E02,Materials & supplies,2022,2023,23,5527839
+Expenses,Materials & Supplies,Office Supplies,Health-Safety Sup,E02,Materials & supplies,2019,2026,43,8168820
+Expenses,Materials & Supplies,Office Supplies,Other Office Material &Minor Furnishing,E02,Materials & supplies,2022,2023,35,2899025
+Expenses,Materials & Supplies,Office Supplies,Other Office Materl,E02,Materials & supplies,2019,2026,57,7731849
+Expenses,Materials & Supplies,Office Supplies,Phot Fax & Print Sup,E02,Materials & supplies,2019,2026,60,10536780
+Expenses,Materials & Supplies,Office Supplies,Photo & Video Supp,E02,Materials & supplies,2019,2026,26,184883
+Expenses,Materials & Supplies,Office Supplies,"Photocopy, Fax And Printer Supplies",E02,Materials & supplies,2022,2023,35,3591680
+Expenses,Materials & Supplies,Office Supplies,Photographic And Video Supplies,E02,Materials & supplies,2022,2023,14,84619
+Expenses,Materials & Supplies,Office Supplies,Printed Material,E02,Materials & supplies,2019,2024,4,53216
+Expenses,Materials & Supplies,Office Supplies,Printing Sup-No Tax,E02,Materials & supplies,2019,2024,2,2000
+Expenses,Materials & Supplies,Office Supplies,Printing Sup-Taxable,E02,Materials & supplies,2019,2024,3,36016
+Expenses,Materials & Supplies,Office Supplies,Printing Supplies (Non Taxable),E02,Materials & supplies,2022,2023,1,1000
+Expenses,Materials & Supplies,Office Supplies,Printing Supplies (Taxable),E02,Materials & supplies,2022,2023,2,23481
+Expenses,Materials & Supplies,Office Supplies,Stationery And Off,E02,Materials & supplies,2019,2026,69,31192979
+Expenses,Materials & Supplies,Office Supplies,Stationery And Office Supplies,E02,Materials & supplies,2022,2023,42,10622092
+Expenses,Materials & Supplies,Parts,Control System Parts,E02,Materials & supplies,2019,2026,2,1033745
+Expenses,Materials & Supplies,Parts,Crane Parts,E02,Materials & supplies,2019,2026,1,9010
+Expenses,Materials & Supplies,Parts,Furn & Fixture Parts,E02,Materials & supplies,2019,2026,15,503940
+Expenses,Materials & Supplies,Parts,Mach & Equip Parts,E02,Materials & supplies,2019,2026,17,64022226
+Expenses,Materials & Supplies,Parts,Marine Parts,E02,Materials & supplies,2019,2026,7,866946
+Expenses,Materials & Supplies,Parts,Miscellaneous Parts,E02,Materials & supplies,2019,2026,14,1662595
+Expenses,Materials & Supplies,Parts,Mobile Equip Parts,E02,Materials & supplies,2019,2026,12,49184665
+Expenses,Materials & Supplies,Parts,Parts - Control Systems,E02,Materials & supplies,2022,2023,1,287720
+Expenses,Materials & Supplies,Parts,Parts - Cranes,E02,Materials & supplies,2022,2023,1,2699
+Expenses,Materials & Supplies,Parts,Parts - Furniture & Fixtures,E02,Materials & supplies,2022,2023,6,143491
+Expenses,Materials & Supplies,Parts,Parts - Lab Equip,E02,Materials & supplies,2019,2026,1,475878
+Expenses,Materials & Supplies,Parts,Parts - Laboratory Equipment,E02,Materials & supplies,2022,2023,1,194335
+Expenses,Materials & Supplies,Parts,Parts - Machinery & Equipment,E02,Materials & supplies,2022,2023,9,20294184
+Expenses,Materials & Supplies,Parts,Parts - Marine,E02,Materials & supplies,2022,2023,3,36836
+Expenses,Materials & Supplies,Parts,Parts - Mobile Equipment,E02,Materials & supplies,2022,2023,7,12653564
+Expenses,Materials & Supplies,Parts,Parts - Tires/Tubes,E02,Materials & supplies,2019,2026,8,16147189
+Expenses,Materials & Supplies,Parts,Parts - Unlicensed Equipment,E02,Materials & supplies,2022,2023,3,22022
+Expenses,Materials & Supplies,Parts,Parts - Vehicles,E02,Materials & supplies,2019,2026,4,35009246
+Expenses,Materials & Supplies,Parts,Parts - Weigh Scales,E02,Materials & supplies,2022,2023,2,32909
+Expenses,Materials & Supplies,Parts,Unlicensed Eq Parts,E02,Materials & supplies,2019,2026,10,261546
+Expenses,Materials & Supplies,Parts,Weigh Scale Parts,E02,Materials & supplies,2019,2026,2,67864
+Expenses,Materials & Supplies,Salt,De - Icers,E02,Materials & supplies,2019,2026,12,106252369
+Expenses,Materials & Supplies,Supplies,"Banners, Flags & Signs",E02,Materials & supplies,2022,2023,11,557119
+Expenses,Materials & Supplies,Supplies,"Banners,Flags,Signs",E02,Materials & supplies,2019,2026,27,4656481
+Expenses,Materials & Supplies,Supplies,Gift Shop - Resale,E02,Materials & supplies,2019,2026,6,288153
+Expenses,Materials & Supplies,Supplies,Gift Shop Items For Resale,E02,Materials & supplies,2022,2023,2,62359
+Expenses,Materials & Supplies,Supplies,Gloves,E02,Materials & supplies,2019,2026,8,12764249
+Expenses,Materials & Supplies,Supplies,HIN - Claims Based,E02,Materials & supplies,2019,2026,2,5486482
+Expenses,Materials & Supplies,Supplies,HIN - Supplies,E02,Materials & supplies,2019,2026,2,3787054
+Expenses,Materials & Supplies,Supplies,High Intensity Needs - Claims Based,E02,Materials & supplies,2022,2023,1,1794000
+Expenses,Materials & Supplies,Supplies,High Intensity Needs - Supplies,E02,Materials & supplies,2022,2023,1,1214800
+Expenses,Materials & Supplies,Supplies,Library Materials,E02,Materials & supplies,2019,2026,1,173830384
+Expenses,Materials & Supplies,Supplies,MED Benefits - SAMS,E02,Materials & supplies,2019,2026,2,675900
+Expenses,Materials & Supplies,Supplies,Medical Benefits - SAMS,E02,Materials & supplies,2022,2023,1,20600
+Expenses,Materials & Supplies,Supplies,Misc Materials,E02,Materials & supplies,2019,2026,74,1181187830
+Expenses,Materials & Supplies,Supplies,Miscellaneous Materials & Supplies,E02,Materials & supplies,2022,2023,45,378982239
+Expenses,Materials & Supplies,Supplies,Presentation Items,E02,Materials & supplies,2019,2026,35,1586167
+Expenses,Materials & Supplies,Supplies,Presentation/Promotional Items,E02,Materials & supplies,2022,2023,18,510429
+Expenses,Materials & Supplies,Supplies,"Prost - Bars,Railin",E02,Materials & supplies,2019,2026,2,116100
+Expenses,Materials & Supplies,Supplies,Prost - Bath Aids,E02,Materials & supplies,2019,2026,2,563700
+Expenses,Materials & Supplies,Supplies,Prost - Beds (Elect),E02,Materials & supplies,2019,2026,2,7514100
+Expenses,Materials & Supplies,Supplies,Prost - Cushions,E02,Materials & supplies,2019,2026,2,124800
+Expenses,Materials & Supplies,Supplies,Prost - E Wheelchair,E02,Materials & supplies,2019,2026,2,3161700
+Expenses,Materials & Supplies,Supplies,Prost - Hearing Aids,E02,Materials & supplies,2019,2026,2,7652400
+Expenses,Materials & Supplies,Supplies,Prost - Lifts,E02,Materials & supplies,2019,2026,5,2453133
+Expenses,Materials & Supplies,Supplies,Prost - Orthotics,E02,Materials & supplies,2019,2026,2,3873300
+Expenses,Materials & Supplies,Supplies,Prost - Other Aids,E02,Materials & supplies,2019,2026,2,6254800
+Expenses,Materials & Supplies,Supplies,Prost - Toilet Aids,E02,Materials & supplies,2019,2026,2,151500
+Expenses,Materials & Supplies,Supplies,Prost - Walking Aids,E02,Materials & supplies,2019,2026,2,219000
+Expenses,Materials & Supplies,Supplies,Prost - Wheelchairs,E02,Materials & supplies,2019,2026,2,1387800
+Expenses,Materials & Supplies,Supplies,Prost-Footwear(Cust),E02,Materials & supplies,2019,2026,2,1504800
+Expenses,Materials & Supplies,Supplies,Prosthetic -Footwear,E02,Materials & supplies,2019,2021,1,12900
+Expenses,Materials & Supplies,Supplies,"Prosthetics - Bars, Railings",E02,Materials & supplies,2022,2023,1,37400
+Expenses,Materials & Supplies,Supplies,Prosthetics - Bath Aids,E02,Materials & supplies,2022,2023,1,247600
+Expenses,Materials & Supplies,Supplies,Prosthetics - Beds (Electric),E02,Materials & supplies,2022,2023,1,1966600
+Expenses,Materials & Supplies,Supplies,Prosthetics - Cushions,E02,Materials & supplies,2022,2023,1,41600
+Expenses,Materials & Supplies,Supplies,Prosthetics - Electric Wheelchairs,E02,Materials & supplies,2022,2023,1,867800
+Expenses,Materials & Supplies,Supplies,Prosthetics - Footwear (Custom),E02,Materials & supplies,2022,2023,1,622400
+Expenses,Materials & Supplies,Supplies,Prosthetics - Footwear (Off-The-Shelf),E02,Materials & supplies,2022,2023,1,8600
+Expenses,Materials & Supplies,Supplies,Prosthetics - Hearing Aids,E02,Materials & supplies,2022,2023,1,2551600
+Expenses,Materials & Supplies,Supplies,Prosthetics - Lifts,E02,Materials & supplies,2022,2023,2,665093
+Expenses,Materials & Supplies,Supplies,Prosthetics - Orthotics,E02,Materials & supplies,2022,2023,1,1782200
+Expenses,Materials & Supplies,Supplies,Prosthetics - Other Aids,E02,Materials & supplies,2022,2023,1,692600
+Expenses,Materials & Supplies,Supplies,Prosthetics - Others,E02,Materials & supplies,2019,2026,2,831400
+Expenses,Materials & Supplies,Supplies,Prosthetics - Toilet Aids,E02,Materials & supplies,2022,2023,1,61000
+Expenses,Materials & Supplies,Supplies,Prosthetics - Walking Aids,E02,Materials & supplies,2022,2023,1,73000
+Expenses,Materials & Supplies,Supplies,Prosthetics - Wheelchairs,E02,Materials & supplies,2022,2023,1,462600
+Expenses,Materials & Supplies,Supplies,"Ribbons, Medals & Trophies",E02,Materials & supplies,2022,2023,5,98984
+Expenses,Materials & Supplies,Supplies,"Ribns, Med, Trophie",E02,Materials & supplies,2019,2026,17,331336
+Expenses,Materials & Supplies,Supplies,Supl & Mat General,E02,Materials & supplies,2019,2024,2,164741
+Expenses,Materials & Supplies,Supplies,Supplies & Materials General,E02,Materials & supplies,2022,2023,2,80878
+Expenses,Materials & Supplies,,,E02,Materials & supplies,2014,2018,55,3612833117
+Expenses,Materials and Supplies,,,E02,Materials & supplies,2011,2013,92,1985494584
+Expenses,Cost of Goods Sold,,,E10,Other expenditures,2011,2011,1,1640100
+Expenses,Cost of Sales,,,E10,Other expenditures,2012,2012,1,1431800
+Expenses,Other Expenditures,Contributions And Transfers,"Adm Costs Dist, Pro",E10,Other expenditures,2019,2025,2,535432
+Expenses,Other Expenditures,Contributions And Transfers,Adm. Costs Distrib.To Projects,E10,Other expenditures,2022,2023,1,290868
+Expenses,Other Expenditures,Contributions And Transfers,Advanced Age Item,E10,Other expenditures,2019,2026,2,2108000
+Expenses,Other Expenditures,Contributions And Transfers,Basic Needs,E10,Other expenditures,2019,2026,2,3105149486
+Expenses,Other Expenditures,Contributions And Transfers,Board And Lodging,E10,Other expenditures,2019,2026,2,17574400
+Expenses,Other Expenditures,Contributions And Transfers,Child Benefit Transition Allowance,E10,Other expenditures,2022,2023,1,46000000
+Expenses,Other Expenditures,Contributions And Transfers,Chld Ben Trans Allow,E10,Other expenditures,2019,2026,2,133150000
+Expenses,Other Expenditures,Contributions And Transfers,Cont To Current,E10,Other expenditures,2020,2026,6,20244003
+Expenses,Other Expenditures,Contributions And Transfers,Cont-Pension Defc,E10,Other expenditures,2019,2026,1,513500
+Expenses,Other Expenditures,Contributions And Transfers,Contribution To Current,E10,Other expenditures,2022,2023,3,2799243
+Expenses,Other Expenditures,Contributions And Transfers,Contributions-Pension Pln Defc,E10,Other expenditures,2022,2023,1,166600
+Expenses,Other Expenditures,Contributions And Transfers,Emp Rel Ex-Client Su,E10,Other expenditures,2019,2026,2,170667400
+Expenses,Other Expenditures,Contributions And Transfers,Emp Rel Exp-Client Support(Es),E10,Other expenditures,2022,2023,1,65490000
+Expenses,Other Expenditures,Contributions And Transfers,Employment Start-Up,E10,Other expenditures,2019,2026,2,120000000
+Expenses,Other Expenditures,Contributions And Transfers,"Ere-Purch, Services",E10,Other expenditures,2019,2025,2,67199000
+Expenses,Other Expenditures,Contributions And Transfers,Ere-Purchase Of Services(Es),E10,Other expenditures,2022,2023,1,35598000
+Expenses,Other Expenditures,Contributions And Transfers,Food Allowance,E10,Other expenditures,2019,2026,2,207381175
+Expenses,Other Expenditures,Contributions And Transfers,Foster Child Allowance,E10,Other expenditures,2022,2023,1,5263000
+Expenses,Other Expenditures,Contributions And Transfers,Foster Child Allownc,E10,Other expenditures,2019,2026,2,16123800
+Expenses,Other Expenditures,Contributions And Transfers,Fuel,E10,Other expenditures,2019,2024,2,1008148
+Expenses,Other Expenditures,Contributions And Transfers,Grants,E10,Other expenditures,2019,2026,28,2713061950
+Expenses,Other Expenditures,Contributions And Transfers,Income Credits,E10,Other expenditures,2019,2026,2,-313985995
+Expenses,Other Expenditures,Contributions And Transfers,Muncp Accom Tax Trsf,E10,Other expenditures,2019,2026,1,173066211
+Expenses,Other Expenditures,Contributions And Transfers,Municipal Accommodation Tax Transferred,E10,Other expenditures,2022,2023,1,44575000
+Expenses,Other Expenditures,Contributions And Transfers,Non M.A.I.N. Items,E10,Other expenditures,2019,2026,2,11619200
+Expenses,Other Expenditures,Contributions And Transfers,Other Assistance,E10,Other expenditures,2019,2026,5,449704527
+Expenses,Other Expenditures,Contributions And Transfers,Payment In Lieu Of Taxes,E10,Other expenditures,2022,2023,3,34293781
+Expenses,Other Expenditures,Contributions And Transfers,Persnl Needs Allownc,E10,Other expenditures,2019,2026,2,3265200
+Expenses,Other Expenditures,Contributions And Transfers,Personal Needs Allowance,E10,Other expenditures,2022,2023,1,1088400
+Expenses,Other Expenditures,Contributions And Transfers,Pmt In Lieu Of Taxes,E10,Other expenditures,2019,2026,5,103060583
+Expenses,Other Expenditures,Contributions And Transfers,Prop Assessment Serv,E10,Other expenditures,2019,2026,1,284810299
+Expenses,Other Expenditures,Contributions And Transfers,Property Assessment Services,E10,Other expenditures,2022,2023,1,92880073
+Expenses,Other Expenditures,Contributions And Transfers,Section 37/45 Payments To 3rd Parties,E10,Other expenditures,2022,2023,1,1430555
+Expenses,Other Expenditures,Contributions And Transfers,Section 37/45 Paymts,E10,Other expenditures,2019,2021,1,2139555
+Expenses,Other Expenditures,Contributions And Transfers,Shelter Supplement,E10,Other expenditures,2019,2026,3,3365773126
+Expenses,Other Expenditures,Contributions And Transfers,Special Diets,E10,Other expenditures,2019,2026,2,417872943
+Expenses,Other Expenditures,Contributions And Transfers,Subsidies To Non-Profit Agencies,E10,Other expenditures,2022,2023,2,1020796369
+Expenses,Other Expenditures,Contributions And Transfers,Subsidies-Nonprofits,E10,Other expenditures,2019,2026,2,3595396949
+Expenses,Other Expenditures,Contributions And Transfers,Transfer-Local Boards & Agenci,E10,Other expenditures,2022,2023,4,101945980
+Expenses,Other Expenditures,Contributions And Transfers,Transfers-Others,E10,Other expenditures,2019,2026,13,114452440
+Expenses,Other Expenditures,Contributions And Transfers,Trns-Local Bds & Agc,E10,Other expenditures,2019,2026,8,308365975
+Expenses,Other Expenditures,Contributions And Transfers,Unallocated Costs,E10,Other expenditures,2025,2026,1,4738001
+Expenses,Other Expenditures,Debt Charges,Debt Charges,E10,Other expenditures,2019,2026,1,6494168233
+Expenses,Other Expenditures,Debt Charges,Debt Charges - Principal,E10,Other expenditures,2022,2022,1,137500
+Expenses,Other Expenditures,Miscellaneous Expenditures,Bad Debt Expenses,E10,Other expenditures,2019,2026,4,112200
+Expenses,Other Expenditures,Miscellaneous Expenditures,Bank Service Charges,E10,Other expenditures,2019,2026,36,10454077
+Expenses,Other Expenditures,Miscellaneous Expenditures,Change In A/R Prov,E10,Other expenditures,2020,2026,4,1088500
+Expenses,Other Expenditures,Miscellaneous Expenditures,Change In Allow. For Doubtful Accounts,E10,Other expenditures,2022,2023,1,32200
+Expenses,Other Expenditures,Miscellaneous Expenditures,Collection Agcy Fees,E10,Other expenditures,2019,2026,10,20183211
+Expenses,Other Expenditures,Miscellaneous Expenditures,Collection Agency Fees,E10,Other expenditures,2022,2023,4,6824794
+Expenses,Other Expenditures,Miscellaneous Expenditures,Credit Card Disc Etc,E10,Other expenditures,2019,2026,28,26282778
+Expenses,Other Expenditures,Miscellaneous Expenditures,Credit Card Discounts Etc.,E10,Other expenditures,2022,2023,16,8925833
+Expenses,Other Expenditures,Miscellaneous Expenditures,Finance Exp General,E10,Other expenditures,2019,2024,6,75326308
+Expenses,Other Expenditures,Miscellaneous Expenditures,Financial Expenses General,E10,Other expenditures,2022,2023,5,34604938
+Expenses,Other Expenditures,Miscellaneous Expenditures,Interest Costs,E10,Other expenditures,2019,2026,2,4890078
+Expenses,Other Expenditures,Miscellaneous Expenditures,Late Payment Charges,E10,Other expenditures,2022,2023,2,100400
+Expenses,Other Expenditures,Miscellaneous Expenditures,Late Pymnt Charges,E10,Other expenditures,2020,2026,2,201000
+Expenses,Other Expenditures,Miscellaneous Expenditures,TIEGs,E10,Other expenditures,2019,2026,1,237187287
+Expenses,Other Expenditures,Miscellaneous Expenditures,Tax Increment Equivalent Grant,E10,Other expenditures,2022,2023,1,100584862
+Expenses,Other Expenditures,Tax Write Offs,Tax Write Offs,E10,Other expenditures,2019,2026,2,419197299
+Expenses,Other Expenditures,,,E10,Other expenditures,2011,2018,66,18154601369
+Expenses,Required Adjustments,,,E10,Other expenditures,2011,2011,1,-27
+Expenses,Benefits,Allowances,Benefits To Be Dist,E01,Salaries & benefits,2021,2026,59,3671056815
+Expenses,Benefits,Allowances,Benefits-Trades Emp,E01,Salaries & benefits,2021,2026,5,32124206
+Expenses,Benefits,Allowances,Benefits-Trades Employees,E01,Salaries & benefits,2022,2023,3,16721743
+Expenses,Benefits,Allowances,Car Allowance,E01,Salaries & benefits,2021,2026,15,2377533
+Expenses,Benefits,Allowances,Fringe Benefits To Be Distributed,E01,Salaries & benefits,2022,2023,43,1536258601
+Expenses,Benefits,Allowances,Sick Pay,E01,Salaries & benefits,2021,2024,1,46000000
+Expenses,Benefits,Allowances,Sick Pay Payments,E01,Salaries & benefits,2022,2023,1,50000000
+Expenses,Benefits,Allowances,Tool Allowance,E01,Salaries & benefits,2021,2026,7,579825
+Expenses,Benefits,Allowances,Unalloc Ben-Non-Perm,E01,Salaries & benefits,2021,2026,5,31416962
+Expenses,Benefits,Allowances,Unallocated Benefits-Non-Permanent Staff,E01,Salaries & benefits,2022,2023,3,13775356
+Expenses,Benefits,Allowances,Uniform Cleaning,E01,Salaries & benefits,2021,2026,2,4464089
+Expenses,Benefits,Allowances,Uniform Cleaning Allowance,E01,Salaries & benefits,2022,2023,1,2170802
+Expenses,Benefits,Benefits,CPP,E01,Salaries & benefits,2021,2026,58,471371378
+Expenses,Benefits,Benefits,Canada Pension Plan,E01,Salaries & benefits,2022,2023,39,201076362
+Expenses,Benefits,Benefits,Comprehensive Med,E01,Salaries & benefits,2021,2026,58,569134144
+Expenses,Benefits,Benefits,Comprehensive Medical,E01,Salaries & benefits,2022,2023,39,251268209
+Expenses,Benefits,Benefits,Dental Plan,E01,Salaries & benefits,2021,2026,59,403137918
+Expenses,Benefits,Benefits,EI,E01,Salaries & benefits,2021,2026,58,150674738
+Expenses,Benefits,Benefits,EI Rebate,E01,Salaries & benefits,2021,2026,15,879326
+Expenses,Benefits,Benefits,Employment Insurance,E01,Salaries & benefits,2022,2023,37,66026305
+Expenses,Benefits,Benefits,Employment Insurance Rebate,E01,Salaries & benefits,2022,2023,9,406650
+Expenses,Benefits,Benefits,Group Life Insurance,E01,Salaries & benefits,2022,2023,39,38725424
+Expenses,Benefits,Benefits,LTD,E01,Salaries & benefits,2021,2026,58,263027209
+Expenses,Benefits,Benefits,Life Insurance,E01,Salaries & benefits,2021,2026,58,78451814
+Expenses,Benefits,Benefits,Long Term Disability,E01,Salaries & benefits,2022,2023,39,137525736
+Expenses,Benefits,Benefits,OMERS Pension,E01,Salaries & benefits,2021,2026,60,1139923010
+Expenses,Benefits,Benefits,Ont Health Tax,E01,Salaries & benefits,2021,2026,58,216304554
+Expenses,Benefits,Benefits,Ontario Health Tax,E01,Salaries & benefits,2022,2023,39,95416252
+Expenses,Benefits,Benefits,Other Pension,E01,Salaries & benefits,2024,2026,2,1805376
+Expenses,Benefits,Benefits,Pension Plan (OMERS),E01,Salaries & benefits,2022,2023,38,485295159
+Expenses,Benefits,Benefits,Pension Plan (Other),E01,Salaries & benefits,2022,2023,1,1364100
+Expenses,Benefits,Benefits,Semi Private Medical,E01,Salaries & benefits,2022,2022,1,1967
+Expenses,Benefits,Benefits,Sundry Benefits,E01,Salaries & benefits,2021,2026,4,218192
+Expenses,Benefits,Benefits,WSIB Admin,E01,Salaries & benefits,2021,2026,14,32462631
+Expenses,Benefits,Benefits,WSIB Administration Charges,E01,Salaries & benefits,2022,2023,9,12230325
+Expenses,Benefits,Benefits,WSIB Medical & Pension Payments,E01,Salaries & benefits,2022,2023,10,46946315
+Expenses,Benefits,Benefits,"WSIB, Med & Pen",E01,Salaries & benefits,2021,2026,17,122912399
+Expenses,Salaries,Casual Salaries,Cas-Shift Bonus Sap,E01,Salaries & benefits,2021,2026,4,191643
+Expenses,Salaries,Casual Salaries,Casual - Alt Rate,E01,Salaries & benefits,2024,2024,1,1773000
+Expenses,Salaries,Casual Salaries,Casual - Overtime Sap,E01,Salaries & benefits,2022,2023,3,490450
+Expenses,Salaries,Casual Salaries,Casual - Reg Pay Sap,E01,Salaries & benefits,2021,2026,8,357131848
+Expenses,Salaries,Casual Salaries,Casual - Regular Pay Sap,E01,Salaries & benefits,2022,2023,4,161340912
+Expenses,Salaries,Casual Salaries,Casual - Shift Bonus Sap,E01,Salaries & benefits,2022,2023,2,113336
+Expenses,Salaries,Casual Salaries,Casual-Overtime Sap,E01,Salaries & benefits,2021,2026,5,961928
+Expenses,Salaries,Casual Salaries,Casuals - Vacation Pay,E01,Salaries & benefits,2022,2023,3,6804234
+Expenses,Salaries,Casual Salaries,Stat Hol Prem-Rec,E01,Salaries & benefits,2021,2026,3,3951303
+Expenses,Salaries,Casual Salaries,Statutory Holiday Premium - Recreation,E01,Salaries & benefits,2022,2023,1,414416
+Expenses,Salaries,Casual Salaries,Vacation Pay (Cas),E01,Salaries & benefits,2021,2026,6,15327782
+Expenses,Salaries,Craft Trades Salaries,Craft Traders Vacation Savings Pay,E01,Salaries & benefits,2022,2023,1,212847
+Expenses,Salaries,Craft Trades Salaries,Craft Trades - Overtime Sap,E01,Salaries & benefits,2022,2023,2,348739
+Expenses,Salaries,Craft Trades Salaries,Craft Trades - Regular Pay Sap,E01,Salaries & benefits,2022,2023,2,12414692
+Expenses,Salaries,Craft Trades Salaries,Craft Vac Svgs,E01,Salaries & benefits,2021,2026,3,493345
+Expenses,Salaries,Craft Trades Salaries,Trades - Reg Pay Sap,E01,Salaries & benefits,2021,2026,4,26899159
+Expenses,Salaries,Craft Trades Salaries,Trades Shift Bonus,E01,Salaries & benefits,2021,2026,4,177100
+Expenses,Salaries,Craft Trades Salaries,Trades-Overtime Sap,E01,Salaries & benefits,2021,2026,4,654188
+Expenses,Salaries,Disability,Modified Duties,E01,Salaries & benefits,2021,2026,1,7640000
+Expenses,Salaries,Disability,WCB Award,E01,Salaries & benefits,2021,2026,7,3011532
+Expenses,Salaries,Disability,Workers Compensation Award,E01,Salaries & benefits,2022,2023,4,889944
+Expenses,Salaries,Gapping,Gapping,E01,Salaries & benefits,2022,2023,3,-270001
+Expenses,Salaries,Other,Arb/Griev Awards,E01,Salaries & benefits,2021,2026,3,664000
+Expenses,Salaries,Other,Arbitration Grievance Awards,E01,Salaries & benefits,2022,2023,2,722000
+Expenses,Salaries,Other,Contra-Cap-S&B,E01,Salaries & benefits,2026,2026,33,-327095063
+Expenses,Salaries,Other,Election Pay,E01,Salaries & benefits,2021,2026,1,10458963
+Expenses,Salaries,Other,Separation - Salary,E01,Salaries & benefits,2021,2026,3,42477004
+Expenses,Salaries,Other,Separation Payments - Salary,E01,Salaries & benefits,2022,2023,2,2882700
+Expenses,Salaries,Part Time Salaries,P/T - Overtime Sap,E01,Salaries & benefits,2021,2026,9,13143998
+Expenses,Salaries,Part Time Salaries,P/T - Reg Pay Sap,E01,Salaries & benefits,2021,2026,24,507018930
+Expenses,Salaries,Part Time Salaries,P/T-Shift Bonus Sap,E01,Salaries & benefits,2021,2026,9,16230436
+Expenses,Salaries,Part Time Salaries,PWE,E01,Salaries & benefits,2021,2026,1,2220196
+Expenses,Salaries,Part Time Salaries,Part Time - Alt Rate,E01,Salaries & benefits,2024,2024,1,1239139
+Expenses,Salaries,Part Time Salaries,Part Time - Overtime Sap,E01,Salaries & benefits,2022,2023,6,1568592
+Expenses,Salaries,Part Time Salaries,Part Time - Regular Pay Sap,E01,Salaries & benefits,2022,2023,16,301930073
+Expenses,Salaries,Part Time Salaries,Part Time - Shift Bonus Sap,E01,Salaries & benefits,2022,2023,5,3331549
+Expenses,Salaries,Part Time Salaries,Part Time - Vacation Pay,E01,Salaries & benefits,2022,2023,15,18629929
+Expenses,Salaries,Part Time Salaries,Provincial Wage Enhancement,E01,Salaries & benefits,2022,2023,1,1110098
+Expenses,Salaries,Part Time Salaries,Stat Hol Prem-Part,E01,Salaries & benefits,2021,2026,5,14771503
+Expenses,Salaries,Part Time Salaries,Statutory Holiday Premium - Part Time,E01,Salaries & benefits,2022,2023,3,5182250
+Expenses,Salaries,Part Time Salaries,Vacation Pay (P/T),E01,Salaries & benefits,2021,2026,23,33289256
+Expenses,Salaries,Permanent Salaries,Full Time - Regular Pay Sap,E01,Salaries & benefits,2022,2023,55,9679268969
+Expenses,Salaries,Permanent Salaries,Full Time Reg Py Sap,E01,Salaries & benefits,2021,2026,77,21935930503
+Expenses,Salaries,Permanent Salaries,Payroll Adj,E01,Salaries & benefits,2021,2026,13,6287625
+Expenses,Salaries,Permanent Salaries,Payroll Adjustments,E01,Salaries & benefits,2022,2023,4,3751757
+Expenses,Salaries,Permanent Salaries,Perm - Overtime Sap,E01,Salaries & benefits,2021,2026,46,222793869
+Expenses,Salaries,Permanent Salaries,Perm-Perf Bonus,E01,Salaries & benefits,2021,2025,2,316001
+Expenses,Salaries,Permanent Salaries,Perm-Shift Bonus Sap,E01,Salaries & benefits,2021,2026,20,52098453
+Expenses,Salaries,Permanent Salaries,Permanent - Alt Rate,E01,Salaries & benefits,2021,2026,8,3126686
+Expenses,Salaries,Permanent Salaries,Permanent - Alternate Rates,E01,Salaries & benefits,2022,2023,6,808414
+Expenses,Salaries,Permanent Salaries,Permanent - Overtime Sap,E01,Salaries & benefits,2022,2023,30,90395026
+Expenses,Salaries,Permanent Salaries,Permanent - Performance Bonus,E01,Salaries & benefits,2022,2022,1,25000
+Expenses,Salaries,Permanent Salaries,Permanent - Shift Bonus Sap,E01,Salaries & benefits,2022,2023,13,19169732
+Expenses,Salaries,Permanent Salaries,Permanent - Vacation Pay,E01,Salaries & benefits,2022,2023,13,3928787
+Expenses,Salaries,Permanent Salaries,Stat Hol Prem-Perm,E01,Salaries & benefits,2021,2026,16,75911855
+Expenses,Salaries,Permanent Salaries,Statutory Holiday Premium - Permanent,E01,Salaries & benefits,2022,2023,9,35057580
+Expenses,Salaries,Permanent Salaries,Vacation Pay (Perm),E01,Salaries & benefits,2021,2026,21,7718780
+Expenses,Salaries,Temporary Salaries,Stat Hol Prem -Temp,E01,Salaries & benefits,2021,2026,3,233638
+Expenses,Salaries,Temporary Salaries,Statutory Holiday Premium - Temporary,E01,Salaries & benefits,2022,2023,1,180044
+Expenses,Salaries,Temporary Salaries,Temp - Overtime Sap,E01,Salaries & benefits,2021,2026,7,3535661
+Expenses,Salaries,Temporary Salaries,Temp - Reg Pay Sap,E01,Salaries & benefits,2021,2026,5,144377654
+Expenses,Salaries,Temporary Salaries,Temp-Shift Bonus Sap,E01,Salaries & benefits,2021,2026,5,533946
+Expenses,Salaries,Temporary Salaries,Temporary - Overtime Sap,E01,Salaries & benefits,2022,2023,4,1726583
+Expenses,Salaries,Temporary Salaries,Temporary - Regular Pay Sap,E01,Salaries & benefits,2022,2023,2,61836082
+Expenses,Salaries,Temporary Salaries,Temporary - Shift Bonus Sap,E01,Salaries & benefits,2022,2023,3,268323
+Expenses,Salaries,Vacancy Adjustments,Vacancy Adjustments,E01,Salaries & benefits,2024,2026,45,-465365629
+Expenses,Salaries And Benefits,Allowances,Benefits To Be Dist,E01,Salaries & benefits,2019,2020,48,1159949671
+Expenses,Salaries And Benefits,Allowances,Benefits-Trades Emp,E01,Salaries & benefits,2019,2020,4,16392414
+Expenses,Salaries And Benefits,Allowances,Car Allowance,E01,Salaries & benefits,2019,2020,12,775711
+Expenses,Salaries And Benefits,Allowances,Sick Pay,E01,Salaries & benefits,2019,2020,2,67092300
+Expenses,Salaries And Benefits,Allowances,Tool Allowance,E01,Salaries & benefits,2019,2020,5,163971
+Expenses,Salaries And Benefits,Allowances,Unalloc Ben-Non-Perm,E01,Salaries & benefits,2019,2020,2,12843038
+Expenses,Salaries And Benefits,Allowances,Uniform Cleaning,E01,Salaries & benefits,2019,2020,1,2161930
+Expenses,Salaries And Benefits,Benefits,CPP,E01,Salaries & benefits,2019,2020,43,141291150
+Expenses,Salaries And Benefits,Benefits,Comprehensive Med,E01,Salaries & benefits,2019,2020,43,209973584
+Expenses,Salaries And Benefits,Benefits,Dental Plan,E01,Salaries & benefits,2019,2020,43,100282477
+Expenses,Salaries And Benefits,Benefits,EI,E01,Salaries & benefits,2019,2020,42,56376646
+Expenses,Salaries And Benefits,Benefits,EI Rebate,E01,Salaries & benefits,2019,2020,8,423231
+Expenses,Salaries And Benefits,Benefits,LTD,E01,Salaries & benefits,2019,2020,43,124221022
+Expenses,Salaries And Benefits,Benefits,Life Insurance,E01,Salaries & benefits,2019,2020,43,34147782
+Expenses,Salaries And Benefits,Benefits,OMERS Pension,E01,Salaries & benefits,2019,2020,42,450618741
+Expenses,Salaries And Benefits,Benefits,Ont Health Tax,E01,Salaries & benefits,2019,2020,43,83921494
+Expenses,Salaries And Benefits,Benefits,Other Pension,E01,Salaries & benefits,2019,2020,1,1047000
+Expenses,Salaries And Benefits,Benefits,Sundry Benefits,E01,Salaries & benefits,2019,2020,2,1166
+Expenses,Salaries And Benefits,Casual Salaries,Cas-Shift Bonus Sap,E01,Salaries & benefits,2019,2020,3,126805
+Expenses,Salaries And Benefits,Casual Salaries,Casual - Reg Pay Sap,E01,Salaries & benefits,2019,2020,7,156058382
+Expenses,Salaries And Benefits,Casual Salaries,Casual-Overtime Sap,E01,Salaries & benefits,2019,2020,3,442810
+Expenses,Salaries And Benefits,Casual Salaries,Stat Hol Prem-Rec,E01,Salaries & benefits,2019,2020,1,488378
+Expenses,Salaries And Benefits,Casual Salaries,Vacation Pay (Cas),E01,Salaries & benefits,2019,2020,3,6539101
+Expenses,Salaries And Benefits,Craft Trades Salaries,Craft Vac Svgs,E01,Salaries & benefits,2019,2020,3,522470
+Expenses,Salaries And Benefits,Craft Trades Salaries,Trades - Reg Pay Sap,E01,Salaries & benefits,2019,2020,3,10778017
+Expenses,Salaries And Benefits,Craft Trades Salaries,Trades Shift Bonus,E01,Salaries & benefits,2019,2020,3,59033
+Expenses,Salaries And Benefits,Craft Trades Salaries,Trades-Overtime Sap,E01,Salaries & benefits,2019,2020,3,355276
+Expenses,Salaries And Benefits,Disability,Modified Duties,E01,Salaries & benefits,2019,2020,3,2030000
+Expenses,Salaries And Benefits,Disability,WCB Award,E01,Salaries & benefits,2019,2020,7,1255417
+Expenses,Salaries And Benefits,Disability,WSIB Admin,E01,Salaries & benefits,2019,2020,11,9346989
+Expenses,Salaries And Benefits,Disability,"WSIB, Med & Pen",E01,Salaries & benefits,2019,2020,13,27678545
+Expenses,Salaries And Benefits,Gapping,Gapping,E01,Salaries & benefits,2019,2020,34,-195676588
+Expenses,Salaries And Benefits,Other,Arb/Griev Awards,E01,Salaries & benefits,2019,2020,3,362900
+Expenses,Salaries And Benefits,Other,Financial Incentives,E01,Salaries & benefits,2019,2019,1,7500
+Expenses,Salaries And Benefits,Other,Separation - Salary,E01,Salaries & benefits,2019,2020,2,664700
+Expenses,Salaries And Benefits,Part Time Salaries,P/T - Overtime Sap,E01,Salaries & benefits,2019,2020,9,6703875
+Expenses,Salaries And Benefits,Part Time Salaries,P/T - Reg Pay Sap,E01,Salaries & benefits,2019,2020,19,172506358
+Expenses,Salaries And Benefits,Part Time Salaries,P/T-Shift Bonus Sap,E01,Salaries & benefits,2019,2020,6,2727988
+Expenses,Salaries And Benefits,Part Time Salaries,PWE,E01,Salaries & benefits,2019,2020,1,1110098
+Expenses,Salaries And Benefits,Part Time Salaries,Part Time - Alt Rate,E01,Salaries & benefits,2019,2019,1,6344612
+Expenses,Salaries And Benefits,Part Time Salaries,Stat Hol Prem-Part,E01,Salaries & benefits,2019,2020,4,5182250
+Expenses,Salaries And Benefits,Part Time Salaries,Vacation Pay (P/T),E01,Salaries & benefits,2019,2020,19,11402045
+Expenses,Salaries And Benefits,Permanent Salaries,Full Time Reg Py Sap,E01,Salaries & benefits,2019,2020,60,9128708324
+Expenses,Salaries And Benefits,Permanent Salaries,Payroll Adj,E01,Salaries & benefits,2020,2020,3,21949
+Expenses,Salaries And Benefits,Permanent Salaries,Perm - Overtime Sap,E01,Salaries & benefits,2019,2020,33,81873076
+Expenses,Salaries And Benefits,Permanent Salaries,Perm-Perf Bonus,E01,Salaries & benefits,2019,2020,3,475224
+Expenses,Salaries And Benefits,Permanent Salaries,Perm-Shift Bonus Sap,E01,Salaries & benefits,2019,2020,16,18600657
+Expenses,Salaries And Benefits,Permanent Salaries,Permanent - Alt Rate,E01,Salaries & benefits,2019,2020,6,3464862
+Expenses,Salaries And Benefits,Permanent Salaries,Stat Hol Prem-Perm,E01,Salaries & benefits,2019,2020,12,33133720
+Expenses,Salaries And Benefits,Permanent Salaries,Vacation Pay (Perm),E01,Salaries & benefits,2019,2020,14,4050068
+Expenses,Salaries And Benefits,Temporary Salaries,Stat Hol Prem -Temp,E01,Salaries & benefits,2019,2020,1,191490
+Expenses,Salaries And Benefits,Temporary Salaries,Temp - Overtime Sap,E01,Salaries & benefits,2019,2020,4,1151265
+Expenses,Salaries And Benefits,Temporary Salaries,Temp - Reg Pay Sap,E01,Salaries & benefits,2019,2020,4,59878126
+Expenses,Salaries And Benefits,Temporary Salaries,Temp-Shift Bonus Sap,E01,Salaries & benefits,2019,2020,3,277094
+Expenses,Salaries And Benefits,,,E01,Salaries & benefits,2014,2018,55,27051346324
+Expenses,Salaries and Benefits,,,E01,Salaries & benefits,2011,2013,92,14417096993
+Expenses,Service And Rent,Business Travel,Bus Trav - Accom,E04,Services & rents,2019,2026,30,1048106
+Expenses,Service And Rent,Business Travel,Bus Trav - Adva,E04,Services & rents,2024,2026,1,219310
+Expenses,Service And Rent,Business Travel,Bus Trav - Air Trans,E04,Services & rents,2019,2026,34,1090648
+Expenses,Service And Rent,Business Travel,Bus Trav - Km,E04,Services & rents,2019,2026,33,228033
+Expenses,Service And Rent,Business Travel,Bus Trav - Other Exp,E04,Services & rents,2019,2026,44,817007
+Expenses,Service And Rent,Business Travel,Bus Trav - Pub Trans,E04,Services & rents,2019,2026,49,2392735
+Expenses,Service And Rent,Business Travel,Business Trav - Advances,E04,Services & rents,2023,2023,1,41140
+Expenses,Service And Rent,Business Travel,Business Trav - Air Transportation,E04,Services & rents,2022,2023,20,347635
+Expenses,Service And Rent,Business Travel,Business Trav - Ground Transportation,E04,Services & rents,2022,2023,19,89135
+Expenses,Service And Rent,Business Travel,Business Trav - Kilometrage,E04,Services & rents,2022,2023,17,74615
+Expenses,Service And Rent,Business Travel,Business Trav - Other Expenses,E04,Services & rents,2022,2023,21,535939
+Expenses,Service And Rent,Business Travel,Business Trav - Public Transit,E04,Services & rents,2022,2023,28,819280
+Expenses,Service And Rent,Business Travel,Business Travel - Accommodation,E04,Services & rents,2022,2023,18,285484
+Expenses,Service And Rent,Business Travel,Bustrav - Gr. Trans,E04,Services & rents,2019,2026,35,262450
+Expenses,Service And Rent,Conference,Conf/Sem - Other Exp,E04,Services & rents,2019,2026,52,1322730
+Expenses,Service And Rent,Conference,Conf/Sem - Regist Fe,E04,Services & rents,2019,2026,58,5872016
+Expenses,Service And Rent,Conference,Conf/Semin - Accomd,E04,Services & rents,2019,2026,51,1448583
+Expenses,Service And Rent,Conference,Conf/Semin - Advance,E04,Services & rents,2019,2026,3,29889
+Expenses,Service And Rent,Conference,Conf/Semin - Km,E04,Services & rents,2019,2026,30,177935
+Expenses,Service And Rent,Conference,Conf/Semin -Air/Rai,E04,Services & rents,2019,2026,47,874807
+Expenses,Service And Rent,Conference,Conf/Semin -Grd Tran,E04,Services & rents,2019,2026,43,178023
+Expenses,Service And Rent,Conference,Conferences/Seminars - Accommodation,E04,Services & rents,2022,2023,30,425318
+Expenses,Service And Rent,Conference,Conferences/Seminars - Air/Rail/Bus Trav,E04,Services & rents,2022,2023,28,260991
+Expenses,Service And Rent,Conference,Conferences/Seminars - Ground Transpt,E04,Services & rents,2022,2023,24,50959
+Expenses,Service And Rent,Conference,Conferences/Seminars - Other Expenses,E04,Services & rents,2022,2023,32,288766
+Expenses,Service And Rent,Conference,Conferences/Seminars - Registration Fees,E04,Services & rents,2022,2023,36,1748594
+Expenses,Service And Rent,Conference,Conferences/Seminars -Advances,E04,Services & rents,2022,2023,2,14435
+Expenses,Service And Rent,Conference,Conferences/Seminars- Kilometrage,E04,Services & rents,2022,2023,16,58046
+Expenses,Service And Rent,Contracted Services,Advertising & Promo,E04,Services & rents,2019,2026,64,81579181
+Expenses,Service And Rent,Contracted Services,Advertising & Promotion,E04,Services & rents,2022,2023,39,29633787
+Expenses,Service And Rent,Contracted Services,C. Serv - Secur Sys,E04,Services & rents,2019,2026,28,9562748
+Expenses,Service And Rent,Contracted Services,C. Srv - Control Sys,E04,Services & rents,2019,2026,7,21430184
+Expenses,Service And Rent,Contracted Services,C. Srv - Curb Maint,E04,Services & rents,2019,2026,1,1365117
+Expenses,Service And Rent,Contracted Services,C. Srv - Drainage,E04,Services & rents,2019,2026,2,518543
+Expenses,Service And Rent,Contracted Services,C. Srv - Eleva Devic,E04,Services & rents,2019,2026,14,11458685
+Expenses,Service And Rent,Contracted Services,C. Srv - Field Elect,E04,Services & rents,2019,2026,1,1356359
+Expenses,Service And Rent,Contracted Services,C. Srv - Fire Alarm,E04,Services & rents,2019,2026,15,16516723
+Expenses,Service And Rent,Contracted Services,C. Srv - Grass Cut,E04,Services & rents,2019,2026,5,12384089
+Expenses,Service And Rent,Contracted Services,C. Srv - Guide &Sign,E04,Services & rents,2024,2024,1,513
+Expenses,Service And Rent,Contracted Services,C. Srv - Iium Signs,E04,Services & rents,2019,2026,3,1266621
+Expenses,Service And Rent,Contracted Services,C. Srv - Lic Veh & E,E04,Services & rents,2019,2026,8,38112226
+Expenses,Service And Rent,Contracted Services,C. Srv - Locking Sys,E04,Services & rents,2019,2026,19,2209275
+Expenses,Service And Rent,Contracted Services,C. Srv - Parking Lot,E04,Services & rents,2019,2026,4,1199918
+Expenses,Service And Rent,Contracted Services,C. Srv - Pavem Grind,E04,Services & rents,2019,2020,1,30811
+Expenses,Service And Rent,Contracted Services,C. Srv - Reg Signs,E04,Services & rents,2019,2026,4,9594
+Expenses,Service And Rent,Contracted Services,C. Srv - Renovations,E04,Services & rents,2019,2026,21,22458284
+Expenses,Service And Rent,Contracted Services,C. Srv - Road Maint,E04,Services & rents,2019,2026,1,127313103
+Expenses,Service And Rent,Contracted Services,C. Srv - Salt & Plow,E04,Services & rents,2019,2026,11,21662102
+Expenses,Service And Rent,Contracted Services,C. Srv - Sidewalk M.,E04,Services & rents,2019,2026,4,9635
+Expenses,Service And Rent,Contracted Services,C. Srv - Sidewalks,E04,Services & rents,2019,2026,1,16875
+Expenses,Service And Rent,Contracted Services,C. Srv - Unlic Eq,E04,Services & rents,2019,2026,9,381420
+Expenses,Service And Rent,Contracted Services,C. Srv - Window Wash,E04,Services & rents,2019,2026,11,2425204
+Expenses,Service And Rent,Contracted Services,C. Srv -Blinds &Drap,E04,Services & rents,2019,2026,6,73860
+Expenses,Service And Rent,Contracted Services,C. Srv -Bridge Maint,E04,Services & rents,2019,2026,1,12508051
+Expenses,Service And Rent,Contracted Services,C. Srv -Carpet Clean,E04,Services & rents,2019,2026,18,914558
+Expenses,Service And Rent,Contracted Services,C. Srv -Construction,E04,Services & rents,2019,2026,17,61601096
+Expenses,Service And Rent,Contracted Services,C. Srv -Janitorial,E04,Services & rents,2019,2026,21,104646978
+Expenses,Service And Rent,Contracted Services,C. Srv -Road Plough,E04,Services & rents,2019,2026,1,166499025
+Expenses,Service And Rent,Contracted Services,C. Srv -S.Walk Ploug,E04,Services & rents,2019,2026,1,199927398
+Expenses,Service And Rent,Contracted Services,C. Srv- C.&Lane Line,E04,Services & rents,2019,2019,1,40000
+Expenses,Service And Rent,Contracted Services,C. Srv- Sanding/Salt,E04,Services & rents,2019,2026,1,218134784
+Expenses,Service And Rent,Contracted Services,C. Srv-Asphalt Maint,E04,Services & rents,2019,2026,4,22347484
+Expenses,Service And Rent,Contracted Services,C. Svcs - Doors &Clo,E04,Services & rents,2019,2026,8,1648674
+Expenses,Service And Rent,Contracted Services,C. Svcs - Glass Rep,E04,Services & rents,2019,2026,8,581200
+Expenses,Service And Rent,Contracted Services,C. Svcs-Comm Agen/Cl,E04,Services & rents,2019,2026,3,87554528
+Expenses,Service And Rent,Contracted Services,C.Serv Traf Sig Elec,E04,Services & rents,2019,2026,1,45338932
+Expenses,Service And Rent,Contracted Services,C.Serv Traf Sig Main,E04,Services & rents,2019,2026,2,80889641
+Expenses,Service And Rent,Contracted Services,C.Srv - Ped Cros Ov,E04,Services & rents,2019,2026,1,6578484
+Expenses,Service And Rent,Contracted Services,"C.Srv Rds, Bridges",E04,Services & rents,2019,2026,4,3499662
+Expenses,Service And Rent,Contracted Services,Comp Hardware Main,E04,Services & rents,2019,2026,36,22504999
+Expenses,Service And Rent,Contracted Services,Comp Software Main,E04,Services & rents,2019,2026,52,199182248
+Expenses,Service And Rent,Contracted Services,Computer Hardware Maint & Support Servs,E04,Services & rents,2022,2023,21,7544931
+Expenses,Service And Rent,Contracted Services,Computer Software Maint & Support Servs,E04,Services & rents,2022,2023,32,65310009
+Expenses,Service And Rent,Contracted Services,Con Srvcs - Processing Of Glass,E04,Services & rents,2022,2023,1,1341760
+Expenses,Service And Rent,Contracted Services,Con Srvcs-Process Mat Fr Reuse Cen/Depot,E04,Services & rents,2022,2023,1,3980632
+Expenses,Service And Rent,Contracted Services,Con. Serv. - Durable,E04,Services & rents,2019,2026,1,28949975
+Expenses,Service And Rent,Contracted Services,Con. Serv. - Garbage,E04,Services & rents,2019,2026,2,100248986
+Expenses,Service And Rent,Contracted Services,Con. Serv. - Recylin,E04,Services & rents,2019,2026,2,56047530
+Expenses,Service And Rent,Contracted Services,Con. Serv. - Sso,E04,Services & rents,2019,2026,1,69341855
+Expenses,Service And Rent,Contracted Services,Con. Serv. - Yardwas,E04,Services & rents,2019,2026,1,31645478
+Expenses,Service And Rent,Contracted Services,Cont Servs - Main Traf Signal Electroncs,E04,Services & rents,2022,2023,1,13895692
+Expenses,Service And Rent,Contracted Services,Cont Servs - Traf Signal Maintenance,E04,Services & rents,2022,2023,2,32389344
+Expenses,Service And Rent,Contracted Services,Contr Serv - Community Agencies/Clinics,E04,Services & rents,2022,2023,1,28056211
+Expenses,Service And Rent,Contracted Services,Contr Serv - Glass P,E04,Services & rents,2019,2024,1,1430518
+Expenses,Service And Rent,Contracted Services,Contr Serv - Guide And Directional Signs,E04,Services & rents,2023,2023,1,513
+Expenses,Service And Rent,Contracted Services,Contr Serv - Reuse/D,E04,Services & rents,2019,2026,1,8604915
+Expenses,Service And Rent,Contracted Services,Contr Serv - Security Sys Instal & Maint,E04,Services & rents,2022,2023,16,1982503
+Expenses,Service And Rent,Contracted Services,Contr Serv -Pedestrian Cross Over Signal,E04,Services & rents,2022,2023,1,748289
+Expenses,Service And Rent,Contracted Services,Contr Services - Licensed Vehicles&Equip,E04,Services & rents,2022,2023,8,12701533
+Expenses,Service And Rent,Contracted Services,"Contr Services - Roads, Bridges & Traffi",E04,Services & rents,2022,2023,1,8453
+Expenses,Service And Rent,Contracted Services,Contr Services - Unlicensed Mobile Equip,E04,Services & rents,2022,2023,4,17591
+Expenses,Service And Rent,Contracted Services,Contr Servs - Road Ploughing Standby,E04,Services & rents,2022,2023,1,51508334
+Expenses,Service And Rent,Contracted Services,Contr Servs - Sidewalk Ploughing Standby,E04,Services & rents,2022,2023,1,30653867
+Expenses,Service And Rent,Contracted Services,Contr Servs -Sanding And Salting Standby,E04,Services & rents,2022,2023,1,39133204
+Expenses,Service And Rent,Contracted Services,Contr Srv #Appliance,E04,Services & rents,2019,2026,6,2186557
+Expenses,Service And Rent,Contracted Services,Contr Srv #Monit Sys,E04,Services & rents,2019,2026,12,11497912
+Expenses,Service And Rent,Contracted Services,Contr Srv - Building,E04,Services & rents,2019,2026,24,38927135
+Expenses,Service And Rent,Contracted Services,Contr Srv - Cable Tv,E04,Services & rents,2019,2026,25,2546443
+Expenses,Service And Rent,Contracted Services,Contr Srv - Cranes,E04,Services & rents,2019,2026,3,1995080
+Expenses,Service And Rent,Contracted Services,Contr Srv - Elect,E04,Services & rents,2019,2026,20,22934781
+Expenses,Service And Rent,Contracted Services,Contr Srv - Fencing,E04,Services & rents,2019,2026,7,1460753
+Expenses,Service And Rent,Contracted Services,Contr Srv - General,E04,Services & rents,2019,2026,57,1281489964
+Expenses,Service And Rent,Contracted Services,Contr Srv - Intakes,E04,Services & rents,2019,2026,1,897677
+Expenses,Service And Rent,Contracted Services,Contr Srv - Landscpg,E04,Services & rents,2019,2026,22,226707184
+Expenses,Service And Rent,Contracted Services,Contr Srv - Lighting,E04,Services & rents,2019,2026,12,106978283
+Expenses,Service And Rent,Contracted Services,Contr Srv - M & E,E04,Services & rents,2019,2026,23,139231672
+Expenses,Service And Rent,Contracted Services,Contr Srv - Mech,E04,Services & rents,2019,2026,3,10552778
+Expenses,Service And Rent,Contracted Services,Contr Srv - Plumbing,E04,Services & rents,2019,2026,15,14456115
+Expenses,Service And Rent,Contracted Services,Contr Srv - Roofing,E04,Services & rents,2019,2026,8,573500
+Expenses,Service And Rent,Contracted Services,Contr Srv - S. Guard,E04,Services & rents,2019,2026,24,158184792
+Expenses,Service And Rent,Contracted Services,Contr Srv - Tires,E04,Services & rents,2019,2026,4,6130918
+Expenses,Service And Rent,Contracted Services,Contr Srv -Lab Equip,E04,Services & rents,2019,2026,4,1154220
+Expenses,Service And Rent,Contracted Services,Contr Srv -Office Eq,E04,Services & rents,2019,2026,24,496974
+Expenses,Service And Rent,Contracted Services,Contr Srv- Heat& A/C,E04,Services & rents,2019,2026,16,36139349
+Expenses,Service And Rent,Contracted Services,Contr Srv-Voice Sys,E04,Services & rents,2019,2026,9,2520093
+Expenses,Service And Rent,Contracted Services,Contr Srv-Waste Disp,E04,Services & rents,2019,2026,23,269493052
+Expenses,Service And Rent,Contracted Services,Contracted Service - Doors &Door Closure,E04,Services & rents,2022,2023,5,268894
+Expenses,Service And Rent,Contracted Services,Contracted Services - Blinds & Draperies,E04,Services & rents,2022,2023,3,32729
+Expenses,Service And Rent,Contracted Services,Contracted Services - Bridge Maintenance,E04,Services & rents,2022,2023,1,3790000
+Expenses,Service And Rent,Contracted Services,Contracted Services - Buildings,E04,Services & rents,2022,2023,13,10642008
+Expenses,Service And Rent,Contracted Services,Contracted Services - Cable Tv,E04,Services & rents,2022,2023,15,973671
+Expenses,Service And Rent,Contracted Services,Contracted Services - Carpet Cleaning,E04,Services & rents,2022,2023,9,1115597
+Expenses,Service And Rent,Contracted Services,Contracted Services - Construction,E04,Services & rents,2022,2023,9,7848266
+Expenses,Service And Rent,Contracted Services,Contracted Services - Control Systems,E04,Services & rents,2022,2023,4,7075992
+Expenses,Service And Rent,Contracted Services,Contracted Services - Cranes,E04,Services & rents,2022,2023,2,300471
+Expenses,Service And Rent,Contracted Services,Contracted Services - Curb Maintenance,E04,Services & rents,2022,2023,1,425095
+Expenses,Service And Rent,Contracted Services,Contracted Services - Drainage,E04,Services & rents,2022,2023,2,157503
+Expenses,Service And Rent,Contracted Services,Contracted Services - Durable Goods,E04,Services & rents,2022,2023,1,11500718
+Expenses,Service And Rent,Contracted Services,Contracted Services - Electrical,E04,Services & rents,2022,2023,11,9059002
+Expenses,Service And Rent,Contracted Services,Contracted Services - Elevating Devices,E04,Services & rents,2022,2023,8,3987079
+Expenses,Service And Rent,Contracted Services,Contracted Services - Fencing,E04,Services & rents,2022,2023,3,357457
+Expenses,Service And Rent,Contracted Services,Contracted Services - Field Electronics,E04,Services & rents,2022,2023,1,403692
+Expenses,Service And Rent,Contracted Services,Contracted Services - Fire Alarm System,E04,Services & rents,2022,2023,8,7235845
+Expenses,Service And Rent,Contracted Services,Contracted Services - Garbage,E04,Services & rents,2022,2023,1,32412442
+Expenses,Service And Rent,Contracted Services,Contracted Services - General,E04,Services & rents,2022,2023,34,367629129
+Expenses,Service And Rent,Contracted Services,Contracted Services - Glass Repairs,E04,Services & rents,2022,2023,4,185981
+Expenses,Service And Rent,Contracted Services,Contracted Services - Grass Cutting,E04,Services & rents,2022,2023,4,3986946
+Expenses,Service And Rent,Contracted Services,Contracted Services - Heating & Air Cond,E04,Services & rents,2022,2023,10,15017888
+Expenses,Service And Rent,Contracted Services,Contracted Services - Intakes,E04,Services & rents,2022,2023,1,134443
+Expenses,Service And Rent,Contracted Services,Contracted Services - Janitorial,E04,Services & rents,2022,2023,12,44211260
+Expenses,Service And Rent,Contracted Services,Contracted Services - Lab Equipment,E04,Services & rents,2022,2023,3,374714
+Expenses,Service And Rent,Contracted Services,Contracted Services - Landscaping,E04,Services & rents,2022,2023,12,60649404
+Expenses,Service And Rent,Contracted Services,Contracted Services - Lighting,E04,Services & rents,2022,2023,6,43704689
+Expenses,Service And Rent,Contracted Services,Contracted Services - Locking Systems,E04,Services & rents,2022,2023,10,677167
+Expenses,Service And Rent,Contracted Services,Contracted Services - Machinery & Equip,E04,Services & rents,2022,2023,13,29175416
+Expenses,Service And Rent,Contracted Services,Contracted Services - Mechanical,E04,Services & rents,2022,2023,2,4267803
+Expenses,Service And Rent,Contracted Services,Contracted Services - Monitoring Systems,E04,Services & rents,2022,2023,8,6436675
+Expenses,Service And Rent,Contracted Services,Contracted Services - Office Equipment,E04,Services & rents,2022,2023,9,105084
+Expenses,Service And Rent,Contracted Services,Contracted Services - Parking Lots,E04,Services & rents,2022,2023,2,300130
+Expenses,Service And Rent,Contracted Services,Contracted Services - Plumbing,E04,Services & rents,2022,2023,8,3877313
+Expenses,Service And Rent,Contracted Services,Contracted Services - Recyling,E04,Services & rents,2022,2023,1,22023016
+Expenses,Service And Rent,Contracted Services,Contracted Services - Regulatory Signs,E04,Services & rents,2022,2023,2,3000
+Expenses,Service And Rent,Contracted Services,Contracted Services - Renovations,E04,Services & rents,2022,2023,9,8803166
+Expenses,Service And Rent,Contracted Services,Contracted Services - Road Maintenance,E04,Services & rents,2022,2023,1,27929018
+Expenses,Service And Rent,Contracted Services,Contracted Services - Road Ploughing,E04,Services & rents,2022,2023,1,14530956
+Expenses,Service And Rent,Contracted Services,Contracted Services - Roofing,E04,Services & rents,2022,2023,2,37308
+Expenses,Service And Rent,Contracted Services,Contracted Services - Salting And Plowin,E04,Services & rents,2022,2023,8,9633375
+Expenses,Service And Rent,Contracted Services,Contracted Services - Security Guard,E04,Services & rents,2022,2023,11,66955269
+Expenses,Service And Rent,Contracted Services,Contracted Services - Sidewalk Maint,E04,Services & rents,2022,2023,1,3078
+Expenses,Service And Rent,Contracted Services,Contracted Services - Sidewalk Ploughing,E04,Services & rents,2022,2023,1,14055272
+Expenses,Service And Rent,Contracted Services,Contracted Services - Sso,E04,Services & rents,2022,2023,1,23283210
+Expenses,Service And Rent,Contracted Services,Contracted Services - Tires,E04,Services & rents,2022,2023,3,2046059
+Expenses,Service And Rent,Contracted Services,Contracted Services - Voice Comm Sys,E04,Services & rents,2022,2023,5,833854
+Expenses,Service And Rent,Contracted Services,Contracted Services - Waste Disposal,E04,Services & rents,2022,2023,14,125097556
+Expenses,Service And Rent,Contracted Services,Contracted Services - Window Washing,E04,Services & rents,2022,2023,6,770990
+Expenses,Service And Rent,Contracted Services,Contracted Services - Yardwaste,E04,Services & rents,2022,2023,1,11473375
+Expenses,Service And Rent,Contracted Services,Contracted Services -Asphalt Maintenance,E04,Services & rents,2022,2023,2,5850254
+Expenses,Service And Rent,Contracted Services,Contracted Services -Illuminated Signs,E04,Services & rents,2022,2023,3,450585
+Expenses,Service And Rent,Contracted Services,Contracted Services -Sanding And Salting,E04,Services & rents,2022,2023,1,11334986
+Expenses,Service And Rent,Contracted Services,Contracted Services -Sidewalks And Curbs,E04,Services & rents,2022,2023,1,4750
+Expenses,Service And Rent,Contracted Services,Contracted Services.- Appliances,E04,Services & rents,2022,2023,4,670309
+Expenses,Service And Rent,Contracted Services,Day Care Services,E04,Services & rents,2019,2026,3,7126597731
+Expenses,Service And Rent,Contracted Services,Dental Services,E04,Services & rents,2019,2026,3,19967657
+Expenses,Service And Rent,Contracted Services,Funeral Expenses,E04,Services & rents,2019,2026,2,47761188
+Expenses,Service And Rent,Contracted Services,Laundry Services,E04,Services & rents,2019,2026,21,40867769
+Expenses,Service And Rent,Contracted Services,Lock Repairs,E04,Services & rents,2019,2021,2,3348
+Expenses,Service And Rent,Contracted Services,Managed Print Charge,E04,Services & rents,2019,2026,57,10003427
+Expenses,Service And Rent,Contracted Services,Managed Print Charges,E04,Services & rents,2022,2023,36,3695486
+Expenses,Service And Rent,Contracted Services,Marine Services,E04,Services & rents,2019,2026,6,2718356
+Expenses,Service And Rent,Contracted Services,Pest Control,E04,Services & rents,2019,2026,19,6958061
+Expenses,Service And Rent,Contracted Services,Property Management Fees,E04,Services & rents,2022,2023,4,139146
+Expenses,Service And Rent,Contracted Services,Property Mangmt Fees,E04,Services & rents,2019,2026,7,1361364
+Expenses,Service And Rent,Contracted Services,Rental-Oper. Costs,E04,Services & rents,2019,2026,27,52205303
+Expenses,Service And Rent,Contracted Services,Rental-Operating Costs,E04,Services & rents,2022,2023,14,16838885
+Expenses,Service And Rent,Contracted Services,"Transfer, Haul &Stor",E04,Services & rents,2019,2026,32,228222151
+Expenses,Service And Rent,Contracted Services,"Transfer, Haulage And Storage",E04,Services & rents,2022,2023,19,78270451
+Expenses,Service And Rent,Contracted Services,Transportation - Taxis,E04,Services & rents,2022,2023,18,1610908
+Expenses,Service And Rent,Contracted Services,Transportation-Taxis,E04,Services & rents,2019,2026,32,8306627
+Expenses,Service And Rent,Contracted Services,Washes-Lic Mob Eq,E04,Services & rents,2019,2026,11,1487476
+Expenses,Service And Rent,Contracted Services,Washes-Licensed Mobile Equip.,E04,Services & rents,2022,2023,8,657002
+Expenses,Service And Rent,Contracted Services,Washes-Unlic Mob Eq,E04,Services & rents,2019,2026,3,542471
+Expenses,Service And Rent,Contracted Services,Washes-Unlic. Mobile Equip.,E04,Services & rents,2022,2023,2,163924
+Expenses,Service And Rent,Contracted Services,Welfar Per Diem Cost,E04,Services & rents,2019,2026,3,957517205
+Expenses,Service And Rent,Contracted Services,Welfare Per Diem Costs,E04,Services & rents,2022,2023,2,287930367
+Expenses,Service And Rent,Contracted Services,Wheelchair Repairs,E04,Services & rents,2019,2026,2,998000
+Expenses,Service And Rent,Food & Beverage,Bus. Meal Allowance,E04,Services & rents,2019,2026,1,3115
+Expenses,Service And Rent,Food & Beverage,Business Meal Allowance - Councillors,E04,Services & rents,2022,2023,1,1043
+Expenses,Service And Rent,Food & Beverage,Meal Allow.(Non-Travel),E04,Services & rents,2022,2023,12,22285
+Expenses,Service And Rent,Food & Beverage,Meal Expenses - Outside Locations,E04,Services & rents,2022,2023,4,22400
+Expenses,Service And Rent,Food & Beverage,Meals(Non-Trav),E04,Services & rents,2019,2026,22,64918
+Expenses,Service And Rent,Food & Beverage,Meals-Outside Loc's,E04,Services & rents,2019,2026,8,93492
+Expenses,Service And Rent,General Travel,Highway Express Tolls,E04,Services & rents,2022,2023,2,247084
+Expenses,Service And Rent,General Travel,Highwy Exp Tolls,E04,Services & rents,2019,2026,2,610573
+Expenses,Service And Rent,General Travel,Metrage -Op (Intown),E04,Services & rents,2019,2026,56,18876297
+Expenses,Service And Rent,General Travel,Metrage-Operational (Intown),E04,Services & rents,2022,2023,34,6337618
+Expenses,Service And Rent,General Travel,Parking Exp (Intown),E04,Services & rents,2019,2026,57,4342209
+Expenses,Service And Rent,General Travel,Parking Expenses (Intown),E04,Services & rents,2022,2023,35,1534363
+Expenses,Service And Rent,General Travel,Pcard Recoveries,E04,Services & rents,2019,2026,1,6326
+Expenses,Service And Rent,Insurance,Adj Fees Cgl,E04,Services & rents,2019,2026,1,28689946
+Expenses,Service And Rent,Insurance,Adjusting Fees Cgl,E04,Services & rents,2022,2023,1,9874414
+Expenses,Service And Rent,Insurance,Claims And Awards,E04,Services & rents,2019,2024,1,45620200
+Expenses,Service And Rent,Insurance,Ins Claim-Prop&Casul,E04,Services & rents,2019,2026,1,147111788
+Expenses,Service And Rent,Insurance,Ins Claims-General,E04,Services & rents,2019,2026,12,112696503
+Expenses,Service And Rent,Insurance,Insurance,E04,Services & rents,2019,2026,13,158583715
+Expenses,Service And Rent,Insurance,Insurance Claims-General,E04,Services & rents,2022,2023,3,28711419
+Expenses,Service And Rent,Insurance,Insurance Claims-Property And Casualty,E04,Services & rents,2022,2023,1,49266690
+Expenses,Service And Rent,Meetings,Bus. Meeting Exp,E04,Services & rents,2019,2026,62,4071630
+Expenses,Service And Rent,Meetings,Business Meeting Expenses,E04,Services & rents,2022,2023,38,1190762
+Expenses,Service And Rent,Meetings,Constituency Meeting,E04,Services & rents,2019,2026,1,4983
+Expenses,Service And Rent,Meetings,Constituency Meetings,E04,Services & rents,2022,2023,1,1669
+Expenses,Service And Rent,Postage,Postage,E04,Services & rents,2019,2026,43,103468650
+Expenses,Service And Rent,Professtional & Consulting,Comp System Svcs,E04,Services & rents,2019,2021,2,5054
+Expenses,Service And Rent,Professtional & Consulting,Legal Indemnification Costs,E04,Services & rents,2022,2023,1,2000
+Expenses,Service And Rent,Professtional & Consulting,Lgl Indemnification,E04,Services & rents,2020,2021,1,3000
+Expenses,Service And Rent,Professtional & Consulting,Photographic Svcs,E04,Services & rents,2019,2021,2,724
+Expenses,Service And Rent,Professtional & Consulting,Prof & Tech - IT,E04,Services & rents,2019,2026,23,56578318
+Expenses,Service And Rent,Professtional & Consulting,Prof & Tech Serv - Industrial Relations,E04,Services & rents,2022,2023,3,1236432
+Expenses,Service And Rent,Professtional & Consulting,Prof Srv - Actuarl,E04,Services & rents,2019,2026,3,1159068
+Expenses,Service And Rent,Professtional & Consulting,Prof Srv - Architec,E04,Services & rents,2019,2026,9,870952
+Expenses,Service And Rent,Professtional & Consulting,Prof Srv - Audit,E04,Services & rents,2019,2026,25,12323369
+Expenses,Service And Rent,Professtional & Consulting,Prof Srv - Engineerg,E04,Services & rents,2019,2026,22,23375467
+Expenses,Service And Rent,Professtional & Consulting,Prof Srv - Insurance,E04,Services & rents,2019,2026,1,1050001
+Expenses,Service And Rent,Professtional & Consulting,Prof Srv - Legal,E04,Services & rents,2019,2026,31,93166744
+Expenses,Service And Rent,Professtional & Consulting,Prof Srv - Med & Den,E04,Services & rents,2019,2026,17,53560187
+Expenses,Service And Rent,Professtional & Consulting,Prof&Tech Sev -Indus,E04,Services & rents,2019,2026,8,3129195
+Expenses,Service And Rent,Professtional & Consulting,Professional & Technical Services - IT,E04,Services & rents,2022,2023,15,36338914
+Expenses,Service And Rent,Professtional & Consulting,Professional Services - Architectural,E04,Services & rents,2022,2023,6,245273
+Expenses,Service And Rent,Professtional & Consulting,Professional Services - Audit,E04,Services & rents,2022,2023,19,4272040
+Expenses,Service And Rent,Professtional & Consulting,Professional Services - Engineering,E04,Services & rents,2022,2023,13,9045177
+Expenses,Service And Rent,Professtional & Consulting,Professional Services - Insurance,E04,Services & rents,2022,2023,1,671667
+Expenses,Service And Rent,Professtional & Consulting,Professional Services - Legal,E04,Services & rents,2022,2023,17,29821844
+Expenses,Service And Rent,Professtional & Consulting,Professional Services Medical And Dental,E04,Services & rents,2022,2023,10,14943914
+Expenses,Service And Rent,Professtional & Consulting,Repair Serv - Veh,E04,Services & rents,2019,2026,5,23976
+Expenses,Service And Rent,Professtional & Consulting,Repair Services-Vehicles,E04,Services & rents,2022,2023,1,6000
+Expenses,Service And Rent,Professtional & Consulting,Tech Srv - Survey/Ma,E04,Services & rents,2019,2026,10,626435
+Expenses,Service And Rent,Professtional & Consulting,Tech Srv -Qual Assur,E04,Services & rents,2019,2026,2,504228
+Expenses,Service And Rent,Professtional & Consulting,Technical Services - Quality Assurance,E04,Services & rents,2022,2023,1,134743
+Expenses,Service And Rent,Professtional & Consulting,Technical Services - Survey And Mapping,E04,Services & rents,2022,2023,5,69247
+Expenses,Service And Rent,Rentals,Grnd Water Monit Srv,E04,Services & rents,2019,2026,1,162950
+Expenses,Service And Rent,Rentals,Ground Water Monitoring Services,E04,Services & rents,2022,2023,1,53180
+Expenses,Service And Rent,Rentals,P.O.A & Prking Fines,E04,Services & rents,2019,2026,9,233689
+Expenses,Service And Rent,Rentals,Pager/Radio Rentals,E04,Services & rents,2019,2026,28,3794056
+Expenses,Service And Rent,Rentals,Prov Offences Act & Parking Tag Fines,E04,Services & rents,2022,2023,4,54102
+Expenses,Service And Rent,Rentals,R&M - Gas/Odour Cont,E04,Services & rents,2019,2026,2,82506
+Expenses,Service And Rent,Rentals,R&M - Paint Int Pub,E04,Services & rents,2019,2026,8,489876
+Expenses,Service And Rent,Rentals,"Rent, Micro Comp Eq",E04,Services & rents,2019,2026,3,59116
+Expenses,Service And Rent,Rentals,Rent/Lease Of Micro Comp Equip,E04,Services & rents,2022,2023,1,26428
+Expenses,Service And Rent,Rentals,Rental - Other,E04,Services & rents,2019,2026,35,67614273
+Expenses,Service And Rent,Rentals,Rental Of Buses,E04,Services & rents,2022,2023,3,1868843
+Expenses,Service And Rent,Rentals,Rental Of Land,E04,Services & rents,2019,2026,13,3118936
+Expenses,Service And Rent,Rentals,Rental Of Mach&Equip,E04,Services & rents,2019,2026,22,46574333
+Expenses,Service And Rent,Rentals,Rental Of Machinery And Equipment,E04,Services & rents,2022,2023,13,13503251
+Expenses,Service And Rent,Rentals,Rental Of Office,E04,Services & rents,2022,2023,15,24021126
+Expenses,Service And Rent,Rentals,Rental Of Office Eq,E04,Services & rents,2019,2026,29,1401616
+Expenses,Service And Rent,Rentals,Rental Of Office Equipment,E04,Services & rents,2022,2023,12,545394
+Expenses,Service And Rent,Rentals,Rental Of Prop.,E04,Services & rents,2019,2026,33,282002513
+Expenses,Service And Rent,Rentals,Rental Of Prop. (Other Than Office),E04,Services & rents,2022,2023,17,214514491
+Expenses,Service And Rent,Rentals,Rental Of Trailers,E04,Services & rents,2022,2023,6,506860
+Expenses,Service And Rent,Rentals,Rental Of Veh& Equip,E04,Services & rents,2019,2026,22,17887041
+Expenses,Service And Rent,Rentals,Rental Of Vehicles And Equipment,E04,Services & rents,2022,2023,11,10251878
+Expenses,Service And Rent,Rentals,"Rental, Buses",E04,Services & rents,2019,2026,8,5671616
+Expenses,Service And Rent,Rentals,"Rental, Office",E04,Services & rents,2019,2026,27,80199011
+Expenses,Service And Rent,Rentals,"Rental, Parking Spc",E04,Services & rents,2019,2026,27,4641834
+Expenses,Service And Rent,Rentals,"Rental, Trailers",E04,Services & rents,2019,2026,11,1579904
+Expenses,Service And Rent,Rentals,Rental/Lease Of Parking Spaces,E04,Services & rents,2022,2023,12,1560977
+Expenses,Service And Rent,Rentals,Rep&Maint-Painting Interior Public Area,E04,Services & rents,2022,2023,3,228802
+Expenses,Service And Rent,Rentals,Repairs & Maintenance - Gas/Odour Contro,E04,Services & rents,2022,2023,1,22145
+Expenses,Service And Rent,Rentals,Soil Testing Serv,E04,Services & rents,2019,2026,3,40561
+Expenses,Service And Rent,Rentals,Soil Testing Services,E04,Services & rents,2022,2023,1,13631
+Expenses,Service And Rent,Repair & Maintenance,Pub Transit- Clients,E04,Services & rents,2019,2026,14,61067774
+Expenses,Service And Rent,Repair & Maintenance,Public Transit - Clients,E04,Services & rents,2022,2023,8,23336025
+Expenses,Service And Rent,Repair & Maintenance,R & M - Flooring,E04,Services & rents,2019,2026,6,61387
+Expenses,Service And Rent,Repair & Maintenance,R & M - Furnt/Furnsh,E04,Services & rents,2019,2026,10,36492
+Expenses,Service And Rent,Repair & Maintenance,R & M - Sign Maint,E04,Services & rents,2019,2026,8,240282
+Expenses,Service And Rent,Repair & Maintenance,R & M - Weigh Scales,E04,Services & rents,2019,2026,3,669800
+Expenses,Service And Rent,Repair & Maintenance,R & M -Ice Rink Refr,E04,Services & rents,2019,2026,3,11566421
+Expenses,Service And Rent,Repair & Maintenance,R & Maint- Comp Equp,E04,Services & rents,2019,2024,3,31539
+Expenses,Service And Rent,Repair & Maintenance,R & Maint- Elec Equp,E04,Services & rents,2019,2026,5,531740
+Expenses,Service And Rent,Repair & Maintenance,Rep & Maint - Other,E04,Services & rents,2019,2026,36,39358483
+Expenses,Service And Rent,Repair & Maintenance,Repairs & Maint - Furniture &Furnishings,E04,Services & rents,2022,2023,5,8199
+Expenses,Service And Rent,Repair & Maintenance,Repairs & Maint - Ice Rink Refrigeration,E04,Services & rents,2022,2023,1,2433125
+Expenses,Service And Rent,Repair & Maintenance,Repairs & Maintenance - Computer Equip,E04,Services & rents,2022,2023,1,2270
+Expenses,Service And Rent,Repair & Maintenance,Repairs & Maintenance - Electronic Equip,E04,Services & rents,2022,2023,4,126118
+Expenses,Service And Rent,Repair & Maintenance,Repairs & Maintenance - Sign Maintenance,E04,Services & rents,2022,2023,3,81134
+Expenses,Service And Rent,Repair & Maintenance,Repairs And Maintenance - Flooring,E04,Services & rents,2022,2023,3,20001
+Expenses,Service And Rent,Repair & Maintenance,Repairs And Maintenance - Other,E04,Services & rents,2022,2023,18,11856895
+Expenses,Service And Rent,Repair & Maintenance,Repairs And Maintenance - Weigh Scales,E04,Services & rents,2022,2023,2,176000
+Expenses,Service And Rent,Services,Admin Chrg - Ontario Dental Association,E04,Services & rents,2022,2023,1,458600
+Expenses,Service And Rent,Services,Admin Chrg -On Den,E04,Services & rents,2019,2026,2,1137900
+Expenses,Service And Rent,Services,Ag -O. Space (N.Srv),E04,Services & rents,2019,2026,3,58234997
+Expenses,Service And Rent,Services,Agen - Salars (Homemakers & Nurses Srv),E04,Services & rents,2022,2023,2,611914
+Expenses,Service And Rent,Services,Agen- Salr (Nurses),E04,Services & rents,2019,2026,4,1289873
+Expenses,Service And Rent,Services,Agen-Off Space (Homemaker &Nurses Srv),E04,Services & rents,2022,2023,1,19351090
+Expenses,Service And Rent,Services,Basic Funerals,E04,Services & rents,2019,2026,2,12998578
+Expenses,Service And Rent,Services,Bath Lift,E04,Services & rents,2019,2026,2,37500
+Expenses,Service And Rent,Services,Braces / Splints,E04,Services & rents,2019,2026,2,714500
+Expenses,Service And Rent,Services,Burials,E04,Services & rents,2019,2026,2,12296944
+Expenses,Service And Rent,Services,Cash Over/Under,E04,Services & rents,2019,2026,9,24371
+Expenses,Service And Rent,Services,Catering Services,E04,Services & rents,2019,2026,23,30814923
+Expenses,Service And Rent,Services,Clothing,E04,Services & rents,2019,2026,5,1823964
+Expenses,Service And Rent,Services,Clothing Allowance,E04,Services & rents,2022,2023,5,635963
+Expenses,Service And Rent,Services,Cloud Computing Cost,E04,Services & rents,2019,2026,24,165314912
+Expenses,Service And Rent,Services,Cloud Computing Service Cost,E04,Services & rents,2022,2023,8,58421374
+Expenses,Service And Rent,Services,Community Development,E04,Services & rents,2022,2023,3,40996365
+Expenses,Service And Rent,Services,Community Developmt,E04,Services & rents,2019,2026,6,75206643
+Expenses,Service And Rent,Services,Compression Stocking,E04,Services & rents,2019,2026,2,735600
+Expenses,Service And Rent,Services,Compression Stockings,E04,Services & rents,2022,2023,1,350400
+Expenses,Service And Rent,Services,Conduct Money,E04,Services & rents,2019,2026,5,70628
+Expenses,Service And Rent,Services,Contra-Cap-Othr,E04,Services & rents,2026,2026,6,-10425466
+Expenses,Service And Rent,Services,Court Fees,E04,Services & rents,2019,2026,2,1194313
+Expenses,Service And Rent,Services,Credit Check Service,E04,Services & rents,2019,2026,4,9682
+Expenses,Service And Rent,Services,Credit Check Services,E04,Services & rents,2022,2023,1,3000
+Expenses,Service And Rent,Services,Cremation,E04,Services & rents,2019,2026,2,4295324
+Expenses,Service And Rent,Services,Emp Placement Costs,E04,Services & rents,2019,2026,7,2183560
+Expenses,Service And Rent,Services,Emp Wage Subsidy,E04,Services & rents,2019,2025,2,1094331
+Expenses,Service And Rent,Services,Employer Wage Subsidy,E04,Services & rents,2022,2023,1,200000
+Expenses,Service And Rent,Services,Employment Placement,E04,Services & rents,2019,2024,1,47900000
+Expenses,Service And Rent,Services,Employment Placement Costs,E04,Services & rents,2022,2023,3,1825432
+Expenses,Service And Rent,Services,Entert& Band Fees,E04,Services & rents,2019,2026,17,6132940
+Expenses,Service And Rent,Services,Entertainer And Band Fees,E04,Services & rents,2022,2023,7,1752054
+Expenses,Service And Rent,Services,Facility Oper Serv,E04,Services & rents,2019,2026,3,25183634
+Expenses,Service And Rent,Services,Facility Operations Services,E04,Services & rents,2022,2023,1,8464784
+Expenses,Service And Rent,Services,Food Services - Homes For The Aged,E04,Services & rents,2022,2023,1,31000
+Expenses,Service And Rent,Services,Food Svcs - HFA,E04,Services & rents,2019,2026,2,95202
+Expenses,Service And Rent,Services,Haz Waste Removal,E04,Services & rents,2019,2026,12,9626233
+Expenses,Service And Rent,Services,Hazardous Waste Removal,E04,Services & rents,2022,2023,7,2796894
+Expenses,Service And Rent,Services,Homemaking Services,E04,Services & rents,2019,2026,2,25189547
+Expenses,Service And Rent,Services,Homemaking Services Agencies,E04,Services & rents,2022,2023,1,8550722
+Expenses,Service And Rent,Services,Honoraria,E04,Services & rents,2019,2026,34,24821533
+Expenses,Service And Rent,Services,Household Stabilizat,E04,Services & rents,2019,2026,4,171200573
+Expenses,Service And Rent,Services,Household Stabilization Fund,E04,Services & rents,2022,2023,3,56620700
+Expenses,Service And Rent,Services,Incent & Ref Paymts,E04,Services & rents,2019,2026,4,1507241
+Expenses,Service And Rent,Services,Incentive And Referral Payments,E04,Services & rents,2022,2023,2,595003
+Expenses,Service And Rent,Services,Investigative Expens,E04,Services & rents,2019,2026,7,1355458
+Expenses,Service And Rent,Services,Investigative Expense,E04,Services & rents,2022,2023,5,319175
+Expenses,Service And Rent,Services,Leap-Client Support,E04,Services & rents,2019,2024,1,3000000
+Expenses,Service And Rent,Services,Lib Resource Sharing,E04,Services & rents,2019,2019,1,140
+Expenses,Service And Rent,Services,Medical Dir Fees,E04,Services & rents,2019,2026,2,2969595
+Expenses,Service And Rent,Services,Medical Director Fees,E04,Services & rents,2022,2023,1,932828
+Expenses,Service And Rent,Services,Medical Reports,E04,Services & rents,2019,2026,13,2414120
+Expenses,Service And Rent,Services,Member Fees,E04,Services & rents,2019,2026,67,20252213
+Expenses,Service And Rent,Services,Membership Fees,E04,Services & rents,2022,2023,41,6794108
+Expenses,Service And Rent,Services,Misc,E04,Services & rents,2019,2026,20,20703212
+Expenses,Service And Rent,Services,Miscellaneous,E04,Services & rents,2022,2023,8,9991858
+Expenses,Service And Rent,Services,Motel/Hotel Rent Chg,E04,Services & rents,2019,2026,4,323023215
+Expenses,Service And Rent,Services,Motel/Hotel Rental Charges,E04,Services & rents,2022,2023,2,50383959
+Expenses,Service And Rent,Services,Non-Wheel Chair Rep,E04,Services & rents,2019,2026,2,667200
+Expenses,Service And Rent,Services,Non-Wheel Chair Repairs,E04,Services & rents,2022,2023,1,104800
+Expenses,Service And Rent,Services,Occupational Therapy,E04,Services & rents,2019,2026,4,3597313
+Expenses,Service And Rent,Services,Occupational Therapy Services,E04,Services & rents,2022,2023,2,1227239
+Expenses,Service And Rent,Services,Online Services Fees,E04,Services & rents,2019,2026,12,42358607
+Expenses,Service And Rent,Services,Other Expenses,E04,Services & rents,2019,2026,77,3456388650
+Expenses,Service And Rent,Services,Other Prof/Tech Serv,E04,Services & rents,2019,2026,66,190380793
+Expenses,Service And Rent,Services,Other Professional And Technical Service,E04,Services & rents,2022,2023,38,49002269
+Expenses,Service And Rent,Services,Other Services,E04,Services & rents,2019,2024,4,118919735
+Expenses,Service And Rent,Services,Over-Bed Tables,E04,Services & rents,2019,2026,2,155500
+Expenses,Service And Rent,Services,Parking Enforcement Unit -Towing Chrg,E04,Services & rents,2022,2023,2,621556
+Expenses,Service And Rent,Services,Payments To Municipalities,E04,Services & rents,2022,2023,1,5903314
+Expenses,Service And Rent,Services,Payments To Province,E04,Services & rents,2022,2023,4,26180532
+Expenses,Service And Rent,Services,Permit & Lic. Fees,E04,Services & rents,2019,2026,31,35881796
+Expenses,Service And Rent,Services,Permit & License Fees,E04,Services & rents,2022,2023,17,7250943
+Expenses,Service And Rent,Services,Personal Sup & Home,E04,Services & rents,2019,2026,2,22762171
+Expenses,Service And Rent,Services,Personal Support & Homemaking,E04,Services & rents,2022,2023,1,6966353
+Expenses,Service And Rent,Services,Photo/Video Services,E04,Services & rents,2019,2026,20,1248749
+Expenses,Service And Rent,Services,Phsyician On-Call,E04,Services & rents,2019,2026,2,1699457
+Expenses,Service And Rent,Services,Phsyician On-Call Fee,E04,Services & rents,2022,2023,1,557234
+Expenses,Service And Rent,Services,Physio - Ccp,E04,Services & rents,2019,2024,2,888408
+Expenses,Service And Rent,Services,Physiotherapy - Convalescent Care Program,E04,Services & rents,2022,2023,1,604285
+Expenses,Service And Rent,Services,Physiotherapy Servic,E04,Services & rents,2019,2026,2,15329110
+Expenses,Service And Rent,Services,Physiotherapy Services,E04,Services & rents,2022,2023,1,4560097
+Expenses,Service And Rent,Services,Pmts To Munic.,E04,Services & rents,2019,2026,1,22119761
+Expenses,Service And Rent,Services,Pmts To Prov.,E04,Services & rents,2019,2026,5,95644602
+Expenses,Service And Rent,Services,Print & Rep -3Rd Par,E04,Services & rents,2019,2026,40,22073679
+Expenses,Service And Rent,Services,Printing And Reproduction - Third Party,E04,Services & rents,2022,2023,24,8000357
+Expenses,Service And Rent,Services,Process Server Fees,E04,Services & rents,2019,2026,2,241852
+Expenses,Service And Rent,Services,Processing Fee For Social Service Client,E04,Services & rents,2022,2023,1,800000
+Expenses,Service And Rent,Services,Procss Fees -S. Srv,E04,Services & rents,2019,2026,3,2700218
+Expenses,Service And Rent,Services,Prof & Tech-Management Fees,E04,Services & rents,2022,2023,6,6610772
+Expenses,Service And Rent,Services,Prof & Tech-Mgmt,E04,Services & rents,2019,2026,12,31708524
+Expenses,Service And Rent,Services,Prof Srv - Vet Fees,E04,Services & rents,2019,2026,7,1324680
+Expenses,Service And Rent,Services,Professional Services -Veterinarian Fees,E04,Services & rents,2022,2023,3,196112
+Expenses,Service And Rent,Services,Pub Rel/Promotions,E04,Services & rents,2019,2026,5,78374
+Expenses,Service And Rent,Services,Public Relations/Promotions,E04,Services & rents,2022,2023,3,7761
+Expenses,Service And Rent,Services,Receptions & Pr,E04,Services & rents,2019,2026,14,2544156
+Expenses,Service And Rent,Services,Receptions & Public Relations,E04,Services & rents,2022,2023,7,903003
+Expenses,Service And Rent,Services,Recognition Awards,E04,Services & rents,2019,2026,11,304487
+Expenses,Service And Rent,Services,Refund Of Fees,E04,Services & rents,2019,2026,3,4311676
+Expenses,Service And Rent,Services,Registrar Fees,E04,Services & rents,2019,2026,7,897462
+Expenses,Service And Rent,Services,Royalty Fees,E04,Services & rents,2019,2026,1,22231480
+Expenses,Service And Rent,Services,Safety Awards,E04,Services & rents,2020,2026,3,165190
+Expenses,Service And Rent,Services,Services & Rents-Gen,E04,Services & rents,2019,2024,4,34727480
+Expenses,Service And Rent,Services,Services And Rents - General,E04,Services & rents,2022,2023,4,26025151
+Expenses,Service And Rent,Services,Shelter Furniture,E04,Services & rents,2019,2026,2,724641
+Expenses,Service And Rent,Services,Sheriff Fees,E04,Services & rents,2019,2026,1,27600
+Expenses,Service And Rent,Services,Shower Commodes,E04,Services & rents,2019,2026,2,106000
+Expenses,Service And Rent,Services,Special Examiner Fees,E04,Services & rents,2022,2023,1,5333
+Expenses,Service And Rent,Services,Special Examinr Fees,E04,Services & rents,2019,2026,1,16000
+Expenses,Service And Rent,Services,Spiritual Fees,E04,Services & rents,2019,2024,2,1893627
+Expenses,Service And Rent,Services,Tech Serv -Translations & Interpreters,E04,Services & rents,2022,2023,26,3736367
+Expenses,Service And Rent,Services,Tech Srv Transl/Int,E04,Services & rents,2019,2026,45,20430144
+Expenses,Service And Rent,Services,Therapeutic Assess,E04,Services & rents,2019,2026,2,51600
+Expenses,Service And Rent,Services,Therapeutic Assessments,E04,Services & rents,2022,2023,1,24400
+Expenses,Service And Rent,Services,Therapeutic Mattress,E04,Services & rents,2019,2026,2,4218300
+Expenses,Service And Rent,Services,Therapeutic Mattresses,E04,Services & rents,2022,2023,1,1062200
+Expenses,Service And Rent,Services,Ticket/Admission Fee,E04,Services & rents,2019,2026,9,3554533
+Expenses,Service And Rent,Services,Tickets And Admission Fees,E04,Services & rents,2022,2023,6,1161687
+Expenses,Service And Rent,Services,Towing Charges,E04,Services & rents,2019,2026,4,2165314
+Expenses,Service And Rent,Services,Transcripts,E04,Services & rents,2019,2026,5,1053282
+Expenses,Service And Rent,Services,Transportation - Bus,E04,Services & rents,2019,2026,9,1694813
+Expenses,Service And Rent,Services,Tub Transfer Seat,E04,Services & rents,2019,2026,2,333500
+Expenses,Service And Rent,Services,User Tech Ed,E04,Services & rents,2019,2020,1,8500
+Expenses,Service And Rent,Services,Waste Collect Rebate,E04,Services & rents,2019,2026,1,496535328
+Expenses,Service And Rent,Services,Waste Collection Rebate,E04,Services & rents,2022,2023,1,150742034
+Expenses,Service And Rent,Taxes Realty,Realty Taxes,E04,Services & rents,2019,2026,17,279063835
+Expenses,Service And Rent,Telecommnuncation,Cellular Phones,E04,Services & rents,2019,2026,68,53542310
+Expenses,Service And Rent,Telecommnuncation,Cellular Telephones,E04,Services & rents,2022,2023,41,16545153
+Expenses,Service And Rent,Telecommnuncation,Courier Services,E04,Services & rents,2019,2026,39,4502442
+Expenses,Service And Rent,Telecommnuncation,Data Channels,E04,Services & rents,2019,2026,10,5209902
+Expenses,Service And Rent,Telecommnuncation,Internet,E04,Services & rents,2019,2026,30,24357018
+Expenses,Service And Rent,Telecommnuncation,Lan Extension - Hdsl,E04,Services & rents,2019,2026,34,23338549
+Expenses,Service And Rent,Telecommnuncation,Local Area Network Extension Sev-Hdsl &F,E04,Services & rents,2022,2023,21,8617121
+Expenses,Service And Rent,Telecommnuncation,Megalinks,E04,Services & rents,2019,2026,10,1038898
+Expenses,Service And Rent,Telecommnuncation,Netwk-Voice Over Ip,E04,Services & rents,2019,2026,4,18549845
+Expenses,Service And Rent,Telecommnuncation,Network Equipment,E04,Services & rents,2019,2026,31,4728719
+Expenses,Service And Rent,Telecommnuncation,Network Equipment Including Cabling,E04,Services & rents,2022,2023,19,2187805
+Expenses,Service And Rent,Telecommnuncation,Network Srv - Adsl,E04,Services & rents,2019,2026,17,571133
+Expenses,Service And Rent,Telecommnuncation,Nw Sev- Asym Dgtl Subscriber Line &Micro,E04,Services & rents,2022,2023,9,192164
+Expenses,Service And Rent,Telecommnuncation,Telephone,E04,Services & rents,2019,2026,31,79280801
+Expenses,Service And Rent,Telecommnuncation,Voice Over Ip Network Service,E04,Services & rents,2022,2023,1,4785594
+Expenses,Service And Rent,Telecommnuncation,Wireless Devices,E04,Services & rents,2019,2026,42,4948619
+Expenses,Service And Rent,Training,Special Events Exp,E04,Services & rents,2019,2026,9,313903
+Expenses,Service And Rent,Training,Special Events Expenses,E04,Services & rents,2022,2023,3,172042
+Expenses,Service And Rent,Training,Train/Dev - External,E04,Services & rents,2019,2026,64,49241449
+Expenses,Service And Rent,Training,Train/Dev - Internal,E04,Services & rents,2019,2024,4,300528
+Expenses,Service And Rent,Training,Training & Development - External,E04,Services & rents,2022,2023,38,16388173
+Expenses,Service And Rent,Training,Training & Development - Internal,E04,Services & rents,2022,2023,3,474254
+Expenses,Service And Rent,Training,Tuition Fees,E04,Services & rents,2019,2026,53,5355851
+Expenses,Service And Rent,Zero Based Consulting,C-Svs Mgmt/Res &Dev,E04,Services & rents,2019,2026,28,37525929
+Expenses,Service And Rent,Zero Based Consulting,Cons Svs -Creat Com,E04,Services & rents,2019,2025,3,110000
+Expenses,Service And Rent,Zero Based Consulting,Cons Svs Ext Lawyers,E04,Services & rents,2019,2026,8,2350041
+Expenses,Service And Rent,Zero Based Consulting,Consult-Info Tech,E04,Services & rents,2021,2026,3,4156310
+Expenses,Service And Rent,Zero Based Consulting,Consult-Technical,E04,Services & rents,2019,2026,27,76206054
+Expenses,Service And Rent,Zero Based Consulting,Consulting Serv -Ext Lawyers &Planners,E04,Services & rents,2022,2023,3,936965
+Expenses,Service And Rent,Zero Based Consulting,Consulting Serv- Mgmt/Research &Devel,E04,Services & rents,2022,2023,16,19886304
+Expenses,Service And Rent,Zero Based Consulting,Consulting Svcs-Information Technology,E04,Services & rents,2022,2023,4,2757919
+Expenses,Service And Rent,Zero Based Consulting,Consulting Svcs-Technical,E04,Services & rents,2022,2023,15,29515011
+Expenses,Service And Rent,,,E04,Services & rents,2014,2018,56,9069321695
+Expenses,Service and Rent,,,E04,Services & rents,2013,2013,51,1596524419
+Expenses,Services & Rents,,,E04,Services & rents,2011,2012,75,3221559359
+Revenues,Contrib. from CCRF (Allstream)),,,R18,Draws from reserves,2012,2012,1,-1080000
+Revenues,Contrib. from CCRF (Sportsman Show),,,R18,Draws from reserves,2012,2012,1,-100000
+Revenues,Contribution From Reserves/Reserve Funds,Contribution From Reserves/Reserve Funds,Cont Frm Dev Chg Rf,R18,Draws from reserves,2019,2026,10,-311548336
+Revenues,Contribution From Reserves/Reserve Funds,Contribution From Reserves/Reserve Funds,Cont Frm Plan Act Rf,R18,Draws from reserves,2019,2026,13,-7704200
+Revenues,Contribution From Reserves/Reserve Funds,Contribution From Reserves/Reserve Funds,Cont From Res Fund,R18,Draws from reserves,2019,2026,56,-4330068072
+Revenues,Contribution From Reserves/Reserve Funds,Contribution From Reserves/Reserve Funds,Cont From Reserves,R18,Draws from reserves,2019,2026,35,-1429806338
+Revenues,Contribution From Reserves/Reserve Funds,Contribution From Reserves/Reserve Funds,Contrib From Dev Chg Reserve Funds,R18,Draws from reserves,2022,2023,5,-146041360
+Revenues,Contribution From Reserves/Reserve Funds,Contribution From Reserves/Reserve Funds,Contribution From Planning Act Rf,R18,Draws from reserves,2022,2023,6,-3788186
+Revenues,Contribution From Reserves/Reserve Funds,Contribution From Reserves/Reserve Funds,Contributions From Reserve Funds,R18,Draws from reserves,2022,2023,33,-1030708605
+Revenues,Contribution From Reserves/Reserve Funds,Contribution From Reserves/Reserve Funds,Contributions From Reserves,R18,Draws from reserves,2022,2023,22,-158140981
+Revenues,Contribution From Reserves/Reserve Funds,,,R18,Draws from reserves,2014,2018,44,-2388844446
+Revenues,Contribution from Reserve,,,R18,Draws from reserves,2011,2012,10,-27612800
+Revenues,Contribution from Reserve / Reserve Funds,,,R18,Draws from reserves,2012,2012,1,-150000
+Revenues,Contribution from Reserve Funds,,,R18,Draws from reserves,2011,2012,26,-677336873
+Revenues,Contribution from Reserve/Res Funds,,,R18,Draws from reserves,2012,2012,7,-72603461
+Revenues,Contribution from Reserves/Reserve Funds,,,R18,Draws from reserves,2013,2013,38,-462423646
+Revenues,Contributions from Reserve Funds,,,R18,Draws from reserves,2012,2012,1,-1398700
+Revenues,Contributions from Reserves,,,R18,Draws from reserves,2012,2012,1,-142500
+Revenues,Federal Subsidies,Federal Subsidies,F/P/M-Fed Contrib,R14,Federal funding,2019,2021,1,-51000
+Revenues,Federal Subsidies,Federal Subsidies,Fed Grants/Subs,R14,Federal funding,2019,2026,27,-4456381089
+Revenues,Federal Subsidies,Federal Subsidies,Federal Grants & Subsidies,R14,Federal funding,2022,2023,13,-1203086088
+Revenues,Federal Subsidies,,,R14,Federal funding,2011,2018,23,-1372855571
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Affordable Housing,R20,Inter-divisional recoveries,2022,2023,4,-2962847
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Children's Services,R20,Inter-divisional recoveries,2022,2023,9,-2633585
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Clerks,R20,Inter-divisional recoveries,2022,2023,3,-1326705
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Council,R20,Inter-divisional recoveries,2022,2023,3,-520212
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Court Services,R20,Inter-divisional recoveries,2019,2019,9,-18346898
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Emergency Medical Services,R20,Inter-divisional recoveries,2022,2023,8,-12201359
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Facilities & Real Estate,R20,Inter-divisional recoveries,2022,2023,1,-189968
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Fire Services,R20,Inter-divisional recoveries,2022,2023,1,-29976
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - General,R20,Inter-divisional recoveries,2022,2023,2,-302000000
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Long-Term Care Homes & Services,R20,Inter-divisional recoveries,2022,2023,8,-2161146
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Mayor's Office,R20,Inter-divisional recoveries,2022,2023,2,-7230
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Parks Forestry & Recreation,R20,Inter-divisional recoveries,2022,2023,2,-1120203
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Police,R20,Inter-divisional recoveries,2022,2023,1,-184468
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Public Health,R20,Inter-divisional recoveries,2022,2023,13,-33765155
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Social Development Fin. & Admin,R20,Inter-divisional recoveries,2022,2023,2,-139800
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Social Services,R20,Inter-divisional recoveries,2022,2023,9,-34836603
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Solid Waste Mgmt Services,R20,Inter-divisional recoveries,2022,2023,16,-73192323
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Transportation Services,R20,Inter-divisional recoveries,2022,2023,3,-18214894
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Wastewater Services,R20,Inter-divisional recoveries,2022,2023,3,-41881696
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR - Water Services,R20,Inter-divisional recoveries,2022,2023,13,-90881441
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR -Ltc Homes & Ser,R20,Inter-divisional recoveries,2019,2026,13,-5955174
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR -Shelter Support & Housing Admin,R20,Inter-divisional recoveries,2022,2023,14,-13962785
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-3-1-1 Project,R20,Inter-divisional recoveries,2019,2019,3,-197880
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Acctg Serv,R20,Inter-divisional recoveries,2019,2019,4,-394311
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Afford Housing,R20,Inter-divisional recoveries,2019,2026,9,-4452608
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Auditor Gen,R20,Inter-divisional recoveries,2019,2019,3,-22272
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Buildings,R20,Inter-divisional recoveries,2019,2026,12,-5468364
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Child Serv,R20,Inter-divisional recoveries,2019,2026,18,-9737824
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-City Manager,R20,Inter-divisional recoveries,2019,2026,9,-82879903
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-City Plan,R20,Inter-divisional recoveries,2019,2019,5,-1587524
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Clerks,R20,Inter-divisional recoveries,2019,2026,8,-2880081
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Corp Fin,R20,Inter-divisional recoveries,2019,2019,2,-9260
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Council,R20,Inter-divisional recoveries,2019,2026,6,-1181849
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-EDCT-Admin,R20,Inter-divisional recoveries,2019,2019,9,-1102396
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Ems,R20,Inter-divisional recoveries,2019,2026,15,-35506139
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-F&RE,R20,Inter-divisional recoveries,2019,2026,10,-4212428
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Fin Plan,R20,Inter-divisional recoveries,2019,2019,3,-1628618
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Finance & Admin,R20,Inter-divisional recoveries,2019,2019,2,-34842
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Fire Serv,R20,Inter-divisional recoveries,2019,2026,10,-10556818
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Fleet Ser,R20,Inter-divisional recoveries,2019,2026,6,-604377
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-General,R20,Inter-divisional recoveries,2019,2026,8,-362944113
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Health,R20,Inter-divisional recoveries,2019,2026,19,-80375376
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Human Res,R20,Inter-divisional recoveries,2019,2019,4,-135882
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-I & T,R20,Inter-divisional recoveries,2019,2019,6,-485375
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Integ Comm,R20,Inter-divisional recoveries,2019,2019,1,-400
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Legal,R20,Inter-divisional recoveries,2019,2019,5,-7661900
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Lobb Regist,R20,Inter-divisional recoveries,2019,2019,2,-5400
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Mayor's Off,R20,Inter-divisional recoveries,2019,2026,2,-29947
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Mun Lic Stds,R20,Inter-divisional recoveries,2019,2019,8,-4064211
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Ombud,R20,Inter-divisional recoveries,2019,2019,2,-8210
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Others,R20,Inter-divisional recoveries,2019,2026,10,-28121042
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-PF&R,R20,Inter-divisional recoveries,2019,2026,16,-27528940
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-PPF&A,R20,Inter-divisional recoveries,2019,2019,7,-727064
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Payroll,R20,Inter-divisional recoveries,2019,2019,2,-159400
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Pmmd,R20,Inter-divisional recoveries,2019,2019,3,-201330
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Police,R20,Inter-divisional recoveries,2019,2026,4,-22600077
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Rev Serv,R20,Inter-divisional recoveries,2019,2026,8,-2986410
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-SSHA,R20,Inter-divisional recoveries,2019,2026,29,-39614825
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Soc Dev,R20,Inter-divisional recoveries,2019,2026,13,-5084052
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Social Ser,R20,Inter-divisional recoveries,2019,2026,16,-72760917
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Solid Waste,R20,Inter-divisional recoveries,2019,2026,28,-199522357
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Strat Commun,R20,Inter-divisional recoveries,2019,2019,1,-11347
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Tech Serv,R20,Inter-divisional recoveries,2019,2020,9,-3601637
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Tor Environ Off,R20,Inter-divisional recoveries,2026,2026,1,-55491
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Trans Ser,R20,Inter-divisional recoveries,2019,2026,13,-58302533
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Wastewtr Ser,R20,Inter-divisional recoveries,2019,2026,4,-103377023
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Water Ser,R20,Inter-divisional recoveries,2019,2026,23,-248559388
+Revenues,Inter-Divisional Recoveries,Inter-Divisional Recoveries,IDR-Waterfront Sec,R20,Inter-divisional recoveries,2019,2019,1,-2076
+Revenues,Inter-Divisional Recoveries,,,R20,Inter-divisional recoveries,2013,2018,40,-1818710942
+Revenues,Interdivisional Recoveries,,,R20,Inter-divisional recoveries,2011,2012,33,-586707526
+Revenues,Interdivisional Recoveries (Leaside Pool),,,R20,Inter-divisional recoveries,2011,2011,1,-259624
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR -Ltc Homes & Ser,R21,Inter-divisional recoveries,2021,2021,8,-1045274
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Afford Housing,R21,Inter-divisional recoveries,2021,2021,2,-41045
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Child Serv,R21,Inter-divisional recoveries,2021,2021,10,-1497586
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Clerks,R21,Inter-divisional recoveries,2021,2021,3,-398542
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Council,R21,Inter-divisional recoveries,2021,2021,3,-262910
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Ems,R21,Inter-divisional recoveries,2021,2021,8,-5745167
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-F&RE,R21,Inter-divisional recoveries,2021,2021,1,-107638
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Fire Serv,R21,Inter-divisional recoveries,2021,2021,1,-15187
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Health,R21,Inter-divisional recoveries,2021,2021,13,-16231421
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Mayor's Off,R21,Inter-divisional recoveries,2021,2021,2,-4233
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-PF&R,R21,Inter-divisional recoveries,2021,2021,2,-609843
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Police,R21,Inter-divisional recoveries,2021,2021,1,-93459
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-SSHA,R21,Inter-divisional recoveries,2021,2021,14,-5709176
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Soc Dev,R21,Inter-divisional recoveries,2021,2021,4,-457507
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Social Ser,R21,Inter-divisional recoveries,2021,2021,9,-17684664
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Solid Waste,R21,Inter-divisional recoveries,2021,2021,15,-35523307
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Trans Ser,R21,Inter-divisional recoveries,2021,2021,2,-9269832
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Wastewtr Ser,R21,Inter-divisional recoveries,2021,2021,3,-20933955
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Water Ser,R21,Inter-divisional recoveries,2021,2021,13,-47630168
+Revenues,Contribution from Local Boards,,,R22,Other revenue,2011,2011,1,-171300
+Revenues,External Funding & Donations,,,R22,Other revenue,2011,2011,1,-500000
+Revenues,Grants from Others,,,R22,Other revenue,2011,2011,1,-1039600
+Revenues,Grants from others,,,R22,Other revenue,2012,2012,1,-972500
+Revenues,Legal Fee Rec - 3rd Party,,,R22,Other revenue,2012,2012,1,-165400
+Revenues,Naming Rights (CCRF),,,R22,Other revenue,2012,2012,1,-1168000
+Revenues,Other Revenue,Fines & Penalty,Fines,R22,Other revenue,2021,2026,5,-1081311281
+Revenues,Other Revenue,Fines & Penalty,Penalty Revenue,R22,Other revenue,2021,2026,2,-21047
+Revenues,Other Revenue,Interest & Investment Income,Interest Income,R22,Other revenue,2021,2026,7,-264617675
+Revenues,Other Revenue,Interest & Investment Income,Investment Income,R22,Other revenue,2021,2026,1,-1351585358
+Revenues,Other Revenue,Miscellaneous Revenues,Cable Tv Receipts,R22,Other revenue,2021,2026,1,-861753
+Revenues,Other Revenue,Miscellaneous Revenues,Cont - Local Boards,R22,Other revenue,2021,2026,13,-112793769
+Revenues,Other Revenue,Miscellaneous Revenues,Cont From Current,R22,Other revenue,2021,2026,4,-23171219
+Revenues,Other Revenue,Miscellaneous Revenues,Cont-Other Municip,R22,Other revenue,2021,2026,1,-14737132
+Revenues,Other Revenue,Miscellaneous Revenues,Cont-Others,R22,Other revenue,2021,2026,3,-10033613
+Revenues,Other Revenue,Miscellaneous Revenues,Contrib - Other,R22,Other revenue,2021,2026,16,-325450185
+Revenues,Other Revenue,Miscellaneous Revenues,Contrib.-Other Municipali,R22,Other revenue,2022,2023,1,-11369646
+Revenues,Other Revenue,Miscellaneous Revenues,Contrib.-Others,R22,Other revenue,2022,2023,1,-100000
+Revenues,Other Revenue,Miscellaneous Revenues,Contribution From Current,R22,Other revenue,2022,2023,2,-2965308
+Revenues,Other Revenue,Miscellaneous Revenues,Contributions-Local Boards,R22,Other revenue,2022,2023,10,-51306516
+Revenues,Other Revenue,Miscellaneous Revenues,Cost Recov-3rd Part,R22,Other revenue,2021,2025,1,-5585340
+Revenues,Other Revenue,Miscellaneous Revenues,Cost Recoveries-3rd Parties,R22,Other revenue,2022,2023,1,-3723560
+Revenues,Other Revenue,Miscellaneous Revenues,Fnds Allo Within Fnd,R22,Other revenue,2021,2021,1,-474300
+Revenues,Other Revenue,Miscellaneous Revenues,Funds Allocated Within Fund,R22,Other revenue,2022,2023,1,-700025
+Revenues,Other Revenue,Miscellaneous Revenues,Gain/Loss on sale -,R22,Other revenue,2024,2026,1,-105000
+Revenues,Other Revenue,Miscellaneous Revenues,Ins Loss Recoveries,R22,Other revenue,2021,2026,1,-900000
+Revenues,Other Revenue,Miscellaneous Revenues,Insurance Loss Recoveries,R22,Other revenue,2022,2023,1,-450000
+Revenues,Other Revenue,Miscellaneous Revenues,Late Payment Charges,R22,Other revenue,2021,2026,7,-1782687
+Revenues,Other Revenue,Miscellaneous Revenues,Late Payment Charges - Ar Invoices,R22,Other revenue,2022,2023,4,-917222
+Revenues,Other Revenue,Miscellaneous Revenues,Legal Fee Recov's-3R,R22,Other revenue,2021,2026,1,-280000
+Revenues,Other Revenue,Miscellaneous Revenues,Legal Fee Recoveries From Third Parties,R22,Other revenue,2022,2023,1,-100000
+Revenues,Other Revenue,Miscellaneous Revenues,Other Recoveries,R22,Other revenue,2021,2026,39,-821843543
+Revenues,Other Revenue,Miscellaneous Revenues,Others,R22,Other revenue,2023,2025,1,-321632
+Revenues,Other Revenue,Miscellaneous Revenues,Ow - Recoveries Of Overpayment - CPP,R22,Other revenue,2022,2023,1,-1200000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow - Recoveries Of Overpayment - Funeral,R22,Other revenue,2022,2023,1,-4850000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow - Recoveries Of Overpayment - OAS,R22,Other revenue,2022,2023,1,-400000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow - Recoveries Of Overpayment - ODSP,R22,Other revenue,2022,2023,1,-950000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow - Recoveries Of Overpayment - Sponsor,R22,Other revenue,2022,2023,1,-3000000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow - Recoveries Of Overpayment - WSIB,R22,Other revenue,2022,2023,1,-600000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow - Recoveries Of Overpayment Family,R22,Other revenue,2022,2023,1,-6400000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow - Recoveries Of Overpayment-Negotiate,R22,Other revenue,2022,2023,1,-5600000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow - Recoveries Of Overpayments - EI,R22,Other revenue,2022,2023,1,-2000000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow -Recoveries Of Overpayment-Insurance,R22,Other revenue,2022,2023,1,-600000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow- Rec Of Op - CPP,R22,Other revenue,2021,2026,2,-2400000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow- Rec Of Op - OAS,R22,Other revenue,2021,2026,2,-800000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow- Rec Of Op - Spon,R22,Other revenue,2021,2026,2,-6000000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow- Rec Of Op - Wsib,R22,Other revenue,2021,2026,2,-1200000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow- Rec Of Op-Negot,R22,Other revenue,2021,2026,2,-11200000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow- Rec Of Op-Other,R22,Other revenue,2021,2026,2,-1200000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow- Rec Of Overpay,R22,Other revenue,2021,2026,2,-5725000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow- Recov Of Overpay,R22,Other revenue,2021,2026,2,-16800000
+Revenues,Other Revenue,Miscellaneous Revenues,Ow-Rec Of Op-Funeral,R22,Other revenue,2021,2026,2,-3625000
+Revenues,Other Revenue,Miscellaneous Revenues,Phone Commissions,R22,Other revenue,2021,2021,1,-300
+Revenues,Other Revenue,Miscellaneous Revenues,Proceeds Of Sale Of Composters,R22,Other revenue,2022,2023,1,-224377
+Revenues,Other Revenue,Miscellaneous Revenues,Rec.From Abcs-Loan R,R22,Other revenue,2021,2021,1,-3076866
+Revenues,Other Revenue,Miscellaneous Revenues,Recoveries Fr Prov,R22,Other revenue,2021,2026,4,-12088208
+Revenues,Other Revenue,Miscellaneous Revenues,Recoveries From Province,R22,Other revenue,2022,2023,4,-17452607
+Revenues,Other Revenue,Miscellaneous Revenues,Recoveries-Accident Related,R22,Other revenue,2022,2023,1,-3312220
+Revenues,Other Revenue,Miscellaneous Revenues,Recoveries-Accidents,R22,Other revenue,2021,2026,1,-7085510
+Revenues,Other Revenue,Miscellaneous Revenues,Recovery From Abcs - Loan Repayment,R22,Other revenue,2022,2022,1,-3076866
+Revenues,Other Revenue,Miscellaneous Revenues,Sale Of Composters,R22,Other revenue,2021,2026,1,-653330
+Revenues,Other Revenue,Miscellaneous Revenues,Sale Of Materials,R22,Other revenue,2021,2026,10,-4816290
+Revenues,Other Revenue,Miscellaneous Revenues,Sale Of Recycled Materials,R22,Other revenue,2022,2023,2,-21805756
+Revenues,Other Revenue,Miscellaneous Revenues,Sale Of Scrap/Surplus Mat,R22,Other revenue,2022,2023,1,-2435690
+Revenues,Other Revenue,Miscellaneous Revenues,Sale Of Vehicle,R22,Other revenue,2021,2026,1,-900000
+Revenues,Other Revenue,Miscellaneous Revenues,"Sale, Recycled Mats",R22,Other revenue,2021,2026,2,-9167815
+Revenues,Other Revenue,Miscellaneous Revenues,"Sale, Scrap/Sur Mat",R22,Other revenue,2021,2026,1,-4154254
+Revenues,Other Revenue,Miscellaneous Revenues,"Sales Of Publication,Scrap & E",R22,Other revenue,2022,2023,1,-31733
+Revenues,Other Revenue,Miscellaneous Revenues,"Sales-Pub, Scrap &",R22,Other revenue,2021,2026,3,-97484
+Revenues,Other Revenue,Miscellaneous Revenues,St Law Mkt-Occas Use,R22,Other revenue,2021,2026,1,-1411828
+Revenues,Other Revenue,Miscellaneous Revenues,St Law Mkt-Recov.,R22,Other revenue,2021,2026,1,-5726961
+Revenues,Other Revenue,Miscellaneous Revenues,St. Lawrence Market - Occasional Use,R22,Other revenue,2022,2023,1,-380000
+Revenues,Other Revenue,Miscellaneous Revenues,St. Lawrence Market - Recoveries,R22,Other revenue,2022,2023,2,-2790750
+Revenues,Other Revenue,Miscellaneous Revenues,Sundry Revenue,R22,Other revenue,2021,2026,47,-518798232
+Revenues,Other Revenue,Miscellaneous Revenues,Tax Regis/Cert,R22,Other revenue,2021,2026,2,-10761251
+Revenues,Other Revenue,Miscellaneous Revenues,Tax Registration/Certification,R22,Other revenue,2022,2023,1,-4799268
+Revenues,Other Revenue,Miscellaneous Revenues,Trade A/P Disc Re-Di,R22,Other revenue,2024,2026,1,-59944
+Revenues,Other Revenue,Miscellaneous Revenues,Trade A/P Disc Recd,R22,Other revenue,2021,2026,3,-2820840
+Revenues,Other Revenue,Miscellaneous Revenues,Trades Payable Discounts Re-Distributed,R22,Other revenue,2023,2023,1,-19981
+Revenues,Other Revenue,Miscellaneous Revenues,Trades Payable Discounts Received,R22,Other revenue,2022,2023,2,-1508070
+Revenues,Other Revenue,Miscellaneous Revenues,Trans Fr Parking,R22,Other revenue,2021,2026,7,-137624746
+Revenues,Other Revenue,Miscellaneous Revenues,Transfers From Parking Auth,R22,Other revenue,2022,2023,6,-36267159
+Revenues,Other Revenue,Miscellaneous Revenues,U.S. Exch-Gain/Loss,R22,Other revenue,2021,2021,1,-35000
+Revenues,Other Revenue,Miscellaneous Revenues,U.S. Exchange - Gain Or Loss,R22,Other revenue,2022,2023,1,-70000
+Revenues,Other Revenue,Miscellaneous Revenues,Util. Cut Recov's,R22,Other revenue,2021,2026,1,-23577396
+Revenues,Other Revenue,Miscellaneous Revenues,Utility Cut Repair Recoveries,R22,Other revenue,2022,2023,1,-27286328
+Revenues,Other Revenue,Other Subsidies,Government Grants,R22,Other revenue,2021,2023,1,-18857600
+Revenues,Other Revenue,Other Subsidies,Grants & Subsidies,R22,Other revenue,2021,2026,6,-119605097
+Revenues,Other Revenue,Other Subsidies,Munic Grants/Subs,R22,Other revenue,2021,2024,1,-1938220
+Revenues,Other Revenue,Other Subsidies,Municipal Grants & Subsidies,R22,Other revenue,2022,2023,1,-1938220
+Revenues,Other Revenue,,,R22,Other revenue,2012,2012,1,-2548000
+Revenues,Other Revenues,,,R22,Other revenue,2011,2012,6,-32624496
+Revenues,Other Subsidies,Other Subsidies,Government Grants,R22,Other revenue,2020,2020,1,-6421600
+Revenues,Other Subsidies,Other Subsidies,Grants & Subsidies,R22,Other revenue,2019,2020,4,-11434500
+Revenues,Other Subsidies,Other Subsidies,Munic Grants/Subs,R22,Other revenue,2019,2020,2,-8732920
+Revenues,Other Subsidies,,,R22,Other revenue,2011,2018,12,-592155776
+Revenues,Required Adjustments,,,R22,Other revenue,2011,2011,1,16
+Revenues,Sundry Revenues,,,R22,Other revenue,2011,2012,46,-2676267136
+Revenues,Sundry and Other Revenues,Fines & Penalty,Fines,R22,Other revenue,2019,2020,4,-303324851
+Revenues,Sundry and Other Revenues,Fines & Penalty,Penalty Revenue,R22,Other revenue,2019,2020,1,-7016
+Revenues,Sundry and Other Revenues,Interest & Investment Income,Interest Income,R22,Other revenue,2019,2020,4,-63577836
+Revenues,Sundry and Other Revenues,Interest & Investment Income,Investment Income,R22,Other revenue,2019,2020,1,-451951493
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Cable Tv Receipts,R22,Other revenue,2019,2020,2,-283500
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Cont - Local Boards,R22,Other revenue,2019,2020,12,-56688734
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Cont From Current,R22,Other revenue,2020,2020,3,-14381153
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Cont-Other Municip,R22,Other revenue,2019,2020,1,-7427689
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Cont-Others,R22,Other revenue,2019,2020,1,-902000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Contrib - Other,R22,Other revenue,2019,2020,8,-18192279
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Cost Recov-3rd Part,R22,Other revenue,2019,2020,1,-3723558
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Ins Loss Recoveries,R22,Other revenue,2019,2020,1,-450000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Late Payment Charges,R22,Other revenue,2019,2020,4,-978160
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Legal Fee Recov's-3R,R22,Other revenue,2019,2020,1,-130000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Other Recoveries,R22,Other revenue,2019,2020,28,-147995061
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Ow- Rec Of Op - CPP,R22,Other revenue,2019,2020,1,-1200000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Ow- Rec Of Op - OAS,R22,Other revenue,2019,2020,1,-400000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Ow- Rec Of Op - Spon,R22,Other revenue,2019,2020,1,-3000000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Ow- Rec Of Op - Wsib,R22,Other revenue,2019,2020,1,-600000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Ow- Rec Of Op-Negot,R22,Other revenue,2019,2020,1,-5600000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Ow- Rec Of Op-Other,R22,Other revenue,2019,2020,1,-600000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Ow- Rec Of Overpay,R22,Other revenue,2019,2020,1,-950000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Ow- Recov Of Overpay,R22,Other revenue,2019,2020,1,-8400000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Ow-Rec Of Op-Funeral,R22,Other revenue,2019,2020,1,-4850000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Phone Commissions,R22,Other revenue,2020,2020,1,-391
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Rec.From Abcs-Loan R,R22,Other revenue,2019,2020,1,-7384838
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Recoveries Fr Prov,R22,Other revenue,2019,2020,3,-4563120
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Recoveries-Accidents,R22,Other revenue,2019,2020,1,-4234356
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Sale Of Composters,R22,Other revenue,2019,2020,1,-305560
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Sale Of Materials,R22,Other revenue,2019,2020,7,-1089144
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Sale Of Vehicle,R22,Other revenue,2019,2020,1,-300000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,"Sale, Recycled Mats",R22,Other revenue,2019,2020,2,-19229063
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,"Sale, Scrap/Sur Mat",R22,Other revenue,2019,2020,1,-2785010
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,"Sales-Pub, Scrap &",R22,Other revenue,2019,2020,1,-17000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,St Law Mkt-Occas Use,R22,Other revenue,2019,2020,2,-405000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,St Law Mkt-Recov.,R22,Other revenue,2019,2020,2,-2590178
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Sundry Revenue,R22,Other revenue,2019,2020,36,-153492876
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Tax Regis/Cert,R22,Other revenue,2019,2020,1,-4454341
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Trade A/P Disc Re-Di,R22,Other revenue,2019,2019,1,-31705
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Trade A/P Disc Recd,R22,Other revenue,2019,2020,3,-1370870
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Trans Fr Parking,R22,Other revenue,2019,2020,8,-120022429
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,U.S. Exch-Gain/Loss,R22,Other revenue,2019,2019,1,-9000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Util. Cut Recov's,R22,Other revenue,2019,2020,1,-49245155
+Revenues,Sundry and Other Revenues,,,R22,Other revenue,2013,2018,51,-7302607933
+Revenues,Other Revenue,Taxation,Hotel and Lodging Ta,R12,Other taxes,2021,2026,1,-380154529
+Revenues,Other Revenue,Taxation,Hotel and Lodging Tax,R12,Other taxes,2022,2023,1,-86211997
+Revenues,Other Revenue,Taxation,Mun Land Transfer Ta,R12,Other taxes,2021,2026,1,-3410102134
+Revenues,Other Revenue,Taxation,Municipal Land Transfer Tax,R12,Other taxes,2022,2023,1,-1888041095
+Revenues,Other Revenue,Taxation,Third Party Sign Tax,R12,Other taxes,2021,2026,1,-61354999
+Revenues,Sundry and Other Revenues,Taxation,Hotel and Lodging Ta,R12,Other taxes,2019,2020,1,-118372000
+Revenues,Sundry and Other Revenues,Taxation,Mun Land Transfer Ta,R12,Other taxes,2019,2020,1,-1523541094
+Revenues,Sundry and Other Revenues,Taxation,Third Party Sign Tax,R12,Other taxes,2019,2020,1,-19918462
+Revenues,Other Revenue,Pymt In Lieu Of Tax,Payments In Lieu Of Taxes,R07,Property tax,2022,2023,1,-191617149
+Revenues,Other Revenue,Pymt In Lieu Of Tax,Pmnts In Lieu Taxes,R07,Property tax,2021,2026,1,-408537379
+Revenues,Other Revenue,Taxation,Supp Taxes,R06,Property tax,2021,2026,1,-196313000
+Revenues,Other Revenue,Taxation,Supplementary Taxes,R06,Property tax,2022,2023,1,-80353000
+Revenues,Other Revenue,Taxation,Tax Levy,R06,Property tax,2021,2026,3,-33137758688
+Revenues,Property Tax,,,R02,Property tax,2014,2015,1,-7610724416
+Revenues,Property Tax (derived),,,R01,Property tax,2011,2012,1,-7130372320
+Revenues,Special Levy for Scarborough Subway,,,R03,Property tax,2014,2014,1,-12207000
+Revenues,Special Levy for Scarborough Subway (Reserve Contribution),,,R03,Property tax,2015,2015,1,-24846399
+Revenues,Sundry and Other Revenues,Pymt In Lieu Of Tax,Pmnts In Lieu Taxes,R07,Property tax,2019,2020,1,-189842483
+Revenues,Sundry and Other Revenues,Taxation,Supp Taxes,R06,Property tax,2019,2020,1,-69000000
+Revenues,Sundry and Other Revenues,Taxation,Tax Levy,R06,Property tax,2019,2020,3,-8984038516
+Revenues,Sundry and Other Revenues,,,R04,Property tax,2016,2017,1,-8073092839
+Revenues,Sundry and Other Revenues,,,R05,Property tax,2018,2018,1,-4245553082
+Revenues,Sundry and Other Revenues,,,R08,Property tax,2013,2013,1,-4558086316
+Revenues,Provincial Subsidies,Provincial Subsidies,F/P/M-Prov Contrib,R13,Provincial funding,2019,2026,3,-11813042
+Revenues,Provincial Subsidies,Provincial Subsidies,F/P/M-Provincial Contribu,R13,Provincial funding,2022,2023,2,-7860089
+Revenues,Provincial Subsidies,Provincial Subsidies,Prov Grants/Subs,R13,Provincial funding,2019,2026,36,-17631564866
+Revenues,Provincial Subsidies,Provincial Subsidies,Provincial Grants & Subsidies,R13,Provincial funding,2022,2023,20,-7155727753
+Revenues,Provincial Subsidies,,,R13,Provincial funding,2011,2018,43,-15882124037
+Revenues,Transfers From Capital,Transfers From Capital,Trans Fr Capital Fnd,R19,Transfers from capital,2019,2024,41,-928284706
+Revenues,Transfers From Capital,Transfers From Capital,Transfers From Capital Fund,R19,Transfers from capital,2022,2023,33,-436954847
+Revenues,Transfers From Capital,,,R19,Transfers from capital,2014,2018,32,-836041149
+Revenues,Transfers from Capital,,,R19,Transfers from capital,2013,2013,26,-147827346
+Revenues,Transfers from Capital Fund,,,R19,Transfers from capital,2011,2012,31,-269549661
+Revenues,xTransfers From Capital,xTransfers From Capital,Trans Fr Capital Fnd,R19,Transfers from capital,2025,2025,31,-308616099
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,Accessibility Fees,R16,User fees & licences,2020,2020,1,-5387000
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,Bingo Licences,R16,User fees & licences,2019,2020,2,-2662430
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,Burial (Death Reg'n),R16,User fees & licences,2019,2020,1,-1807500
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,Business Licences,R16,User fees & licences,2019,2020,1,-40269811
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,Dev App Revenues,R16,User fees & licences,2019,2020,2,-12040500
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,Licenses & Permits,R16,User fees & licences,2019,2020,5,-167844613
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,Liquor Licences,R16,User fees & licences,2019,2020,1,-68478
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,Location Permits,R16,User fees & licences,2019,2020,3,-18912390
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,Lottery - Nevada,R16,User fees & licences,2019,2020,2,-80000
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,Lottery Licences,R16,User fees & licences,2019,2020,2,-114356
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,Marriage Licences,R16,User fees & licences,2019,2020,1,-4560520
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,PTC APPLICATION FEE,R16,User fees & licences,2019,2019,1,-695000
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,PTC Application Fee,R16,User fees & licences,2020,2020,1,-708900
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,PTC TRIP FEE,R16,User fees & licences,2019,2019,1,-9495298
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,PTC Trip Fee,R16,User fees & licences,2020,2020,1,-10885204
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,Permits-St.Const,R16,User fees & licences,2019,2020,1,-3754101
+Revenues,Licences & Permits Revenue,Licences & Permits Revenue,Permits-St.Events,R16,User fees & licences,2019,2020,1,-1343194
+Revenues,Licences & Permits Revenue,,,R16,User fees & licences,2014,2018,8,-558773840
+Revenues,Licences and Permits Revenue,,,R16,User fees & licences,2013,2013,7,-100531015
+Revenues,User Fees & Donations,Donations,Donations,R17,User fees & licences,2019,2026,16,-25780381
+Revenues,User Fees & Donations,Licences & Permits Revenue,Accessibility Fees,R15,User fees & licences,2021,2026,2,-17706913
+Revenues,User Fees & Donations,Licences & Permits Revenue,Application Fee-Private Transportation Compa,R15,User fees & licences,2022,2023,1,-1900295
+Revenues,User Fees & Donations,Licences & Permits Revenue,Bingo Licences,R15,User fees & licences,2021,2026,2,-8300832
+Revenues,User Fees & Donations,Licences & Permits Revenue,Burial (Death Reg'n),R15,User fees & licences,2021,2026,2,-4083750
+Revenues,User Fees & Donations,Licences & Permits Revenue,Burial (Death Registration Fee),R15,User fees & licences,2022,2023,1,-1996500
+Revenues,User Fees & Donations,Licences & Permits Revenue,Business Licences,R15,User fees & licences,2021,2026,2,-81920523
+Revenues,User Fees & Donations,Licences & Permits Revenue,Dev App Revenues,R15,User fees & licences,2021,2026,3,-8616640
+Revenues,User Fees & Donations,Licences & Permits Revenue,Development Application Revenues,R15,User fees & licences,2022,2023,1,-4038400
+Revenues,User Fees & Donations,Licences & Permits Revenue,Licenses & Permits,R15,User fees & licences,2021,2026,9,-532422302
+Revenues,User Fees & Donations,Licences & Permits Revenue,Liquor Licences,R15,User fees & licences,2021,2026,2,-264967
+Revenues,User Fees & Donations,Licences & Permits Revenue,Location Permits,R15,User fees & licences,2021,2026,8,-62707251
+Revenues,User Fees & Donations,Licences & Permits Revenue,Lottery - Nevada,R15,User fees & licences,2021,2026,2,-128000
+Revenues,User Fees & Donations,Licences & Permits Revenue,Lottery - Nevada Breakopen,R15,User fees & licences,2022,2023,1,-64000
+Revenues,User Fees & Donations,Licences & Permits Revenue,Lottery Licences,R15,User fees & licences,2021,2026,2,-274454
+Revenues,User Fees & Donations,Licences & Permits Revenue,Marriage Licences,R15,User fees & licences,2021,2026,2,-15770000
+Revenues,User Fees & Donations,Licences & Permits Revenue,PTC Application Fee,R15,User fees & licences,2021,2026,2,-4233187
+Revenues,User Fees & Donations,Licences & Permits Revenue,PTC Trip Fee,R15,User fees & licences,2021,2026,2,-68547164
+Revenues,User Fees & Donations,Licences & Permits Revenue,Permits-St.Const,R15,User fees & licences,2021,2026,1,-9602550
+Revenues,User Fees & Donations,Licences & Permits Revenue,Permits-St.Events,R15,User fees & licences,2024,2026,1,-913266
+Revenues,User Fees & Donations,Licences & Permits Revenue,Street Construction Permit Fees,R15,User fees & licences,2022,2023,1,-4345242
+Revenues,User Fees & Donations,Licences & Permits Revenue,Street Event Permit Fees,R15,User fees & licences,2022,2023,1,-537045
+Revenues,User Fees & Donations,Licences & Permits Revenue,Trip Fee - Private Transporation,R15,User fees & licences,2022,2023,1,-22589900
+Revenues,User Fees & Donations,User Fees,Accom. Fee - Basic,R17,User fees & licences,2019,2026,2,-158215551
+Revenues,User Fees & Donations,User Fees,Accom. Fee - Private,R17,User fees & licences,2019,2026,2,-85650733
+Revenues,User Fees & Donations,User Fees,Accom. Fee - Respite,R17,User fees & licences,2020,2026,1,-111628
+Revenues,User Fees & Donations,User Fees,Accom. Fee - Semi-Pr,R17,User fees & licences,2019,2026,2,-69764805
+Revenues,User Fees & Donations,User Fees,Accommodation Fee - Basic,R17,User fees & licences,2022,2023,1,-46708070
+Revenues,User Fees & Donations,User Fees,Accommodation Fee - Private,R17,User fees & licences,2022,2023,1,-28993840
+Revenues,User Fees & Donations,User Fees,Accommodation Fee - Respite Care-Short Stay,R17,User fees & licences,2022,2023,1,-36000
+Revenues,User Fees & Donations,User Fees,Accommodation Fee - Semi Private,R17,User fees & licences,2022,2023,1,-24058370
+Revenues,User Fees & Donations,User Fees,Administration Fees,R17,User fees & licences,2019,2026,6,-44389363
+Revenues,User Fees & Donations,User Fees,Advertising Contract Revenues,R17,User fees & licences,2022,2023,2,-224400
+Revenues,User Fees & Donations,User Fees,Advt'G Contr Revs,R17,User fees & licences,2019,2026,4,-2217408
+Revenues,User Fees & Donations,User Fees,Application Fees,R17,User fees & licences,2019,2026,4,-8782258
+Revenues,User Fees & Donations,User Fees,Blvd Pkg Fees,R17,User fees & licences,2019,2026,1,-41859265
+Revenues,User Fees & Donations,User Fees,Booked Tours Rev.,R17,User fees & licences,2019,2026,2,-164058
+Revenues,User Fees & Donations,User Fees,Booked Tours Revenue,R17,User fees & licences,2022,2023,1,-12525
+Revenues,User Fees & Donations,User Fees,Boulevard Parking Fees,R17,User fees & licences,2022,2023,1,-13582446
+Revenues,User Fees & Donations,User Fees,Cafeteria Rev From Police & City EE,R17,User fees & licences,2022,2023,2,-154574
+Revenues,User Fees & Donations,User Fees,Cafeteria Revenue,R17,User fees & licences,2019,2026,3,-449867
+Revenues,User Fees & Donations,User Fees,Ch Fitness Ctr Fees,R17,User fees & licences,2019,2021,1,-327656
+Revenues,User Fees & Donations,User Fees,City Hall Fitness Centre Fees,R17,User fees & licences,2022,2022,1,-114221
+Revenues,User Fees & Donations,User Fees,Dump Fees-Recyc-Swm,R17,User fees & licences,2019,2026,1,-6215925
+Revenues,User Fees & Donations,User Fees,Dump Fees-Waste-Swm,R17,User fees & licences,2019,2026,1,-93525794
+Revenues,User Fees & Donations,User Fees,Dumping Fees-Recycling-Swm,R17,User fees & licences,2022,2023,1,-1624874
+Revenues,User Fees & Donations,User Fees,Dumping Fees-Waste-Swm,R17,User fees & licences,2022,2023,1,-27272663
+Revenues,User Fees & Donations,User Fees,Examination Fees,R17,User fees & licences,2019,2026,2,-119310
+Revenues,User Fees & Donations,User Fees,"Fees, Service Charges",R17,User fees & licences,2022,2023,34,-2496445872
+Revenues,User Fees & Donations,User Fees,"Fees, Svc Charges",R17,User fees & licences,2019,2026,56,-8755703717
+Revenues,User Fees & Donations,User Fees,Ice & Artificial Ice Permits,R17,User fees & licences,2022,2023,2,-40240488
+Revenues,User Fees & Donations,User Fees,Ice/Art. Ice Permits,R17,User fees & licences,2019,2026,4,-125481104
+Revenues,User Fees & Donations,User Fees,Ind Waste Agreemnts,R17,User fees & licences,2019,2026,1,-62673935
+Revenues,User Fees & Donations,User Fees,Industrial Waste Agreements,R17,User fees & licences,2022,2023,1,-19676362
+Revenues,User Fees & Donations,User Fees,Membership Rev,R17,User fees & licences,2019,2026,4,-22669710
+Revenues,User Fees & Donations,User Fees,Membership Revenue,R17,User fees & licences,2022,2023,1,-6406323
+Revenues,User Fees & Donations,User Fees,Metro Hall Fitness Centre Fees,R17,User fees & licences,2022,2023,1,-18784
+Revenues,User Fees & Donations,User Fees,Mh Fitness Ctr Fees,R17,User fees & licences,2019,2024,1,-48279
+Revenues,User Fees & Donations,User Fees,Other Rental Rev,R17,User fees & licences,2019,2026,5,-3479957
+Revenues,User Fees & Donations,User Fees,Other Rental Revenue,R17,User fees & licences,2022,2023,2,-1285708
+Revenues,User Fees & Donations,User Fees,Parking Fees,R17,User fees & licences,2019,2026,6,-122809991
+Revenues,User Fees & Donations,User Fees,Pool Rentals,R17,User fees & licences,2019,2026,4,-15651372
+Revenues,User Fees & Donations,User Fees,Pref. Accom. Fee - P,R17,User fees & licences,2019,2026,2,-32523283
+Revenues,User Fees & Donations,User Fees,Pref. Accom. Fee - S,R17,User fees & licences,2019,2026,2,-12249844
+Revenues,User Fees & Donations,User Fees,Preferred Accommodation - Private,R17,User fees & licences,2022,2023,1,-10859891
+Revenues,User Fees & Donations,User Fees,Preferred Accommodation - Semi Private,R17,User fees & licences,2022,2023,1,-4135516
+Revenues,User Fees & Donations,User Fees,Public Programs Rev.,R17,User fees & licences,2019,2026,2,-936830
+Revenues,User Fees & Donations,User Fees,Public Progroms Revenue,R17,User fees & licences,2022,2023,1,-187835
+Revenues,User Fees & Donations,User Fees,Registration Fees,R17,User fees & licences,2019,2026,9,-315078270
+Revenues,User Fees & Donations,User Fees,Rental Of Properties,R17,User fees & licences,2019,2026,15,-420611770
+Revenues,User Fees & Donations,User Fees,"Rents, Conc & Frnch",R17,User fees & licences,2019,2026,12,-12004197
+Revenues,User Fees & Donations,User Fees,"Rents, Concessions & Franchise",R17,User fees & licences,2022,2023,7,-3906933
+Revenues,User Fees & Donations,User Fees,Revenue - MOW,R17,User fees & licences,2019,2026,2,-1584415
+Revenues,User Fees & Donations,User Fees,Revenue - Meals On Wheels Program,R17,User fees & licences,2022,2023,1,-963197
+Revenues,User Fees & Donations,User Fees,S Waste Collection F,R17,User fees & licences,2019,2026,1,-1838831257
+Revenues,User Fees & Donations,User Fees,Ski Equip Rentals,R17,User fees & licences,2019,2026,3,-751540
+Revenues,User Fees & Donations,User Fees,Ski Equipment Rentals,R17,User fees & licences,2022,2023,1,-246969
+Revenues,User Fees & Donations,User Fees,Solid Waste Collection Fee,R17,User fees & licences,2022,2023,1,-600303986
+Revenues,User Fees & Donations,User Fees,Srv. Fee - Personal,R17,User fees & licences,2019,2020,2,-20480
+Revenues,User Fees & Donations,User Fees,St. Law. Mrkt-Rental,R17,User fees & licences,2019,2026,2,-23795903
+Revenues,User Fees & Donations,User Fees,St. Lawrence Market - Rentals,R17,User fees & licences,2022,2023,1,-7729650
+Revenues,User Fees & Donations,User Fees,Surchg On Priv. Water Systems,R17,User fees & licences,2022,2023,1,-18005855
+Revenues,User Fees & Donations,User Fees,"Surchg, Priv Wtr Sy",R17,User fees & licences,2019,2026,1,-43308783
+Revenues,User Fees & Donations,User Fees,Ticket Sales & Admis,R17,User fees & licences,2019,2026,7,-113700350
+Revenues,User Fees & Donations,User Fees,Ticket Sales & Admissions,R17,User fees & licences,2022,2023,3,-36805064
+Revenues,User Fees & Donations,User Fees,User Fees,R17,User fees & licences,2019,2026,13,-1724496353
+Revenues,User Fees & Donations,User Fees,Witness Fees,R17,User fees & licences,2019,2025,1,-5600
+Revenues,User Fees & Donations,,,R17,User fees & licences,2011,2018,66,-14748256137
+Revenues,User Fees and Donations,,,R17,User fees & licences,2013,2013,37,-1991993255
+Revenues,Other Revenue,Inter-Divisional Recoveries,IDR-Trans Ser,R11,Water & wastewater rates,2021,2021,1,-314722
+Revenues,Other Revenue,Miscellaneous Revenues,Late Payment Charges,R11,Water & wastewater rates,2021,2026,1,-200001
+Revenues,Other Revenue,Miscellaneous Revenues,Late Payment Charges - Ar Invoices,R11,Water & wastewater rates,2022,2023,1,-100000
+Revenues,Other Revenue,Miscellaneous Revenues,Other Recoveries,R11,Water & wastewater rates,2021,2026,1,-77092779
+Revenues,Other Revenue,Miscellaneous Revenues,"Sales Of Publication,Scrap & E",R11,Water & wastewater rates,2022,2023,1,-120000
+Revenues,Other Revenue,Miscellaneous Revenues,"Sales-Pub, Scrap &",R11,Water & wastewater rates,2021,2026,1,-240000
+Revenues,Other Revenue,Miscellaneous Revenues,Sundry Revenue,R11,Water & wastewater rates,2021,2026,1,-2044442
+Revenues,Other Revenue,Miscellaneous Revenues,Trade A/P Disc Recd,R11,Water & wastewater rates,2021,2026,1,-140000
+Revenues,Other Revenue,Miscellaneous Revenues,Trades Payable Discounts Received,R11,Water & wastewater rates,2022,2023,1,-70000
+Revenues,Other Revenue,Taxation,Sale Of Water,R09,Water & wastewater rates,2021,2026,1,-8611773974
+Revenues,Other Revenue,,,R11,Water & wastewater rates,2012,2012,1,-2692100
+Revenues,Sale of Water,,,R11,Water & wastewater rates,2012,2012,1,-855110000
+Revenues,Sundry Revenues,,,R11,Water & wastewater rates,2011,2011,1,-2785300
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Late Payment Charges,R11,Water & wastewater rates,2019,2020,1,-100000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Other Recoveries,R11,Water & wastewater rates,2019,2020,1,-17759679
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,"Sales-Pub, Scrap &",R11,Water & wastewater rates,2019,2020,1,-120000
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Sundry Revenue,R11,Water & wastewater rates,2019,2020,1,-681481
+Revenues,Sundry and Other Revenues,Miscellaneous Revenues,Trade A/P Disc Recd,R11,Water & wastewater rates,2019,2020,1,-70000
+Revenues,Sundry and Other Revenues,Taxation,Sale Of Water,R09,Water & wastewater rates,2019,2020,1,-2562482796
+Revenues,Sundry and Other Revenues,,,R11,Water & wastewater rates,2013,2018,1,-6453018418
+Revenues,User Fees & Donations,,,R10,Water & wastewater rates,2011,2011,1,-816157500

@@ -1,0 +1,222 @@
+@import url("observablehq:default.css");
+@import url("observablehq:theme-air.css") (prefers-color-scheme: light);
+@import url("observablehq:theme-near-midnight.css") (prefers-color-scheme: dark);
+
+:root {
+  --tb-blue: #2a78d6;
+  --tb-orange: #eb6834;
+  --tb-aqua: #1baf7a;
+  --tb-yellow: #eda100;
+  --tb-magenta: #e87ba4;
+  --tb-violet: #4a3aa7;
+  --tb-card: #ffffff;
+  --tb-soft: #f4f2ec;
+  --tb-ink-2: #52514e;
+  --tb-note-bg: #fff6e0;
+  --tb-note-border: #eda100;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --tb-blue: #3987e5;
+    --tb-orange: #d95926;
+    --tb-aqua: #199e70;
+    --tb-yellow: #c98500;
+    --tb-magenta: #d55181;
+    --tb-violet: #9085e9;
+    --tb-card: #1d1d1c;
+    --tb-soft: #242422;
+    --tb-ink-2: #c3c2b7;
+    --tb-note-bg: #2b2513;
+    --tb-note-border: #c98500;
+  }
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* ---- Hero ------------------------------------------------------------------ */
+
+.hero {
+  position: relative;
+  margin: 1.5rem 0 2rem;
+  padding: 2.25rem 2rem 2rem;
+  border-radius: 20px;
+  color: #fff;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 85% 20%, rgba(255, 255, 255, 0.18) 0 18%, transparent 19%),
+    radial-gradient(circle at 95% 90%, rgba(255, 255, 255, 0.12) 0 22%, transparent 23%),
+    linear-gradient(120deg, #1c5cab 0%, #4a3aa7 45%, #d55181 80%, #eb6834 100%);
+}
+
+.hero h1 {
+  margin: 0 0 0.5rem;
+  max-width: none;
+  font-size: clamp(1.9rem, 5vw, 3rem);
+  line-height: 1.1;
+  font-weight: 800;
+  color: #fff;
+}
+
+.hero p {
+  max-width: 44rem;
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.hero .skyline {
+  position: absolute;
+  right: 1rem;
+  bottom: 0;
+  width: min(42%, 340px);
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.25rem;
+}
+
+.hero-links a {
+  display: inline-block;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.95);
+  color: #1c1c1c;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hero-links a:hover {
+  background: #fff;
+  text-decoration: underline;
+}
+
+/* ---- Stat cards ------------------------------------------------------------ */
+
+.stat {
+  border-top: 6px solid var(--accent, var(--tb-blue));
+}
+
+.stat h2 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--tb-ink-2);
+}
+
+.stat .big {
+  font-size: 2.1rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 0.3rem 0 0.2rem;
+}
+
+.stat .sub {
+  font-size: 0.9rem;
+  color: var(--tb-ink-2);
+}
+
+/* ---- Notes and glossary ---------------------------------------------------- */
+
+.data-note {
+  margin: 0.75rem 0;
+  padding: 0.7rem 0.9rem;
+  border-left: 4px solid var(--tb-note-border);
+  border-radius: 6px;
+  background: var(--tb-note-bg);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  max-width: 60rem;
+}
+
+.data-note b {
+  margin-right: 0.25rem;
+}
+
+.explainer {
+  font-size: 0.98rem;
+  line-height: 1.55;
+  max-width: 60rem;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0.1rem 0.55rem;
+  margin: 0 0.15rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.glossary dt {
+  font-weight: 700;
+  margin-top: 0.9rem;
+}
+
+.glossary dd {
+  margin: 0.2rem 0 0;
+  max-width: 52rem;
+}
+
+/* ---- Controls -------------------------------------------------------------- */
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.25rem 1.5rem;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  border-radius: 14px;
+  background: var(--tb-soft);
+}
+
+.controls form {
+  width: 100%;
+  max-width: none;
+}
+
+.controls form select {
+  max-width: 100%;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.section-title::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: var(--accent, var(--tb-blue));
+  flex: none;
+}
+
+/* ---- Phone widths ---------------------------------------------------------- */
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 1.5rem 1.1rem 1.4rem;
+    border-radius: 14px;
+  }
+  .hero .skyline {
+    display: none;
+  }
+  .controls {
+    padding: 0.75rem;
+  }
+  .stat .big {
+    font-size: 1.7rem;
+  }
+}
