@@ -82,14 +82,20 @@ published for a few years. Use approved budgets only.
    grouped by service area, and its entries show their year range when a program
    does not span all years. Below the controls, show a plain-language trend
    sentence, the chart, context-sensitive data notes, category or service-area
-   definitions, a data table, and download links for the parquet files.
+   definitions, a data table, and download links for the parquet files. Section
+   headings (used for sidebar navigation): Choose what to see, The chart, What the
+   colours mean, The numbers.
 3. **Labour costs:** citywide and service-area labour share over time, a
    program × year heatmap (filter by service area and minimum size, sort by share or
    size), and a one-program vs. City comparison. The heatmap uses a reversed viridis
    scale (0–100%), so darker (purple) means more labour-intensive and yellow means
    less.
-4. **About the data:** an opening credit line ("This app was created by Prof. Zack Taylor, University of Western Ontario, as a demonstration for Civic Tech Toronto, October 13, 2026.") placed before the not-an-official-product statement, then a glossary, category and service-area definitions, sources,
-   CPI and dwelling factors table, cleaning method with links to the crosswalk files,
+4. **About the data:** an opening paragraph containing the credit line "This app
+   was created by Prof. Zack Taylor, University of Western Ontario, as a
+   demonstration for Civic Tech Toronto, October 13, 2026." placed just before "The
+   site is an independent project and not an official City of Toronto product."
+   Then a glossary, category and service-area definitions, sources, CPI and
+   dwelling factors table, cleaning method with links to the crosswalk files,
    all known breaks and caveats, and a raw-vs-cleaned totals validation table.
 
 ### Charts
@@ -233,16 +239,18 @@ Interpolate linearly between these years to create annual values for 2011–2026
 -  Framework: Observable Framework 1.13.x (static site, Observable Plot for charts,
    custom pill and dropdown controls that work with `Generators.input`).
 -  Light/dark mode toggle:
-   -  A button at the bottom of the left sidebar switches between the "air" (light) and
-      "near-midnight" (dark) themes.
+   -  A button at the bottom of the left sidebar switches between the "air" (light)
+      and "near-midnight" (dark) themes. On phones it is inside the sidebar menu.
    -  The choice is saved in localStorage. The first visit follows the system
       setting.
    -  The theme is applied by a `data-theme` attribute on `<html>`, set before the
       first paint. Charts re-render in the matching palette through Framework's
       reactive `dark` value.
--  Navigation: no separate "Contents" panel. Each page's section headings are listed
-   under that page's link in the left sidebar (the page entry, not the site-title link), which highlights the current section
-   while scrolling. Overview is listed as a page in the sidebar.
+-  Navigation: no separate "Contents" panel. Each page's section headings are
+   listed under that page's entry in the left sidebar, which highlights the current
+   section while scrolling. Overview is listed as a page in the sidebar. Its
+   sections nest under "Overview", not under the site-title link, which also
+   points to the home page.
 -  Data: store cleaned data as parquet files and query them in the browser with
    DuckDB-wasm, using Framework's built-in `DuckDBClient`.
 -  Pipeline: all local data prep code is written in R:
