@@ -3,7 +3,7 @@ title: Labour costs
 ---
 
 ```js
-import {yearTicks, PALETTE, SERVICE_AREAS, colorMap, fmtMoney, fmtPct} from "./components/common.js";
+import {yearAxis, pills, dropdown, PALETTE, SERVICE_AREAS, colorMap, fmtMoney, fmtPct} from "./components/common.js";
 ```
 
 ```js
@@ -66,7 +66,8 @@ resize((width) => Plot.plot({
   height: 380,
   marginLeft: 48,
   marginRight: 16,
-  x: {label: null, tickFormat: "d", ticks: yearTicks(width)},
+  marginBottom: yearAxis(width).marginBottom,
+  x: yearAxis(width).axis,
   y: {label: "Salaries & benefits as share of spending", grid: true, domain: [0, 1], tickFormat: (d) => `${d * 100}%`},
   color: {domain: ["Whole City", ...SERVICE_AREAS], range: [dark ? "#ffffff" : "#0b0b0b", ...SERVICE_AREAS.map((a) => areaMap.get(a))], legend: true},
   marks: [
@@ -85,15 +86,18 @@ resize((width) => Plot.plot({
 ## Labour share by program
 
 ```js
-const areaInput = Inputs.select(["All", ...SERVICE_AREAS], {label: "Service area", format: (d) => d === "All" ? "All of the City" : d});
+const areaInput = dropdown(["All", ...SERVICE_AREAS], {label: "Service area", format: (d) => d === "All" ? "All of the City" : d});
 const area = Generators.input(areaInput);
-const minInput = Inputs.select([0, 10e6, 50e6, 100e6], {label: "Hide programs smaller than", value: 10e6, format: (d) => d ? `${fmtMoney(d)} a year` : "Show all"});
+const minInput = pills([0, 10e6, 50e6, 100e6], {label: "Hide programs smaller than", value: 10e6, format: (d) => d ? `${fmtMoney(d)} a year` : "Show all"});
 const minSize = Generators.input(minInput);
-const sortInput = Inputs.radio(["Labour share", "Size"], {label: "Sort by", value: "Labour share"});
+const sortInput = pills(["Labour share", "Size"], {label: "Sort by", value: "Labour share"});
 const sortBy = Generators.input(sortInput);
 ```
 
-<div class="controls">${areaInput}${minInput}${sortInput}</div>
+<div class="controls">
+  <fieldset class="tb-step" style="--accent: var(--tb-blue)"><legend><span class="tb-step-num">1</span> Which programs</legend>${areaInput}${minInput}</fieldset>
+  <fieldset class="tb-step" style="--accent: var(--tb-orange)"><legend><span class="tb-step-num">2</span> Order</legend>${sortInput}</fieldset>
+</div>
 
 ```js
 const progStats = d3.rollups(progYear.filter((d) => area === "All" || d.service_area === area), (v) => {
@@ -109,7 +113,7 @@ const cells = progYear.filter((d) => shown.has(d.program));
 
 <div class="card">
   <h2>Salaries &amp; benefits as a share of each program's spending</h2>
-  <h3>Each square is one program in one year. Darker means more of the program's money goes to its own staff. Blank squares mean the program did not exist under that name that year.</h3>
+  <h3>Each square is one program in one year. Darker (purple) means more of the program's money goes to its own staff; yellow means little does. Blank squares mean the program did not exist under that name that year.</h3>
   ${resize((width) => {
     const labelW = Math.min(250, width * 0.4);
     return Plot.plot({
@@ -120,7 +124,7 @@ const cells = progYear.filter((d) => shown.has(d.program));
       padding: 0.08,
       x: {label: null, tickFormat: (d) => width < 640 ? `'${String(d).slice(2)}` : String(d), axis: "top", domain: years},
       y: {label: null, domain: progStats.map((d) => d.program), tickSize: 0, tickFormat: (k) => k.length > labelW / 6.3 ? k.slice(0, Math.floor(labelW / 6.3) - 1) + "…" : k},
-      color: {type: "linear", domain: [0, 1], range: dark ? ["#184f95", "#cde2fb"] : ["#cde2fb", "#0d366b"], legend: true, label: "Labour share of spending", tickFormat: (d) => `${Math.round(d * 100)}%`},
+      color: {type: "linear", scheme: "viridis", reverse: true, domain: [0, 1], legend: true, label: "Labour share of spending (darker = more labour-intensive)", tickFormat: (d) => `${Math.round(d * 100)}%`, width: Math.min(360, width - 20)},
       marks: [
         Plot.cell(cells, {x: "year", y: "program", fill: (d) => Math.max(0, Math.min(1, d.share)), rx: 3}),
         width >= 900 ? Plot.text(cells, {x: "year", y: "program", text: (d) => Math.round(d.share * 100), fontSize: 9, fill: (d) => (d.share > 0.55) !== dark ? "white" : "black"}) : null,
@@ -134,11 +138,11 @@ const cells = progYear.filter((d) => shown.has(d.program));
 
 ```js
 const programChoices = [...new Set(progYear.filter((d) => d.gross >= 10e6).map((d) => d.program))].sort();
-const pickInput = Inputs.select(programChoices, {label: "Program", value: "Toronto Police Service"});
+const pickInput = dropdown(programChoices, {label: "Program", value: "Toronto Police Service"});
 const pick = Generators.input(pickInput);
 ```
 
-<div class="controls">${pickInput}</div>
+<div class="controls"><fieldset class="tb-step" style="--accent: var(--tb-orange)"><legend>Pick a program</legend>${pickInput}</fieldset></div>
 
 ```js
 const pickRows = progYear.filter((d) => d.program === pick).map((d) => ({...d, series: pick})).sort((a, b) => a.year - b.year);
@@ -152,7 +156,8 @@ const compare = [...city, ...pickRows];
     width,
     height: 300,
     marginLeft: 48,
-    x: {label: null, tickFormat: "d", ticks: yearTicks(width), domain: [firstYear, lastYear]},
+    marginBottom: yearAxis(width).marginBottom,
+    x: {...yearAxis(width).axis, domain: [firstYear, lastYear]},
     y: {label: null, grid: true, domain: [0, 1], tickFormat: (d) => `${d * 100}%`},
     color: {domain: ["Whole City", pick], range: [dark ? "#c3c2b7" : "#52514e", pal[1]], legend: true},
     marks: [

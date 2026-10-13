@@ -67,16 +67,26 @@ published for a few years. Use approved budgets only.
    spending per dwelling, real growth per dwelling since 2011, property tax share of
    funding), spending trend in nominal vs. 2025 dollars, latest-year spending by type
    and funding by source, and an explanation of operating vs. capital budgets.
-2. **Explore the budget:** controls for view (over time / single year), measure
-   (spending / funding / net cost), dollar units, service area, program, category,
-   "colour by" (category / service area / program / total only), chart style
-   (stacked bars / lines) and year. Show a plain-language trend sentence, the chart,
-   context-sensitive data notes, category or service-area definitions, a data table,
-   and download links for the parquet files. Program dropdown entries show their year
-   range when a program does not span all years.
+2. **Explore the budget:** controls are grouped into three numbered step cards with
+   plain labels, so options are easy to tell apart and never cut off:
+   -  **1 What to measure:** view (over time / single year), year (single-year view
+      only), measure (spending / funding / net cost, with a one-line explanation),
+      and dollar units.
+   -  **2 Zoom in:** service area, program and category.
+   -  **3 Split the chart:** "colour by" (category / service area / program / total
+      only) and chart style (stacked bars / lines; over-time view only).
+
+   Short option lists are pill buttons that show every choice and highlight the
+   selected one. Long lists are full-width dropdowns. The program dropdown is
+   grouped by service area, and its entries show their year range when a program
+   does not span all years. Below the controls, show a plain-language trend
+   sentence, the chart, context-sensitive data notes, category or service-area
+   definitions, a data table, and download links for the parquet files.
 3. **Labour costs:** citywide and service-area labour share over time, a
    program × year heatmap (filter by service area and minimum size, sort by share or
-   size), and a one-program vs. City comparison.
+   size), and a one-program vs. City comparison. The heatmap uses a reversed viridis
+   scale (0–100%), so darker (purple) means more labour-intensive and yellow means
+   less.
 4. **About the data:** glossary, category and service-area definitions, sources,
    CPI and dwelling factors table, cleaning method with links to the crosswalk files,
    all known breaks and caveats, and a raw-vs-cleaned totals validation table.
@@ -95,7 +105,8 @@ published for a few years. Use approved budgets only.
 -  In single-year view by program, show the top 20 programs plus an "All other
    programs" row, with bars coloured by service area.
 -  Every chart has hover tooltips. Every chart with 2 or more series has a legend.
--  Year ticks thin out on narrow screens.
+-  Longitudinal charts label every year on the x axis. On narrow charts (under
+   760px) the labels rotate vertically.
 
 ## DATA
 
@@ -214,7 +225,18 @@ Interpolate linearly between these years to create annual values for 2011–2026
 ## TECHNOLOGIES
 
 -  Framework: Observable Framework 1.13.x (static site, Observable Plot for charts,
-   Inputs for controls). Light/dark themes ("air" / "near-midnight").
+   custom pill and dropdown controls that work with `Generators.input`).
+-  Light/dark mode toggle:
+   -  A button in the page header switches between the "air" (light) and
+      "near-midnight" (dark) themes.
+   -  The choice is saved in localStorage. The first visit follows the system
+      setting.
+   -  The theme is applied by a `data-theme` attribute on `<html>`, set before the
+      first paint. Charts re-render in the matching palette through Framework's
+      reactive `dark` value.
+-  Navigation: no separate "Contents" panel. Each page's section headings are listed
+   under that page's link in the left sidebar, which highlights the current section
+   while scrolling. Overview is listed as a page in the sidebar.
 -  Data: store cleaned data as parquet files and query them in the browser with
    DuckDB-wasm, using Framework's built-in `DuckDBClient`.
 -  Pipeline: all local data prep code is written in R:

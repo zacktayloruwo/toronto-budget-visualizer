@@ -4,7 +4,7 @@ toc: false
 ---
 
 ```js
-import {yearTicks, CATEGORY_ORDER, PALETTE, OTHER, colorMap, foldKey, scaleFor, fmtMoney, fmtPct, axisFormat} from "./components/common.js";
+import {yearAxis, CATEGORY_ORDER, PALETTE, OTHER, colorMap, foldKey, scaleFor, fmtMoney, fmtPct, axisFormat} from "./components/common.js";
 ```
 
 ```js
@@ -72,7 +72,7 @@ const growth = exp(latestYear).real_per_dw / exp(firstYear).real_per_dw - 1;
   </div>
 </div>
 
-<h2 class="section-title" style="--accent: var(--tb-blue)">Spending has grown, but less after inflation</h2>
+<h2 id="spending-trend" class="section-title" style="--accent: var(--tb-blue)">Spending has grown, but less after inflation</h2>
 
 <p class="explainer">The solid line shows spending in the dollars of each year (<b>nominal</b>). The dashed line converts every year into <b>2025 dollars</b>, so a dollar buys about the same amount in every year. The gap between the lines is inflation.</p>
 
@@ -91,7 +91,8 @@ resize((width) => Plot.plot({
   width,
   height: 320,
   marginLeft: 56,
-  x: {label: null, tickFormat: "d", ticks: yearTicks(width)},
+  marginBottom: yearAxis(width).marginBottom,
+  x: yearAxis(width).axis,
   y: {label: "Total operating spending", grid: true, tickFormat: axisFormat(false), zero: true},
   color: {domain: ["Nominal dollars", "2025 dollars"], range: [pal[0], pal[1]], legend: true},
   marks: [
@@ -106,6 +107,8 @@ resize((width) => Plot.plot({
 ```
 
 </div>
+
+<h2 id="money-in-out">Where the money goes and comes from</h2>
 
 <div class="grid grid-cols-2">
   <div class="card">
@@ -147,7 +150,7 @@ function barList(rows, type, width) {
 
 <div class="data-note"><b>Why are the two sides almost equal?</b> Ontario law requires the City's operating budget to balance: every dollar of planned spending must have a planned source of funding. Property tax is set last, to cover whatever other sources don't. (From 2022 on, the published files are missing about $1B of Toronto Water's spending, so spending looks a little smaller than funding. See <a href="./about">About the data</a>.)</div>
 
-<h2 class="section-title" style="--accent: var(--tb-aqua)">What is the operating budget?</h2>
+<h2 id="operating-budget" class="section-title" style="--accent: var(--tb-aqua)">What is the operating budget?</h2>
 
 <div class="explainer">
 

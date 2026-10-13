@@ -5,7 +5,7 @@ title: Explore the budget
 ```js
 import {
   PALETTE, OTHER, OTHER_COLOR, MAX_SLOTS, SERVICE_AREAS, CATEGORY_ORDER, UNITS, MEASURES,
-  CATEGORY_HELP, AREA_HELP, yearTicks, colorMap, foldKey, scaleFor, fmtMoney, fmtPct, axisFormat,
+  CATEGORY_HELP, AREA_HELP, yearAxis, pills, dropdown, colorMap, foldKey, scaleFor, fmtMoney, fmtPct, axisFormat,
   q, unitExpr, whereClause, signedAmount, notesFor
 } from "./components/common.js";
 ```
@@ -30,26 +30,34 @@ const firstYear = yearsList[0], lastYear = yearsList.at(-1);
 
 # Explore the budget
 
-<p class="explainer">Choose what to look at, then zoom in. Start with the whole City and narrow down to a <b>service area</b>, then a single <b>program</b>. Colour the chart by <b>type of expense</b> (or source of funding), by service area, or by program. Hover over the chart for exact values. A table of the numbers is at the bottom.</p>
+<p class="explainer">Work through the three steps below. <b>1</b> picks what to measure and how to count the dollars. <b>2</b> zooms from the whole City to a service area, a single program or one type of spending. <b>3</b> picks how to split the chart into coloured parts. Hover over the chart for exact values. A table of the numbers is at the bottom.</p>
+
+## Choose what to see
 
 ```js
-const viewInput = Inputs.radio(["Over time", "Single year"], {label: "View", value: "Over time"});
+const viewInput = pills(["Over time", "Single year"], {label: "View", value: "Over time"});
 const view_ = Generators.input(viewInput);
-const measureInput = Inputs.select(MEASURES, {label: "Show", format: (d) => d.label, value: MEASURES[0]});
+const measureInput = pills(MEASURES, {label: "Measure", format: (d) => d.pill, value: MEASURES[0],
+  help: "Spending = what the City pays out. Funding = where the money comes from. Net cost = a program's spending minus its own revenue."});
 const measureObj = Generators.input(measureInput);
-const unitInput = Inputs.select(UNITS, {label: "Dollars", format: (d) => d.label, value: UNITS[1]});
+const unitInput = pills(UNITS, {label: "Count dollars as", format: (d) => d.pill, value: UNITS[1]});
 const unit = Generators.input(unitInput);
-const areaInput = Inputs.select(["All", ...SERVICE_AREAS], {label: "Service area", format: (d) => d === "All" ? "All of the City" : d});
+const areaInput = dropdown(["All", ...SERVICE_AREAS], {label: "Service area", format: (d) => d === "All" ? "All of the City" : d});
 const area = Generators.input(areaInput);
-const yearInput = Inputs.select(yearsList.slice().reverse(), {label: "Year", value: lastYear});
+const yearInput = dropdown(yearsList.slice().reverse(), {label: "Year", value: lastYear});
 const year = Generators.input(yearInput);
 ```
 
 ```js
 const measure = measureObj.key;
-const programOptions = ["All", ...programList.filter((d) => area === "All" || d.service_area === area).map((d) => d.program)];
-const programInput = Inputs.select(programOptions, {
+const programOptions = ["All", ...programList
+  .filter((d) => area === "All" || d.service_area === area)
+  .sort((a, b) => SERVICE_AREAS.indexOf(a.service_area) - SERVICE_AREAS.indexOf(b.service_area) || b.spend - a.spend)
+  .map((d) => d.program)];
+const programArea0 = new Map(programList.map((d) => [d.program, d.service_area]));
+const programInput = dropdown(programOptions, {
   label: "Program",
+  group: (d) => d === "All" ? "Everything" : programArea0.get(d),
   format: (d) => {
     if (d === "All") return area === "All" ? "All programs" : "All programs in this area";
     const p = programList.find((x) => x.program === d);
@@ -61,9 +69,9 @@ const program = Generators.input(programInput);
 
 ```js
 const categoryNoun = measure === "revenue" ? "Source of funding" : "Type of expense";
-const categoryInput = Inputs.select(["All", ...(CATEGORY_ORDER[measure] ?? [])], {
-  label: categoryNoun,
-  format: (d) => d === "All" ? (measure === "revenue" ? "All sources" : "All types") : d,
+const categoryInput = dropdown(["All", ...(CATEGORY_ORDER[measure] ?? [])], {
+  label: measure === "net" ? "Type of expense / source" : categoryNoun,
+  format: (d) => d === "All" ? (measure === "net" ? "Not available for net cost" : measure === "revenue" ? "All sources" : "All types") : d,
   disabled: measure === "net"
 });
 const category = Generators.input(categoryInput);
@@ -74,27 +82,37 @@ const breakdownOptions = [
   ...(measure === "net" ? [] : [{key: "category", label: measure === "revenue" ? "Source of funding" : "Type of expense"}]),
   {key: "service_area", label: "Service area"},
   {key: "program", label: "Program"},
-  {key: "none", label: "Nothing (total only)"}
+  {key: "none", label: "Total only"}
 ];
-const breakdownInput = Inputs.select(breakdownOptions, {
+const breakdownInput = pills(breakdownOptions, {
   label: "Colour by",
   format: (d) => d.label,
   value: breakdownOptions.find((d) => d.key === (measure === "net" ? "service_area" : "category"))
 });
 const breakdownObj = Generators.input(breakdownInput);
-const styleInput = Inputs.radio(["Stacked bars", "Lines"], {label: "Chart", value: measure === "net" ? "Lines" : "Stacked bars"});
+const styleInput = pills(["Stacked bars", "Lines"], {label: "Chart style", value: measure === "net" ? "Lines" : "Stacked bars"});
 const chartStyle = Generators.input(styleInput);
 ```
 
 <div class="controls">
-  ${viewInput}
-  ${measureInput}
-  ${view_ === "Single year" ? yearInput : unitInput}
-  ${view_ === "Single year" ? unitInput : styleInput}
-  ${areaInput}
-  ${programInput}
-  ${categoryInput}
-  ${breakdownInput}
+  <fieldset class="tb-step" style="--accent: var(--tb-blue)">
+    <legend><span class="tb-step-num">1</span> What to measure</legend>
+    ${viewInput}
+    ${view_ === "Single year" ? yearInput : ""}
+    ${measureInput}
+    ${unitInput}
+  </fieldset>
+  <fieldset class="tb-step" style="--accent: var(--tb-orange)">
+    <legend><span class="tb-step-num">2</span> Zoom in</legend>
+    ${areaInput}
+    ${programInput}
+    ${categoryInput}
+  </fieldset>
+  <fieldset class="tb-step" style="--accent: var(--tb-aqua)">
+    <legend><span class="tb-step-num">3</span> Split the chart</legend>
+    ${breakdownInput}
+    ${view_ === "Over time" ? styleInput : ""}
+  </fieldset>
 </div>
 
 ```js
@@ -168,13 +186,14 @@ function timeChart(width) {
         Plot.dot(folded, {x: "year", y: "value", fill: "key", r: 3.5, stroke: "var(--theme-background)", strokeWidth: 1.5}),
         Plot.tip(folded, Plot.pointer({x: "year", y: "value", title: tipFmt}))
       ];
+  const ya = yearAxis(width, firstYear, lastYear);
   return Plot.plot({
     width,
     height: Math.max(340, Math.min(520, width * 0.55)),
     marginLeft: 64,
     marginTop: 24,
-    x: stacked ? {label: null, tickFormat: "d", type: "band", ticks: yearTicks(width, firstYear, lastYear), padding: 0.12}
-               : {label: null, tickFormat: "d", ticks: yearTicks(width, firstYear, lastYear)},
+    marginBottom: ya.marginBottom,
+    x: stacked ? {...ya.axis, type: "band", padding: 0.12} : {...ya.axis, domain: [firstYear, lastYear]},
     y: {label: `${measureWord[0].toUpperCase() + measureWord.slice(1)} (${unit.short})`, grid: true, tickFormat: axisFormat(perDw), nice: true},
     color: {...colorScale, legend: breakdown !== "none"},
     marks: [Plot.ruleY([0]), ...marks.filter(Boolean)]
@@ -231,6 +250,8 @@ function yearChart(width) {
 }
 ```
 
+## The chart
+
 <div class="card">
   <h2>${subjectLabel} · ${measureWord}${view_ === "Single year" ? `, ${year}` : `, ${firstYear}–${lastYear}`}</h2>
   <h3>${unit.label}${measure === "net" ? " · net cost = spending minus the program's own revenue" : ""}</h3>
@@ -245,6 +266,8 @@ const notes = notesFor(state);
 ${notes.map((n) => html`<div class="data-note"><b>Note:</b> ${n.text}</div>`)}
 
 ${measure === "net" ? html`<div class="data-note"><b>Reading net cost:</b> net cost is a program's spending minus the revenue it brings in itself (fees, grants, recoveries). What is left is mostly paid for by property tax, which appears as a large negative number under the <i>Property Tax Levy</i> program in Corporate Accounts. Citywide, net cost adds up to about zero because the budget must balance.</div>` : ""}
+
+## What the colours mean
 
 <details open>
 <summary><b>What do these ${breakdown === "service_area" ? "service areas" : breakdown === "program" ? "programs" : measure === "revenue" ? "sources of funding" : "types of expense"} mean?</b></summary>

@@ -1,3 +1,6 @@
+import * as d3 from "npm:d3";
+import {html} from "npm:htl";
+
 // Shared helpers: colours, formatting, units and SQL building.
 
 // Categorical palette (fixed slot order; validated light/dark steps).
@@ -48,16 +51,16 @@ export const CATEGORY_ORDER = {
 };
 
 export const UNITS = [
-  {key: "nominal", label: "Nominal dollars", short: "nominal $", real: false, perDwelling: false},
-  {key: "real", label: "2025 dollars (inflation-adjusted)", short: "2025 $", real: true, perDwelling: false},
-  {key: "nominal_dw", label: "Nominal dollars per dwelling", short: "nominal $ per dwelling", real: false, perDwelling: true},
-  {key: "real_dw", label: "2025 dollars per dwelling", short: "2025 $ per dwelling", real: true, perDwelling: true}
+  {key: "nominal", pill: "Nominal $", label: "Nominal dollars", short: "nominal $", real: false, perDwelling: false},
+  {key: "real", pill: "2025 $ (inflation-adjusted)", label: "2025 dollars (inflation-adjusted)", short: "2025 $", real: true, perDwelling: false},
+  {key: "nominal_dw", pill: "Nominal $ per dwelling", label: "Nominal dollars per dwelling", short: "nominal $ per dwelling", real: false, perDwelling: true},
+  {key: "real_dw", pill: "2025 $ per dwelling", label: "2025 dollars per dwelling", short: "2025 $ per dwelling", real: true, perDwelling: true}
 ];
 
 export const MEASURES = [
-  {key: "expense", label: "Spending (expenses)"},
-  {key: "revenue", label: "Funding (revenues)"},
-  {key: "net", label: "Net cost (spending minus revenue)"}
+  {key: "expense", pill: "Spending", label: "Spending (expenses)"},
+  {key: "revenue", pill: "Funding", label: "Funding (revenues)"},
+  {key: "net", pill: "Net cost", label: "Net cost (spending minus revenue)"}
 ];
 
 // Build a stable colour map: the first MAX_SLOTS keys (already ranked) get
@@ -215,10 +218,62 @@ export const AREA_HELP = {
   "Agencies, Boards & Corporations": "Arm's-length bodies such as Toronto Public Library, the Toronto Zoo, Exhibition Place, TO Live and the Toronto Parking Authority."
 };
 
-// Year ticks that never crowd: every year on wide screens, fewer on phones.
-export function yearTicks(width, first = 2011, last = 2026) {
-  const step = width < 420 ? 5 : width < 760 ? 3 : width < 1000 ? 2 : 1;
-  const out = [];
-  for (let y = last; y >= first; y -= step) out.unshift(y);
-  return out;
+// Year axis that labels every year; labels rotate on narrow charts.
+export function yearAxis(width, first = 2011, last = 2026) {
+  const ticks = d3.range(first, last + 1);
+  const narrow = width < 760;
+  return {
+    axis: {label: null, ticks, tickFormat: (d) => String(d), tickRotate: narrow ? -90 : 0},
+    marginBottom: narrow ? 44 : 30
+  };
+}
+
+// ---- Controls ----------------------------------------------------------------
+// Small, consistent form controls. Each returns an element with a .value and
+// fires "input" events, so it works with Generators.input().
+
+export function pills(options, {label, value, format = String, help} = {}) {
+  const root = html`<div class="tb-field"><div class="tb-label">${label}</div>${help ? html`<div class="tb-help">${help}</div>` : ""}<div class="tb-pills" role="radiogroup" aria-label=${label}></div></div>`;
+  const box = root.querySelector(".tb-pills");
+  root.value = value ?? options[0];
+  for (const o of options) {
+    const b = html`<button type="button" role="radio" class="tb-pill">${format(o)}</button>`;
+    const sync = () => b.setAttribute("aria-checked", String(root.value === o));
+    b.addEventListener("click", () => {
+      if (root.value === o) return;
+      root.value = o;
+      box.querySelectorAll("button").forEach((x) => x.dispatchEvent(new Event("sync")));
+      root.dispatchEvent(new Event("input", {bubbles: true}));
+    });
+    b.addEventListener("sync", sync);
+    sync();
+    box.append(b);
+  }
+  return root;
+}
+
+export function dropdown(options, {label, value, format = String, group, disabled = false, help} = {}) {
+  const select = html`<select class="tb-select" aria-label=${label}></select>`;
+  const groups = group ? d3.groups(options, group) : [[null, options]];
+  for (const [g, opts] of groups) {
+    const parent = g == null ? select : select.appendChild(html`<optgroup label=${g}></optgroup>`);
+    for (const o of opts) {
+      const opt = html`<option>${format(o)}</option>`;
+      opt.__value = o;
+      parent.append(opt);
+    }
+  }
+  const all = [...select.querySelectorAll("option")];
+  const start = all.findIndex((o) => o.__value === value);
+  select.selectedIndex = start >= 0 ? start : 0;
+  select.disabled = disabled;
+  const root = html`<label class="tb-field${disabled ? " tb-disabled" : ""}"><div class="tb-label">${label}</div>${help ? html`<div class="tb-help">${help}</div>` : ""}${select}</label>`;
+  root.value = all[select.selectedIndex].__value;
+  select.addEventListener("change", (e) => {
+    e.stopPropagation();
+    root.value = all[select.selectedIndex].__value;
+    root.dispatchEvent(new Event("input", {bubbles: true}));
+  });
+  select.addEventListener("input", (e) => e.stopPropagation());
+  return root;
 }

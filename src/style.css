@@ -1,6 +1,22 @@
 @import url("observablehq:default.css");
-@import url("observablehq:theme-air.css") (prefers-color-scheme: light);
-@import url("observablehq:theme-near-midnight.css") (prefers-color-scheme: dark);
+@import url("observablehq:theme-air.css");
+
+/* Dark theme ("near-midnight") applied by the theme toggle, which sets
+   data-theme on <html> (defaulting to the system setting). */
+:root[data-theme="dark"] {
+  --theme-foreground: #dfdfd6;
+  --theme-foreground-focus: oklch(0.712564 0.257662 265.758);
+  --theme-background-b: #161616;
+  --theme-background-a: color-mix(in srgb, var(--theme-foreground) 4%, var(--theme-background-b));
+  --theme-background: var(--theme-background-a);
+  --theme-background-alt: var(--theme-background-b);
+  --theme-foreground-alt: color-mix(in srgb, var(--theme-foreground) 90%, var(--theme-background-b));
+  --theme-foreground-muted: color-mix(in srgb, var(--theme-foreground) 60%, var(--theme-background-b));
+  --theme-foreground-faint: color-mix(in srgb, var(--theme-foreground) 50%, var(--theme-background-b));
+  --theme-foreground-fainter: color-mix(in srgb, var(--theme-foreground) 30%, var(--theme-background-b));
+  --theme-foreground-faintest: color-mix(in srgb, var(--theme-foreground) 14%, var(--theme-background-b));
+  color-scheme: dark;
+}
 
 :root {
   --tb-blue: #2a78d6;
@@ -16,8 +32,7 @@
   --tb-note-border: #eda100;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
+:root[data-theme="dark"] {
     --tb-blue: #3987e5;
     --tb-orange: #d95926;
     --tb-aqua: #199e70;
@@ -29,7 +44,6 @@
     --tb-ink-2: #c3c2b7;
     --tb-note-bg: #2b2513;
     --tb-note-border: #c98500;
-  }
 }
 
 body {
@@ -167,25 +181,169 @@ body {
   max-width: 52rem;
 }
 
-/* ---- Controls -------------------------------------------------------------- */
+/* ---- Controls ------------------------------------------------------------- */
 
 .controls {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 0.25rem 1.5rem;
-  padding: 1rem 1.25rem;
-  margin: 1rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.tb-step {
+  margin: 0;
+  padding: 0.9rem 1rem 1rem;
+  border: 1px solid var(--theme-foreground-faintest);
+  border-top: 5px solid var(--accent, var(--tb-blue));
   border-radius: 14px;
   background: var(--tb-soft);
+  min-width: 0;
 }
 
-.controls form {
+.tb-step legend {
+  float: left;
   width: 100%;
-  max-width: none;
+  margin-bottom: 0.4rem;
+  padding: 0;
+  font-size: 1.05rem;
+  font-weight: 800;
 }
 
-.controls form select {
-  max-width: 100%;
+.tb-step-num {
+  display: inline-grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 0.35rem;
+  border-radius: 50%;
+  background: var(--accent, var(--tb-blue));
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.tb-field {
+  display: block;
+  clear: both;
+  margin: 0.7rem 0 0;
+  font: 14px/1.3 var(--sans-serif);
+}
+
+.tb-label {
+  margin-bottom: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--tb-ink-2);
+}
+
+.tb-help {
+  margin: -0.1rem 0 0.4rem;
+  font-size: 0.82rem;
+  color: var(--theme-foreground-muted);
+}
+
+.tb-select {
+  width: 100%;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--theme-foreground-fainter);
+  border-radius: 8px;
+  background: var(--theme-background);
+  color: var(--theme-foreground);
+  font: inherit;
+  text-overflow: ellipsis;
+}
+
+.tb-select:focus-visible,
+.tb-pill:focus-visible {
+  outline: 2px solid var(--theme-foreground-focus);
+  outline-offset: 2px;
+}
+
+.tb-disabled .tb-select {
+  opacity: 0.55;
+}
+
+.tb-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.tb-pill {
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--theme-foreground-fainter);
+  border-radius: 999px;
+  background: var(--theme-background);
+  color: var(--theme-foreground);
+  font: inherit;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  text-align: left;
+  cursor: pointer;
+}
+
+.tb-pill:hover {
+  border-color: var(--accent, var(--tb-blue));
+}
+
+.tb-pill[aria-checked="true"] {
+  border-color: var(--accent, var(--tb-blue));
+  background: var(--accent, var(--tb-blue));
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Inputs used elsewhere (tables) keep defaults. */
+
+/* ---- Header: theme toggle --------------------------------------------------- */
+
+.tb-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#tb-theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid var(--theme-foreground-fainter);
+  border-radius: 999px;
+  background: var(--theme-background);
+  color: var(--theme-foreground);
+  font: 600 0.85rem var(--sans-serif);
+  cursor: pointer;
+}
+
+#tb-theme-toggle:hover {
+  border-color: var(--theme-foreground-muted);
+}
+
+/* ---- Sidebar: page sections nested under the active page ------------------- */
+
+.tb-subtoc {
+  margin: 0.2rem 0 0.4rem 0.9rem !important;
+  padding: 0 0 0 0.6rem !important;
+  border-left: 2px solid var(--theme-foreground-faintest);
+  list-style: none;
+}
+
+.tb-subtoc li a {
+  display: block;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.85rem;
+  color: var(--theme-foreground-muted) !important;
+  text-decoration: none;
+}
+
+.tb-subtoc li a:hover {
+  color: var(--theme-foreground) !important;
+}
+
+.tb-subtoc li.tb-current a {
+  color: var(--theme-foreground) !important;
+  font-weight: 700;
 }
 
 .section-title {
